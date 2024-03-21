@@ -1,0 +1,51 @@
+name: GitHub Actions Demo
+run-name: Updating the EPG 🎐
+on:
+  schedule:
+    # At minute 0
+    - cron: "0 * * * *"
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Downloading the channels database
+        uses: actions/checkout@v4
+        with:
+          repository: "iptv-org/database"
+          # Relative path under $GITHUB_WORKSPACE to place the repository
+          path: "database"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Getting the channels ID
+        run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
+      - name: Downloading the EPG fetchers
+        uses: actions/checkout@v4
+        with:
+          repository: "iptv-org/epg"
+          # Relative path under $GITHUB_WORKSPACE to place the repository
+          path: "epg"
+      - name: Filtering the channels
+        run: python scripts/fetcher.py --input channels.json --sites epg/sites japanterebi.channels.xml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: Install dependencies
+        run: |
+          cd epg
+          npm install
+      - name: Fetching the programs data
+        run: npm run grab -- --channels=japanterebi.channels.xml --maxConnections=10
+      - name: Remove the downloaded repositories
+        run: |
+          echo "Removing `database`"
+          rm -r database
+          echo "Removing `epg`"
+          rm -r epg
+      - name: Committing the new data
+        run: |
+          git config --global user.name 'Japan Terebi [GitHub Actions]'
+          git config --global user.email 'japanterebi@users.noreply.github.com'
+          export NOW=$(date +'%Y-%m-%dT%H:%M:%S')
+          git commit -am "Automated guide.xml update ($NOW)"
+          git push
