@@ -21,13 +21,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      # - name: Current state
-      #   run: |
-      #     pwd
-      #     ls
-      #     echo "ls"
-      #     ls ..
-      #     echo "ls .."
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
       - name: Downloading the EPG fetchers
@@ -46,7 +39,7 @@ jobs:
           cd epg
           npm install
       - name: Fetching the programs data
-        run: npm run grab -- --channels=japanterebi.channels.xml --maxConnections=10
+        run: npm run --prefix epg grab -- --channels=japanterebi.channels.xml --maxConnections=10
       - name: Remove the downloaded repositories
         run: |
           echo "Removing `database`"
