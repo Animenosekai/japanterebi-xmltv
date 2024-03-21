@@ -44,9 +44,9 @@ jobs:
           npm run grab -- --channels=japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
       - name: Remove the downloaded repositories
         run: |
-          echo "Removing `database`"
+          echo "Removing 'database'"
           rm -r database
-          echo "Removing `epg`"
+          echo "Removing 'epg'"
           rm -r epg
       - name: Committing the new data
         run: |

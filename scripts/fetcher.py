@@ -22,14 +22,12 @@ def get_nodes(site: pathlib.Path) -> typing.Iterable[Element]:
     Iterable
     typing.Iterable[str]
     """
-    try:
-        with (site / f"{site.name}.channels.xml").open() as file:
-            dom = parse(file)
-            for node in dom.getElementsByTagName("channel"):
-                yield node
-    except FileNotFoundError:
-        print("Warning: No channels file found for", site.name)
-
+    for element in site.iterdir():
+        if element.name.endswith(".channels.xml"):
+            with element.open() as file:
+                dom = parse(file)
+                for node in dom.getElementsByTagName("channel"):
+                    yield node
 
 def main(sites: pathlib.Path, channels: list[Channel]) -> typing.Iterable[str]:
     """
