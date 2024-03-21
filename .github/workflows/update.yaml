@@ -51,5 +51,8 @@ jobs:
           git config --global user.name 'Japan Terebi [GitHub Actions]'
           git config --global user.email 'japanterebi@users.noreply.github.com'
           export NOW=$(date +'%Y-%m-%dT%H:%M:%S')
+          git add guide.xml
+          git add channels.json
+          git add japanterebi.channels.xml
           git commit -am "Automated guide.xml update ($NOW)"
           git push
