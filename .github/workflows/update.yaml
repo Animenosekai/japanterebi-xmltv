@@ -39,7 +39,9 @@ jobs:
           cd epg
           npm install
       - name: Fetching the programs data
-        run: npm run --prefix epg grab -- --channels=japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+        run: |
+          cd epg
+          npm run grab -- --channels=japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
       - name: Remove the downloaded repositories
         run: |
           echo "Removing `database`"
