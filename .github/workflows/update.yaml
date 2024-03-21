@@ -19,7 +19,12 @@ jobs:
         with:
           python-version: "3.11"
       - name: Current state
-        run: ls
+        run: |
+          pwd
+          ls
+          echo "ls"
+          ls ..
+          echo "ls .."
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
       - name: Downloading the EPG fetchers
