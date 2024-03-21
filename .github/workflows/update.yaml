@@ -9,6 +9,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Downloading the channels database
         uses: actions/checkout@v4
         with:
@@ -18,13 +21,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Current state
-        run: |
-          pwd
-          ls
-          echo "ls"
-          ls ..
-          echo "ls .."
+      # - name: Current state
+      #   run: |
+      #     pwd
+      #     ls
+      #     echo "ls"
+      #     ls ..
+      #     echo "ls .."
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
       - name: Downloading the EPG fetchers
