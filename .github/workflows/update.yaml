@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: EPG Update
 run-name: Updating the EPG 🎐
 on:
   schedule:
