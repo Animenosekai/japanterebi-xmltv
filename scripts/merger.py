@@ -135,6 +135,7 @@ def main(dom: Document, progress: bool = False):
                 programme.parentNode.removeChild(other)
             programme.parentNode.replaceChild(merged, programme)
 
+
 def entry():
     """The main entrypoint for the script."""
     parser = argparse.ArgumentParser(prog="merger", description="Merge program data")
@@ -149,9 +150,9 @@ def entry():
     main(dom, progress=not stdout)
     result = dom.toxml(encoding="utf-8")
     if stdout:
-        print(result)
+        print(result.decode("utf-8"))
     else:
-        pathlib.Path(args.output).write_text(result)
+        pathlib.Path(args.output).write_bytes(result)
 
 
 if __name__ == "__main__":
