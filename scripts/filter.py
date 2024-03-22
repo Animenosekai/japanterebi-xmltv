@@ -5,6 +5,7 @@ import json
 import pathlib
 import typing
 
+import tqdm
 from model import Channel
 
 
@@ -79,6 +80,7 @@ def main(
     categories: list[str],
     add: list[str],
     remove: list[str],
+    progress: bool = False,
 ) -> typing.Iterable[Channel]:
     """
     The main function of the script.
@@ -91,6 +93,7 @@ def main(
     categories: list
     add: list
     remove: list
+    progress: bool, default = True
     language: list
     category: list
 
@@ -99,7 +102,7 @@ def main(
     Iterable
     Generator
     """
-    for channel in read_file(file_path):
+    for channel in tqdm.tqdm(read_file(file_path), disable=not progress):
         if not channel.id in add:
             if channel.id in remove:
                 continue
@@ -124,10 +127,9 @@ def entry():
     parser.add_argument(
         "--minify", "-m", action="store_true", help="Minify the JSON result"
     )
-    parser.add_argument(
-        "output", default="-", help="The output path", nargs="?"
-    )
+    parser.add_argument("output", default="-", help="The output path", nargs="?")
     args = parser.parse_args()
+    stdout = not (args.output and args.output != "-")
     results = main(
         file_path=pathlib.Path(args.input),
         languages=args.language or [],
@@ -135,15 +137,16 @@ def entry():
         categories=args.category or [],
         add=args.add or [],
         remove=args.remove or [],
+        progress=not stdout,
     )
     extra_args = {"separators": (",", ":")} if args.minify else {"indent": 4}
     encoded_result = json.dumps(
         [result.as_dict for result in results], ensure_ascii=False, **extra_args
     )
-    if args.output and args.output != "-":
-        pathlib.Path(args.output).write_text(encoded_result)
-    else:
+    if stdout:
         print(encoded_result)
+    else:
+        pathlib.Path(args.output).write_text(encoded_result)
 
 
 if __name__ == "__main__":

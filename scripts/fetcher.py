@@ -5,6 +5,7 @@ import pathlib
 import typing
 from xml.dom.minidom import Element, parse
 
+import tqdm
 from model import Channel
 
 
@@ -29,7 +30,10 @@ def get_nodes(site: pathlib.Path) -> typing.Iterable[Element]:
                 for node in dom.getElementsByTagName("channel"):
                     yield node
 
-def main(sites: pathlib.Path, channels: list[Channel]) -> typing.Iterable[str]:
+
+def main(
+    sites: pathlib.Path, channels: list[Channel], progress: bool = False
+) -> typing.Iterable[str]:
     """
     Get the fetchers for the given channels.
 
@@ -39,6 +43,7 @@ def main(sites: pathlib.Path, channels: list[Channel]) -> typing.Iterable[str]:
         The path to the fetchers.
     channels: list
         The list of channels.
+    progress: bool, default = True
 
     Returns
     -------
@@ -46,7 +51,7 @@ def main(sites: pathlib.Path, channels: list[Channel]) -> typing.Iterable[str]:
     typing.Iterable[pathlib.Path]
     """
     ids = set((channel.id for channel in channels))
-    for site in sites.iterdir():
+    for site in tqdm.tqdm(sites.iterdir(), disable=not progress):
         if site.is_dir():
             for node in get_nodes(site):
                 if node.getAttribute("xmltv_id") in ids:
@@ -64,16 +69,17 @@ def entry():
     )
     parser.add_argument("output", default="-", help="The output path", nargs="?")
     args = parser.parse_args()
+    stdout = not (args.output and args.output != "-")
     decoded = json.loads(pathlib.Path(args.input).read_text())
     channels = [Channel(**channel) for channel in decoded]
-    sites = main(args.sites, channels)
+    sites = main(args.sites, channels, progress=not stdout)
     result = '<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n    {channel}\n</channels>'.format(
         channel="\n    ".join(sites)
     )
-    if args.output and args.output != "-":
-        pathlib.Path(args.output).write_text(result)
-    else:
+    if stdout:
         print(result)
+    else:
+        pathlib.Path(args.output).write_text(result)
 
 
 if __name__ == "__main__":

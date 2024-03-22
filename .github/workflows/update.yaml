@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Installing Python dependencies
+        run: python -m pip install -r requirements.txt
       - name: Getting the channels ID
         run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
       - name: Downloading the EPG fetchers
@@ -34,7 +36,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: latest
-      - name: Install dependencies
+      - name: Installing JavaScript dependencies
         run: |
           cd epg
           npm install
@@ -42,6 +44,10 @@ jobs:
         run: |
           cd epg
           npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+      - name: Merging redundant programs
+        run: python scripts/merger.py --input guide.xml guide.xml
+      - name: Minify XML
+        run: python scripts/minify.py --input guide.xml guide.xml
       - name: Remove the downloaded repositories
         run: |
           echo "Removing 'database'"
