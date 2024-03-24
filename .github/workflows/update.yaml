@@ -44,10 +44,10 @@ jobs:
         run: |
           cd epg
           npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
-      - name: Merging redundant programs
-        run: python scripts/merger.py --input guide.xml guide.xml
-      - name: Minify XML
-        run: python scripts/minify.py --input guide.xml guide.xml
+      # - name: Merging redundant programs
+      #   run: python scripts/merger.py --input guide.xml guide.xml
+      # - name: Minify XML
+      #   run: python scripts/minify.py --input guide.xml guide.xml
       - name: Remove the downloaded repositories
         run: |
           echo "Removing 'database'"
