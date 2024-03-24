@@ -18,7 +18,7 @@ def entry():
         remove_empty_space=True,
         remove_all_empty_space=True,
         reduce_empty_attributes=True,
-        remove_optional_attribute_quotes=True,
+        remove_optional_attribute_quotes=False,
         convert_charrefs=True,
     )
     stdout = not (args.output and args.output != "-")
