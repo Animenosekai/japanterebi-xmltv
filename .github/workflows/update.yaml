@@ -28,7 +28,7 @@ jobs:
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
-          repository: "iptv-org/epg"
+          repository: "Animenosekai/epg"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "epg"
       - name: Filtering the channels
