@@ -37,7 +37,7 @@ jobs:
         with:
           # node-version: latest
           # We can't use `latest` for now as the build for `libxmljs2` seems to fail
-          node-version: "21.0"
+          node-version: "21.7.3"
           cache: npm
       - name: Installing JavaScript dependencies
         run: |
