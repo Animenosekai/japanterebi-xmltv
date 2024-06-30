@@ -3,7 +3,7 @@ import pathlib
 import re
 
 # The '&' character is not escaped in some XMLTV document.
-REGEX = re.compile(r"&(?!amp;)(?!lt;)(?!gt;)(?!apos;)")
+REGEX = re.compile(r"&(?!amp;)(?!lt;)(?!gt;)(?!apos;)(?!quot;)")
 
 def fix(data: str):
     """
@@ -26,7 +26,7 @@ def entry():
     args = parser.parse_args()
     with pathlib.Path(args.input).open() as file:
         data = file.read()
-    fixed = "\n".join(fix(data))
+    fixed = fix(data)
     stdout = not (args.output and args.output != "-")
     if stdout:
         print(fixed)
