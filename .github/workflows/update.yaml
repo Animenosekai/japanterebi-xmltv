@@ -48,6 +48,8 @@ jobs:
         run: |
           cd epg
           npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+      - name: Fixing the document
+        run: python scripts/fix.py --input guide.xml guide.xml
       - name: Merging redundant programs
         run: python scripts/merger.py --input guide.xml guide.xml
       - name: Minify XML

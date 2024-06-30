@@ -144,6 +144,16 @@ The output is an [XML file](./japanterebi.channels.xml) which can be used with t
 npm run grab -- --channels=<output_path.xml>
 ```
 
+#### Fixer
+
+Because sometimes the EPG sites return non-escaped `&` characters, the [`fix.py`](./scripts/fix.py) script fixes the XML file by correctly escaping those characters.
+
+You can run the script with the following command:
+
+```bash
+python scripts/fix.py --input <input_path.xml> <output_path.xml>
+```
+
 #### Merger
 
 Because the `grab` command gathers information from different EPG sites, the final EPG has multiple redundant entries.
