@@ -154,6 +154,10 @@ You can run the script with the following command:
 python scripts/fix.py --input <input_path.xml> <output_path.xml>
 ```
 
+Here is the command used in the workflow:
+
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/0425c2dfd581f11e6e2f062805aab1b19baef998/.github/workflows/update.yaml#L51-L52>
+
 #### Merger
 
 Because the `grab` command gathers information from different EPG sites, the final EPG has multiple redundant entries.
