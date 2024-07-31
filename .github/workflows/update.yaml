@@ -15,7 +15,7 @@ jobs:
       - name: Downloading the channels database
         uses: actions/checkout@v4
         with:
-          repository: "iptv-org/database"
+          repository: "Animenosekai/database"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "database"
       - uses: actions/setup-python@v5
