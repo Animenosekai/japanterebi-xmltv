@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-    <channel site="mi.tv" lang="es" xmltv_id="NHKWorldJapan.jp" site_id="cl#nhk-world">NHK World</channel>
-    <channel site="mi.tv" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="cl#nhk-world-premium">NHK World Premium</channel>
+    <channel site="mysky.com.ph" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="222">NHK WORLD JAPAN</channel>
+    <channel site="s.mxtv.jp" lang="ja" xmltv_id="TokyoMX1.jp" site_id="1">Tokyo MX1</channel>
+    <channel site="s.mxtv.jp" lang="ja" xmltv_id="TokyoMX2.jp" site_id="2">Tokyo MX2</channel>
+    <channel site="directv.com.ar" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
+    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="AnimaxAsia.sg" site_id="57622558">Animax</channel>
+    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="20000074">BBC News</channel>
+    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="20000066">NHK WORLD-JAPAN</channel>
+    <channel site="mytvsuper.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="CNHK">NHK World-Japan</channel>
+    <channel site="mytvsuper.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="CNHK">NHK World-Japan</channel>
+    <channel site="firstmedia.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="52">Animax</channel>
+    <channel site="firstmedia.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="235">BBC World News</channel>
+    <channel site="firstmedia.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="247">NHK World Premium</channel>
+    <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1731">NHK World-Japan</channel>
+    <channel site="tv.blue.ch" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="287">NHK World</channel>
+    <channel site="tvtv.us" lang="en" xmltv_id="BabyFirst.us" site_id="50338">BabyFirst TV</channel>
+    <channel site="tvtv.us" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="59155">NHK World (US-National)</channel>
+    <channel site="tvtv.us" lang="en" xmltv_id="TVJapan.jp" site_id="12324">TV Japan</channel>
+    <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="NHKWorldJapan.jp" site_id="181">Nhk World</channel>
+    <channel site="tv.post.lu" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3683bc00-809b-11e9-b5ca-f345a2ed0fbe">NHK World Japan</channel>
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="WOWOWCinema.jp" site_id="basic_BS193">ＷＯＷＯＷシネマ</channel>
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="StarChannel1.jp" site_id="basic_BS200">スターチャンネル</channel>
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="WOWOWPlus.jp" site_id="basic_BS252">ＷＯＷＯＷプラス 映画・ドラマ・スポーツ・音楽</channel>
@@ -132,30 +149,74 @@
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="Splash.jp" site_id="premium_966">Splash</channel>
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="Flamingo.jp" site_id="premium_967">フラミンゴ</channel>
     <channel site="skyperfectv.co.jp" lang="ja" xmltv_id="SkyPerfectPromo599.jp" site_id="premium_599">スカパー！プロモ599</channel>
-    <channel site="tv2go.t-2.net" lang="sl" xmltv_id="NHKWorldJapan.jp" site_id="1000102">NHK World</channel>
-    <channel site="sat.tv" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1#33#NHK World Japan">NHK World Japan</channel>
+    <channel site="dstv.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nga#431">NHK</channel>
+    <channel site="meo.pt" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHKHD">NHK World Japan</channel>
+    <channel site="webtv.delta.nl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3126">NHK WORLD JAPAN</channel>
+    <channel site="vidio.com" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="7968">NHK World Japan</channel>
+    <channel site="nostv.pt" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="46">NHK World TV</channel>
+    <channel site="nzxmltv.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="sky/guide#89">BBC World News</channel>
+    <channel site="kplus.vn" lang="vi" xmltv_id="NHKWorldJapan.jp" site_id="7070">NHK WORLD JAPAN</channel>
+    <channel site="mewatch.sg" lang="en" xmltv_id="AnimaxAsia.sg" site_id="242030">Animax</channel>
+    <channel site="tv.nu" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-europe">NHK World Europe</channel>
+    <channel site="rev.bs" lang="en" xmltv_id="BabyFirst.us" site_id="318">BabyFirst TV</channel>
     <channel site="gatotv.com" lang="es" xmltv_id="BabyFirst.us" site_id="babyfirst_tv">BabyFirst TV</channel>
     <channel site="gatotv.com" lang="es" xmltv_id="NHKWorldJapan.jp" site_id="nhk_world">NHK World</channel>
-    <channel site="tv.post.lu" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3683bc00-809b-11e9-b5ca-f345a2ed0fbe">NHK World Japan</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="532">Animax HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="701">BBC World News HD</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="812">NHK WORLD - JAPAN</channel>
-    <channel site="starhubtvplus.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="811">NHK World Premium HD</channel>
-    <channel site="directv.com.ar" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
-    <channel site="chaines-tv.orange.fr" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="830">NHK WORLD - JAPAN</channel>
-    <channel site="nostv.pt" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="46">NHK World TV</channel>
-    <channel site="sky.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3147">NHK World HD</channel>
-    <channel site="mncvision.id" lang="id" xmltv_id="AnimaxAsia.sg" site_id="157">Animax</channel>
-    <channel site="mncvision.id" lang="id" xmltv_id="BBCNewsAsiaPacific.uk" site_id="332">BBC World News</channel>
-    <channel site="mncvision.id" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World</channel>
-    <channel site="mncvision.id" lang="id" xmltv_id="NHKWorldPremium.jp" site_id="354">NHK World Premium</channel>
+    <channel site="dens.tv" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="77">NHK WORLD-JAPAN</channel>
+    <channel site="m.tv.sms.cz" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHK+World+TV">NHK World TV</channel>
+    <channel site="programtv.onet.pl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-tv-11">NHK World TV</channel>
+    <channel site="nhkworldpremium.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="#">NHK World Premium</channel>
+    <channel site="nhkworldpremium.com" lang="ja" xmltv_id="NHKWorldPremium.jp" site_id="#">NHK World Premium</channel>
+    <channel site="tivu.tv" lang="it" xmltv_id="NHKWorldJapan.jp" site_id="169">NHK WORLD-JAPAN</channel>
+    <channel site="www3.nhk.or.jp" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="0">NHK World-Japan</channel>
     <channel site="mncvision.id" lang="en" xmltv_id="AnimaxAsia.sg" site_id="157">Animax</channel>
     <channel site="mncvision.id" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="332">BBC World News</channel>
     <channel site="mncvision.id" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World</channel>
     <channel site="mncvision.id" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="354">NHK World Premium</channel>
+    <channel site="mncvision.id" lang="id" xmltv_id="AnimaxAsia.sg" site_id="157">Animax</channel>
+    <channel site="mncvision.id" lang="id" xmltv_id="BBCNewsAsiaPacific.uk" site_id="332">BBC World News</channel>
+    <channel site="mncvision.id" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World</channel>
+    <channel site="mncvision.id" lang="id" xmltv_id="NHKWorldPremium.jp" site_id="354">NHK World Premium</channel>
+    <channel site="dishtv.in" lang="en" xmltv_id="MoviePlus.jp" site_id="10000000070980000">NEWS INDIA 24X7</channel>
+    <channel site="tvireland.ie" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1535/nhk-world">NHK World</channel>
+    <channel site="tvireland.ie" lang="en" xmltv_id="NHKWorldJapanHD.jp" site_id="1646/nhk-world-hd">NHK World HD</channel>
+    <channel site="tv2go.t-2.net" lang="sl" xmltv_id="NHKWorldJapan.jp" site_id="1000102">NHK World</channel>
+    <channel site="directv.com.uy" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
+    <channel site="mytelly.co.uk" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1535/nhk-world">NHK World</channel>
+    <channel site="mytelly.co.uk" lang="en" xmltv_id="NHKWorldJapanHD.jp" site_id="1646/nhk-world-hd">NHK World HD</channel>
+    <channel site="foxtel.com.au" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="BBC-News/BBC">BBC News</channel>
+    <channel site="foxtel.com.au" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHK-WorldJapan/NHK">NHK World-Japan</channel>
+    <channel site="sky.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3147">NHK World HD</channel>
+    <channel site="content.astro.com.my" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="366">BBC News HD</channel>
+    <channel site="content.astro.com.my" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="428">NHK World Premium</channel>
+    <channel site="nowplayer.now.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="150">Animax</channel>
+    <channel site="nowplayer.now.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="320">BBC News</channel>
+    <channel site="nowplayer.now.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="328">NHK WORLD-JAPAN</channel>
+    <channel site="nowplayer.now.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="711">NHK World Premium</channel>
+    <channel site="nowplayer.now.com" lang="zh" xmltv_id="AnimaxAsia.sg" site_id="150">Animax</channel>
+    <channel site="sky.co.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="89">BBC World News</channel>
+    <channel site="clickthecity.com" lang="en" xmltv_id="Animax.ph" site_id="168">Animax</channel>
+    <channel site="canalplus.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="#654">NHK WORLD-JAPAN</channel>
+    <channel site="visionplus.id" lang="en" xmltv_id="Animax.id" site_id="71">Animax</channel>
+    <channel site="visionplus.id" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="2740">BBC World News</channel>
+    <channel site="visionplus.id" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="2925">NHK World Japan</channel>
+    <channel site="visionplus.id" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="2776">NHK World Premium</channel>
+    <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapan.jp" site_id="1610">NHK WORLD</channel>
+    <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapanHD.jp" site_id="3011">NHK World HD</channel>
+    <channel site="chaines-tv.orange.fr" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="830">NHK WORLD - JAPAN</channel>
     <channel site="tv24.se" lang="sv" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-tv">NHK World TV</channel>
+    <channel site="directv.com" lang="en" xmltv_id="BabyFirst.us" site_id="293#293">BabyFirst</channel>
+    <channel site="directv.com" lang="en" xmltv_id="ChannelNecoInternational.jp" site_id="2042#2195">Channel NECO International</channel>
+    <channel site="directv.com" lang="en" xmltv_id="JOAXDTV.jp" site_id="2041#2194">Nippon TV HD</channel>
+    <channel site="sat.tv" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1#33#NHK World Japan">NHK World Japan</channel>
+    <channel site="meuguia.tv" lang="pt" xmltv_id="NHKWorldJapan.jp" site_id="NHK">NHK World</channel>
     <channel site="indihometv.com" lang="id" xmltv_id="AnimaxAsia.sg" site_id="animax">Animax</channel>
     <channel site="indihometv.com" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="nhkworld">nhk world Japan</channel>
+    <channel site="mi.tv" lang="es" xmltv_id="NHKWorldJapan.jp" site_id="cl#nhk-world">NHK World</channel>
+    <channel site="mi.tv" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="cl#nhk-world-premium">NHK World Premium</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="532">Animax HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="701">BBC World News HD</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="812">NHK WORLD - JAPAN</channel>
+    <channel site="starhubtvplus.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="811">NHK World Premium HD</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="AnimalPlanet.jp" site_id="120_186_65406">アニマルプラネット</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="Animax.jp" site_id="120_149_65406">アニマックスＨＤ</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="AsiaDramaticTV.jp" site_id="120_126_65406">アジアドラマチックTV（アジドラ）</channel>
@@ -300,72 +361,11 @@
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="JOIXDTV.jp" site_id="2_2088_32725">読売テレビ</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="JOUHDTV.jp" site_id="2_43056_32086">サンテレビ</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="TSS.jp" site_id="2_47144_32021">ＴＳＳ</channel>
-    <channel site="mytvsuper.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="CNHK">NHK World-Japan</channel>
-    <channel site="mytvsuper.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="CNHK">NHK World-Japan</channel>
-    <channel site="kplus.vn" lang="vi" xmltv_id="NHKWorldJapan.jp" site_id="7070">NHK WORLD JAPAN</channel>
-    <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapan.jp" site_id="1610">NHK WORLD</channel>
-    <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapanHD.jp" site_id="3011">NHK World HD</channel>
-    <channel site="m.tv.sms.cz" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHK+World+TV">NHK World TV</channel>
-    <channel site="rev.bs" lang="en" xmltv_id="BabyFirst.us" site_id="318">BabyFirst TV</channel>
-    <channel site="i.mjh.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="SkyGo/epg#sky.89">BBC World News</channel>
-    <channel site="i.mjh.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="Foxtel/epg#BBC">BBC News</channel>
-    <channel site="i.mjh.nz" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="Foxtel/epg#NHK">NHK World</channel>
-    <channel site="directv.com.uy" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
-    <channel site="meo.pt" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHKHD">NHK World Japan</channel>
-    <channel site="directv.com" lang="en" xmltv_id="BabyFirst.us" site_id="293#293">BabyFirst</channel>
-    <channel site="directv.com" lang="en" xmltv_id="ChannelNecoInternational.jp" site_id="2042#2195">Channel NECO International</channel>
-    <channel site="directv.com" lang="en" xmltv_id="JOAXDTV.jp" site_id="2041#2194">Nippon TV HD</channel>
-    <channel site="nzxmltv.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="sky/guide#89">BBC World News</channel>
-    <channel site="content.astro.com.my" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="366">BBC News HD</channel>
-    <channel site="content.astro.com.my" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="428">NHK World Premium</channel>
-    <channel site="dishtv.in" lang="en" xmltv_id="MoviePlus.jp" site_id="10000000070980000">NEWS INDIA 24X7</channel>
-    <channel site="turksatkablo.com.tr" lang="tr" xmltv_id="NHKWorldJapan.jp" site_id="181">Nhk World</channel>
-    <channel site="nhkworldpremium.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="#">NHK World Premium</channel>
-    <channel site="nhkworldpremium.com" lang="ja" xmltv_id="NHKWorldPremium.jp" site_id="#">NHK World Premium</channel>
-    <channel site="meuguia.tv" lang="pt" xmltv_id="NHKWorldJapan.jp" site_id="NHK">NHK World</channel>
-    <channel site="tvtv.us" lang="en" xmltv_id="BabyFirst.us" site_id="50338">BabyFirst TV</channel>
-    <channel site="tvtv.us" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="59155">NHK World (US-National)</channel>
-    <channel site="tvtv.us" lang="en" xmltv_id="TVJapan.jp" site_id="12324">TV Japan</channel>
-    <channel site="firstmedia.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="52">Animax</channel>
-    <channel site="firstmedia.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="235">BBC World News</channel>
-    <channel site="firstmedia.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="247">NHK World Premium</channel>
     <channel site="singtel.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="5342">Animax (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="6166">BBC News</channel>
     <channel site="singtel.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="5157">NHK World – Japan (HD)</channel>
     <channel site="singtel.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="5682">NHK World Premium</channel>
-    <channel site="foxtel.com.au" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="BBC-News/BBC">BBC News</channel>
-    <channel site="foxtel.com.au" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="NHK-WorldJapan/NHK">NHK World-Japan</channel>
-    <channel site="dens.tv" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="77">NHK WORLD-JAPAN</channel>
-    <channel site="virgintvgo.virginmedia.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1731">NHK World-Japan</channel>
-    <channel site="tv.nu" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-europe">NHK World Europe</channel>
-    <channel site="canalplus.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="#654">NHK WORLD-JAPAN</channel>
-    <channel site="dstv.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nga#431">NHK</channel>
-    <channel site="www3.nhk.or.jp" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="0">NHK World-Japan</channel>
-    <channel site="vidio.com" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="7968">NHK World Japan</channel>
-    <channel site="s.mxtv.jp" lang="ja" xmltv_id="TokyoMX1.jp" site_id="1">Tokyo MX1</channel>
-    <channel site="s.mxtv.jp" lang="ja" xmltv_id="TokyoMX2.jp" site_id="2">Tokyo MX2</channel>
-    <channel site="mytelly.co.uk" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1535/nhk-world">NHK World</channel>
-    <channel site="mytelly.co.uk" lang="en" xmltv_id="NHKWorldJapanHD.jp" site_id="1646/nhk-world-hd">NHK World HD</channel>
-    <channel site="nowplayer.now.com" lang="zh" xmltv_id="AnimaxAsia.sg" site_id="150">Animax</channel>
-    <channel site="nowplayer.now.com" lang="en" xmltv_id="AnimaxAsia.sg" site_id="150">Animax</channel>
-    <channel site="nowplayer.now.com" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="320">BBC News</channel>
-    <channel site="nowplayer.now.com" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="328">NHK WORLD-JAPAN</channel>
-    <channel site="nowplayer.now.com" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="711">NHK World Premium</channel>
-    <channel site="mewatch.sg" lang="en" xmltv_id="AnimaxAsia.sg" site_id="242030">Animax</channel>
-    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="AnimaxAsia.sg" site_id="57622558">Animax</channel>
-    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="20000074">BBC News</channel>
-    <channel site="playtv.unifi.com.my" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="20000066">NHK WORLD-JAPAN</channel>
-    <channel site="webtv.delta.nl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3126">NHK WORLD JAPAN</channel>
-    <channel site="tvireland.ie" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="1535/nhk-world">NHK World</channel>
-    <channel site="tvireland.ie" lang="en" xmltv_id="NHKWorldJapanHD.jp" site_id="1646/nhk-world-hd">NHK World HD</channel>
-    <channel site="clickthecity.com" lang="en" xmltv_id="Animax.ph" site_id="168">Animax</channel>
-    <channel site="programtv.onet.pl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-tv-11">NHK World TV</channel>
-    <channel site="sky.co.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="89">BBC World News</channel>
-    <channel site="tivu.tv" lang="it" xmltv_id="NHKWorldJapan.jp" site_id="169">NHK WORLD-JAPAN</channel>
-    <channel site="visionplus.id" lang="en" xmltv_id="Animax.id" site_id="71">Animax</channel>
-    <channel site="visionplus.id" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="2740">BBC World News</channel>
-    <channel site="visionplus.id" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="2925">NHK World Japan</channel>
-    <channel site="visionplus.id" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="2776">NHK World Premium</channel>
-    <channel site="tv.blue.ch" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="287">NHK World</channel>
-    <channel site="mysky.com.ph" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="222">NHK WORLD JAPAN</channel>
+    <channel site="i.mjh.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="SkyGo/epg#sky.89">BBC World News</channel>
+    <channel site="i.mjh.nz" lang="en" xmltv_id="BBCNewsAsiaPacific.uk" site_id="Foxtel/epg#BBC">BBC News</channel>
+    <channel site="i.mjh.nz" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="Foxtel/epg#NHK">NHK World</channel>
 </channels>
