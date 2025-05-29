@@ -1,4 +1,5 @@
 """Merges the redundant program data in an XMLTV file."""
+
 import argparse
 import pathlib
 import typing
@@ -157,4 +158,3 @@ def entry():
 
 if __name__ == "__main__":
     entry()
-

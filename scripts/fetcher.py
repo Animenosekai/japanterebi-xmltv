@@ -1,4 +1,5 @@
 """Get the fetchers for the given channels."""
+
 import argparse
 import json
 import pathlib
@@ -50,12 +51,21 @@ def main(
     Iterable
     typing.Iterable[pathlib.Path]
     """
-    ids = set((channel.id for channel in channels))
+    channels_map = {channel.id: channel for channel in channels}
     for site in tqdm.tqdm(sites.iterdir(), disable=not progress):
         if site.is_dir():
             for node in get_nodes(site):
-                if node.getAttribute("xmltv_id") in ids:
-                    yield node.toxml()
+                channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")
+                if channel_id not in channels_map:
+                    continue
+
+                if feed_id:
+                    if feed_id not in channels_map[channel_id].feeds:
+                        continue
+                elif not channels_map[channel_id].has_main_feed:
+                    continue
+
+                yield node.toxml()
 
 
 def entry():
@@ -84,4 +94,3 @@ def entry():
 
 if __name__ == "__main__":
     entry()
-
