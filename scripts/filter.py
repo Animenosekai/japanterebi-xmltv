@@ -193,7 +193,8 @@ def entry():
     args = parser.parse_args()
     stdout = not (args.output and args.output != "-")
     results = main(
-        file_path=pathlib.Path(args.input),
+        channels_file=pathlib.Path(args.channels),
+        feeds_file=pathlib.Path(args.feeds),
         languages=args.language or [],
         countries=args.country or [],
         categories=args.category or [],

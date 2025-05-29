@@ -56,9 +56,9 @@ def main(
         if site.is_dir():
             for node in get_nodes(site):
                 channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")
-                if feed_id and feed_id not in channels_map[channel_id].feeds:
+                if channel_id not in channels_map:
                     continue
-                elif channel_id not in channels_map:
+                if feed_id and feed_id not in channels_map[channel_id].feeds:
                     continue
                 yield node.toxml()
 
