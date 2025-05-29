@@ -15,7 +15,7 @@ jobs:
       - name: Downloading the channels database
         uses: actions/checkout@v4
         with:
-          repository: "Animenosekai/database"
+          repository: "iptv-org/database"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "database"
       - uses: actions/setup-python@v5
@@ -24,11 +24,11 @@ jobs:
       - name: Installing Python dependencies
         run: python -m pip install -r requirements.txt
       - name: Getting the channels ID
-        run: python scripts/filter.py --input database/data/channels.csv --language="jpn" --country="JP" --minify channels.json
+        run: python scripts/filter.py --channels database/data/channels.csv --feeds database/data/feeds.csv --language="jpn" --country="JP" --minify channels.json
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
-          repository: "Animenosekai/epg"
+          repository: "iptv-org/epg"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "epg"
       - name: Filtering the channels

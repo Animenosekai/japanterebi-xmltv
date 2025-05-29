@@ -41,6 +41,14 @@ The dependencies are listed in the `requirements.txt` file. You can install them
 python -m pip install -r requirements.txt --upgrade
 ```
 
+It is recommended to use `git` to have the most up-to-date data from the upstream `iptv-org` database.
+
+If you are cloning the repository using `git`, it is recommended to use the `--depth 1` option to only clone the latest commit, which will save you some bandwidth and disk space.
+
+```bash
+git clone --depth 1 https://github.com/Animenosekai/japanterebi-xmltv.git
+```
+
 ### Scripts
 
 #### Filter
@@ -58,10 +66,11 @@ git clone --depth 1 -b main https://github.com/iptv-org/database.git
 You can run the script with the following command:
 
 ```bash
-python scripts/filter.py --input <database/data/channels.csv> <output_path.json>
+python scripts/filter.py --channels <database/data/channels.csv> --feeds <database/data/feeds.csv> <output_path.json>
 ```
 
-[`database/data/channels.csv`](https://github.com/iptv-org/database/blob/master/data/channels.csv) is the path to the channels CSV file from the [`iptv-org/database`](https://github.com/iptv-org/database) repository.
+- [`database/data/channels.csv`](https://github.com/iptv-org/database/blob/master/data/channels.csv) is the path to the channels CSV file from the [`iptv-org/database`](https://github.com/iptv-org/database) repository.
+- [`database/data/feeds.csv`](https://github.com/iptv-org/database/blob/master/data/feeds.csv) is the path to the feeds CSV file from the [`iptv-org/database`](https://github.com/iptv-org/database) repository.
 
 You can specify :
 
@@ -86,24 +95,26 @@ Here is an example output :
             "ABEMAアニメ"
         ],
         "network": null,
-        "owners": [],
+        "owners": [
+            "CyberAgent"
+        ],
         "country": "JP",
         "subdivision": null,
         "city": "Shibuya-ku",
-        "broadcast_area": "c/JP",
-        "languages": [
-            "jpn"
-        ],
         "categories": [
             "animation",
             "kids"
         ],
         "is_nsfw": false,
-        "launched": 1522540800.0,
+        "launched": 1522533600.0,
         "closed": null,
         "replaced_by": null,
         "website": "https://abema.tv/now-on-air/abema-anime?lang=en",
-        "logo": "https://i.imgur.com/OfqTpK6.png"
+        "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-anime/logo.png?height=96&quality=75&version=20200413&width=256",
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     }
 ]
 ```
