@@ -15,8 +15,23 @@ class ChildNodes:
 
     def __init__(self, parent: Element):
         """Initialize tracker for a parent element."""
-        self.parent = parent
+        self.parent: Element = parent.cloneNode(deep=False)
         self.seen_elements: typing.Set[str] = set()
+
+        for child in self.parent.childNodes:
+            if child.nodeType == child.ELEMENT_NODE:
+                self.add_unique_element(child)
+
+    def __contains__(self, element: Element) -> bool:
+        """Check if an element is already seen."""
+        if not element:
+            return False
+        signature = self.generate_signature(element)
+        return signature in self.seen_elements
+
+    def __len__(self) -> int:
+        """Get the number of unique elements."""
+        return len(self.seen_elements)
 
     @classmethod
     def normalize(cls, text: str) -> str:
@@ -46,6 +61,9 @@ class ChildNodes:
             if hasattr(element, "nodeValue") and element.nodeValue:
                 return f"TEXT|{cls.normalize(element.nodeValue)}"
             return "UNKNOWN"
+        except Exception as e:
+            logging.error(f"Error generating signature for element: {e}")
+            return "ERROR"
 
     def add_unique_element(self, element: Element) -> bool:
         """Add element if it's unique, return True if added."""
@@ -78,26 +96,15 @@ def merge_programs(programs: typing.List[Element]) -> Element:
     if not programs:
         raise ValueError("Cannot merge empty program list")
 
-    merged_program = programs[0].cloneNode(deep=True)
-
-    if len(programs) == 1:
-        return merged_program
-
-    # Only keep unique child elements
-    nodes = ChildNodes(merged_program)
-
-    # Add existing children to the child nodes set
-    for child in list(merged_program.childNodes if merged_program else []):
-        if child.nodeType == child.ELEMENT_NODE:
-            nodes.generate_signature(child)  # Just to populate seen_elements
+    child_nodes = ChildNodes(programs[0].cloneNode(deep=True))
 
     # Merge children from other programs
     for program in programs[1:]:
         for child in program.childNodes:
             if child.nodeType == child.ELEMENT_NODE:
-                nodes.add_unique_element(child)
+                child_nodes.add_unique_element(child)
 
-    return merged_program
+    return child_nodes.parent
 
 
 def find_duplicate_programs(dom: Document) -> typing.Dict[str, typing.List[Element]]:
@@ -174,21 +181,19 @@ def main(dom: Document, show_progress: bool = False) -> int:
             # Merge all programs in the group
             merged_program = merge_programs(programs)
 
-            # Replace first program with merged version
-            first_program = programs[0]
-            parent = first_program.parentNode
-            if parent:
-                parent.replaceChild(merged_program, first_program)
-            else:
-                logging.warning(
-                    f"First program in group {key} has no parent, skipping replacement"
-                )
-                continue
+            for index, program in enumerate(programs):
+                if not program.parentNode:
+                    continue
 
-            # Remove remaining duplicates
-            for duplicate in programs[1:]:
-                if duplicate.parentNode:  # Check if still in DOM
-                    duplicate.parentNode.removeChild(duplicate)
+                # Replace first program with merged version
+                parent = program.parentNode
+                parent.replaceChild(merged_program, program)
+
+                # Remove all subsequent duplicates
+                for child in programs[index + 1 :]:
+                    if child.parentNode:
+                        parent.removeChild(child)
+                break
 
             merged_count += len(programs) - 1
 
@@ -291,10 +296,10 @@ def entry():
     merged_count = main(dom, show_progress=not stdout and not args.no_progress)
 
     # Generate output
-    result = dom.toxml(encoding="utf-8")
+    result = dom.toxml(encoding="utf-8").decode("utf-8")
 
     if stdout:
-        print(result.decode("utf-8"))
+        print(result)
     else:
         pathlib.Path(args.output).write_text(result)
         final_count = len(dom.getElementsByTagName("programme"))
