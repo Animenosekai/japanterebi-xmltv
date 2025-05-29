@@ -25,7 +25,7 @@ You can use the [https://animenosekai.github.io/japanterebi-xmltv/guide.xml](htt
 
 This pre-built XMLTV file contains EPG data for channels from Japan or with Japanese audio.
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/a94b1d2fbcfe855a06925950e12127a8c554b0ef/.github/workflows/update.yaml#L27>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L27>
 
 This file is updated every hour using [GitHub Actions](https://github.com/Animenosekai/japanterebi-xmltv/actions/workflows/update.yaml).
 
@@ -121,7 +121,7 @@ Here is an example output :
 
 Here is the command used in the workflow:
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/ff9cdb5ab5d2e9a635ba3e64b5036894fa043ccc/.github/workflows/update.yaml#L26-L27>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L26-L27>
 
 ##### Python
 
@@ -147,7 +147,7 @@ The [`input_path.json`](./channels.json) file should contain the list of channel
 
 Here is the command used in the workflow:
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/ff9cdb5ab5d2e9a635ba3e64b5036894fa043ccc/.github/workflows/update.yaml#L34-L35>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L34-L35>
 
 The output is an [XML file](./japanterebi.channels.xml) which can be used with the `grab` command from the [`iptv-org/epg`](https://github.com/iptv-org/epg) repository.
 
@@ -167,7 +167,7 @@ python scripts/fix.py --input <input_path.xml> <output_path.xml>
 
 Here is the command used in the workflow:
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/0425c2dfd581f11e6e2f062805aab1b19baef998/.github/workflows/update.yaml#L51-L52>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L51-L52>
 
 #### Merger
 
@@ -185,7 +185,7 @@ The [`input_path.xml`](./guide.xml) file should be the output of the `grab` comm
 
 Here is the command used in the workflow:
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/ff9cdb5ab5d2e9a635ba3e64b5036894fa043ccc/.github/workflows/update.yaml#L51-L52>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L53-L54>
 
 #### Minifier
 
@@ -202,4 +202,4 @@ python scripts/minify.py --input <input_path.xml> <output_path.xml>
 
 Here is the command used in the workflow:
 
-<https://github.com/Animenosekai/japanterebi-xmltv/blob/ff9cdb5ab5d2e9a635ba3e64b5036894fa043ccc/.github/workflows/update.yaml#L53-L54>
+<https://github.com/Animenosekai/japanterebi-xmltv/blob/d08f5c4a2ac664068aa8f7507f63cab7d1c0c75a/.github/workflows/update.yaml#L55-L56>
