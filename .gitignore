@@ -135,6 +135,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# Ruff
+.ruff_cache
+
 # Pyre type checker
 .pyre/
 
@@ -152,3 +155,4 @@ cython_debug/
 #.idea/
 
 .DS_Store
+playground
