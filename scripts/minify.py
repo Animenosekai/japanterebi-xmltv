@@ -1,6 +1,7 @@
 import argparse
 import pathlib
 
+
 def minify(data: str):
     """
     Minify the XMLTV document.

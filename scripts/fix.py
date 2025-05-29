@@ -5,6 +5,7 @@ import re
 # The '&' character is not escaped in some XMLTV document.
 REGEX = re.compile(r"&(?!amp;)(?!lt;)(?!gt;)(?!apos;)(?!quot;)")
 
+
 def fix(data: str):
     """
     Fixes the XMLTV document.
@@ -15,7 +16,6 @@ def fix(data: str):
         The fixed document.
     """
     return REGEX.sub("&amp;", data)
-    
 
 
 def entry():
