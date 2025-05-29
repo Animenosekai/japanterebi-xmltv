@@ -41,6 +41,14 @@ The dependencies are listed in the `requirements.txt` file. You can install them
 python -m pip install -r requirements.txt --upgrade
 ```
 
+It is recommended to use `git` to have the most up-to-date data from the upstream `iptv-org` database.
+
+If you are cloning the repository using `git`, it is recommended to use the `--depth 1` option to only clone the latest commit, which will save you some bandwidth and disk space.
+
+```bash
+git clone --depth 1 https://github.com/Animenosekai/japanterebi-xmltv.git
+```
+
 ### Scripts
 
 #### Filter
