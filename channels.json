@@ -24,7 +24,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-anime/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAAnime2.jp",
@@ -51,7 +52,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-anime-2/logo.png?height=98&quality=75&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAAnime80s.jp",
@@ -78,7 +80,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/80s-anime-1/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAAnime90s.jp",
@@ -104,7 +107,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/90s-anime-1/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAAnimeLIVE.jp",
@@ -130,7 +134,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/anime-live/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAAnimeLIVE2.jp",
@@ -157,7 +162,8 @@
         "logo": "https://i.imgur.com/removed.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMACM.jp",
@@ -183,7 +189,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/commercial/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMADrama.jp",
@@ -209,7 +216,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/drama/logo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMADrama2.jp",
@@ -235,7 +243,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/drama-2/logo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAEveryonesAnime.jp",
@@ -259,7 +268,8 @@
         "logo": "https://pics.prcm.jp/d8fdeda7d8d79/85853361/png/85853361_480x480.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAFamilyAnime.jp",
@@ -285,7 +295,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/family-anime-1/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAFighting.jp",
@@ -311,7 +322,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/fighting-sports/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAFishing.jp",
@@ -335,7 +347,8 @@
         "logo": "https://itbenricho.com/wp-content/uploads/2017/12/abema-tv-apri.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAGlobalNews.jp",
@@ -361,7 +374,8 @@
         "logo": "https://i.imgur.com/removed.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAGold.jp",
@@ -385,7 +399,8 @@
         "logo": "https://pics.prcm.jp/d8fdeda7d8d79/85853361/png/85853361_480x480.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAHipHop.jp",
@@ -410,7 +425,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/hiphop/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAKeirinAutoRacing.jp",
@@ -437,7 +453,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/keirin-auto/logo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAKoreanChinese.jp",
@@ -464,7 +481,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/asia-drama/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAKoreanChinese2.jp",
@@ -490,7 +508,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/asia-drama-2/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAKWorld.jp",
@@ -514,7 +533,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/k-world/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAMahjong.jp",
@@ -540,7 +560,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/mahjong/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAMTVHits.jp",
@@ -564,7 +585,8 @@
         "logo": "https://dic.nicovideo.jp/oekaki/808928.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMANews.jp",
@@ -588,7 +610,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-news/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMANewsPressConference.jp",
@@ -614,7 +637,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/news-plus/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAQUESTbyDiscovery.jp",
@@ -639,7 +663,8 @@
         "logo": "https://app-story.net/wp-content/uploads/2022/11/SnapCrab_NoName_2022-11-21_12-51-29_No-00.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMAShogi.jp",
@@ -665,7 +690,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/shogi/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMASpecial.jp",
@@ -689,7 +715,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-special/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMASpecial2.jp",
@@ -713,7 +740,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/special-plus/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ABEMASports.jp",
@@ -737,7 +765,8 @@
         "logo": "https://image.p-c2-x.abema-tv.com/image/channels/world-sports/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ActionChannel.jp",
@@ -763,7 +792,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/8/82/Action_Channel.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AnimalPlanet.jp",
@@ -791,7 +821,8 @@
         "feeds": [
             "HD",
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Animax.in",
@@ -815,7 +846,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AnimaxAsia.sg",
@@ -845,7 +877,8 @@
             "Philippines",
             "SD",
             "Taiwan"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AnimeTV.br",
@@ -867,7 +900,8 @@
         "logo": "https://i.imgur.com/CFSSTID.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AsahiShimbunDigital.jp",
@@ -891,7 +925,8 @@
         "logo": "https://i.imgur.com/DuGepQp.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AsiaDramaticTV.jp",
@@ -916,7 +951,8 @@
         "logo": "https://www.asiadramatictv.com/assets/images/logo_adtv.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ATX.jp",
@@ -942,7 +978,8 @@
         "logo": "https://i.imgur.com/turWday.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AVKing.jp",
@@ -968,7 +1005,8 @@
         "logo": "https://i.imgur.com/LT3YROU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AXN.jp",
@@ -994,7 +1032,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "AXNMystery.jp",
@@ -1020,7 +1059,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/512px-AXN_logo_%282015%29.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BabyFirst.us",
@@ -1044,7 +1084,8 @@
         "logo": "https://i.imgur.com/WxLHBwu.png",
         "feeds": [
             "US"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BBCNews.uk",
@@ -1068,7 +1109,8 @@
         "logo": "https://i.imgur.com/vSz2WEp.png",
         "feeds": [
             "AsiaPacific"
-        ]
+        ],
+        "has_main_feed": false
     },
     {
         "id": "BetterLifeChannel.jp",
@@ -1092,7 +1134,8 @@
         "logo": "https://i.imgur.com/VzifJaz.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BS11.jp",
@@ -1115,7 +1158,8 @@
         "logo": "https://i.imgur.com/R7qR9pe.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BS12.jp",
@@ -1138,7 +1182,8 @@
         "logo": "https://i.imgur.com/rpRlJUm.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSAsahi.jp",
@@ -1162,7 +1207,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/d/dd/Bs_Asahi_Logo.jpg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSAsahi4K.jp",
@@ -1184,7 +1230,8 @@
         "logo": "https://i.imgur.com/DsE8onh.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSFuji.jp",
@@ -1208,7 +1255,8 @@
         "logo": "https://i.imgur.com/GzdCXAJ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSFuji4K.jp",
@@ -1230,7 +1278,8 @@
         "logo": "https://i.imgur.com/Ayb576P.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSNipponTV.jp",
@@ -1254,7 +1303,8 @@
         "logo": "https://i.imgur.com/D8lhZCI.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSNipponTV4K.jp",
@@ -1276,7 +1326,8 @@
         "logo": "https://i.imgur.com/cLZcGLE.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSNYouTube.jp",
@@ -1298,7 +1349,8 @@
         "logo": "https://yt3.googleusercontent.com/GSjN5L9oxFBZrnH0o0vK3xl5rTN4jKV_GbUjXVXOzIwNYUDsvJUGOOJuiAcf8JXw4mHikxhgcg=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSOpenUniversityMain.jp",
@@ -1322,7 +1374,8 @@
         "logo": "https://www.ouj.ac.jp/news/assets/images/logo_ex.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSOpenUniversitySub.jp",
@@ -1346,7 +1399,8 @@
         "logo": "https://i.imgur.com/E0VGKIn.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSShochikuTokyu.jp",
@@ -1368,7 +1422,8 @@
         "logo": "https://i.imgur.com/pSKCgvv.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSSKYPerfecTV.jp",
@@ -1390,7 +1445,8 @@
         "logo": "https://i.imgur.com/jYPWLD3.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSTBS.jp",
@@ -1412,7 +1468,8 @@
         "logo": "https://i.imgur.com/h20eGKq.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSTBS4K.jp",
@@ -1432,7 +1489,8 @@
         "logo": "https://i.imgur.com/A7iPLrz.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSTVTokyo.jp",
@@ -1456,7 +1514,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSTVTokyo4K.jp",
@@ -1478,7 +1537,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e5/BS_TV_Tokyo_4K.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BSYoshimoto.jp",
@@ -1502,7 +1562,8 @@
         "logo": "https://i.imgur.com/Tg7lqjp.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "BusinessBreakthrough.jp",
@@ -1526,7 +1587,8 @@
         "logo": "https://i.imgur.com/GxWgDzH.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Cable4K.jp",
@@ -1548,7 +1610,8 @@
         "logo": "https://i.imgur.com/mkldrNE.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "CartoonNetwork.jp",
@@ -1575,7 +1638,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "CGNTVJapan.jp",
@@ -1601,7 +1665,8 @@
         "logo": "https://i.imgur.com/5LNZeVq.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ChannelGinga.jp",
@@ -1625,7 +1690,8 @@
         "logo": "https://www.ch-ginga.jp/assets/images/common/header_logo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ChannelNECO.jp",
@@ -1649,7 +1715,8 @@
         "logo": "https://yt3.googleusercontent.com/9PB9epbWtMCiwDqrpkomANhaRh9WElJsk8BOC5RuGeprbUGF_HEW7j-31sn4_KBufUQURBzJMF0=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ChannelNecoInternational.jp",
@@ -1671,7 +1738,8 @@
         "logo": "https://i.imgur.com/4ZJdEvl.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "CherryBomb.jp",
@@ -1697,7 +1765,8 @@
         "logo": "https://i.imgur.com/9JpfEwl.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ChukyoTVNews.jp",
@@ -1721,7 +1790,8 @@
         "logo": "https://i.imgur.com/fSNc0jP.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "CLUBTV.jp",
@@ -1743,7 +1813,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/Clubtv%E3%83%AD%E3%82%B4300.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "CNNj.jp",
@@ -1765,7 +1836,10 @@
         "replaced_by": null,
         "website": "https://www2.jctv.co.jp/cnnj/",
         "logo": "https://i.imgur.com/Ft6wEdO.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DAIFUchannel.cn",
@@ -1791,7 +1865,8 @@
         "logo": "https://i.imgur.com/B6ScbrI.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DanceChannel.jp",
@@ -1817,7 +1892,8 @@
         "logo": "https://i.imgur.com/4mnAo0J.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DiscoveryChannelSoutheastAsia.sg",
@@ -1841,7 +1917,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png",
         "feeds": [
             "Japan"
-        ]
+        ],
+        "has_main_feed": false
     },
     {
         "id": "DiscoveryTurbo.jp",
@@ -1865,7 +1942,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Discovery_Turbo_UK_logo.svg/512px-Discovery_Turbo_UK_logo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DisneyChannel.jp",
@@ -1891,7 +1969,8 @@
         "logo": "https://i.imgur.com/VSq7b5E.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DisneyJunior.jp",
@@ -1917,7 +1996,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Disney_Jr._2024.svg/512px-Disney_Jr._2024.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Dlife.jp",
@@ -1943,7 +2023,8 @@
         "logo": "https://www.dlife.jp/images/common/LOGO.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "DynamiteTV.jp",
@@ -1969,7 +2050,8 @@
         "logo": "https://i.imgur.com/LgqThYM.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "EiseiGekijo.jp",
@@ -1995,7 +2077,8 @@
         "logo": "https://yt3.googleusercontent.com/d5yMuTHpdKEjTqXDEnS-iYo_AaKwuwYtHRs3gbLB9Hg8j_XtXyUXOeKxetptLhz85SciuA5i=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Enter959.jp",
@@ -2021,7 +2104,8 @@
         "logo": "https://i.imgur.com/DqUsq57.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "EntermeiTele.jp",
@@ -2047,7 +2131,8 @@
         "logo": "https://i.imgur.com/t3jg6ZG.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ExcitingGrandPrix.jp",
@@ -2071,7 +2156,8 @@
         "logo": "https://i.imgur.com/j8qQiw9.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FamilyGekijyo.jp",
@@ -2098,7 +2184,8 @@
         "logo": "https://i.imgur.com/PCx6Qz3.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FIGHTINGTVSamurai.jp",
@@ -2122,7 +2209,8 @@
         "logo": "https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch480/761.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FishingVision.jp",
@@ -2148,7 +2236,8 @@
         "logo": "https://i.imgur.com/qX6nNOF.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Flamingo.jp",
@@ -2174,7 +2263,8 @@
         "logo": "https://i.imgur.com/2TwPB2f.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FOX.jp",
@@ -2198,7 +2288,10 @@
         "replaced_by": null,
         "website": "https://foxnetworks.jp/",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/512px-FOX_wordmark-orange.svg.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FoxMovies.jp",
@@ -2224,7 +2317,8 @@
         "logo": "https://i.imgur.com/jxEVHSS.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FujiTVNEXT.jp",
@@ -2250,7 +2344,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3b/Next-fujitv_logo.jpg/revision/latest",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FujiTVONE.jp",
@@ -2276,7 +2371,8 @@
         "logo": "https://i.imgur.com/UnbbZ6k.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "FujiTVTWO.jp",
@@ -2302,7 +2398,8 @@
         "logo": "https://i.imgur.com/ivcZJLj.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GAORASPORTS.jp",
@@ -2328,7 +2425,8 @@
         "logo": "https://i.imgur.com/UgKRfuw.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GEM.sg",
@@ -2352,7 +2450,8 @@
         "logo": "https://i.imgur.com/DjI6SS1.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GolfNetwork.jp",
@@ -2378,7 +2477,8 @@
         "logo": "https://i.imgur.com/s6lmfXF.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GreenChannel.jp",
@@ -2404,7 +2504,8 @@
         "logo": "https://i.imgur.com/sD3z8j7.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GreenChannel2.jp",
@@ -2430,7 +2531,8 @@
         "logo": "https://i.imgur.com/dox5z3w.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GSTV.jp",
@@ -2452,7 +2554,8 @@
         "logo": "https://i.imgur.com/ECnVG5I.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "GTNTyphome.jp",
@@ -2472,7 +2575,8 @@
         "logo": "https://i.imgur.com/sDQJv3P.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HappyScience.jp",
@@ -2496,7 +2600,8 @@
         "logo": "https://i.imgur.com/oxzwChP.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HBCHokkaidoNews24.jp",
@@ -2520,7 +2625,8 @@
         "logo": "https://i.imgur.com/vcGsZVD.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HikariTVChannel.jp",
@@ -2542,7 +2648,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Hikari-TV_logo.svg/512px-Hikari-TV_logo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HikariTVChannel2.jp",
@@ -2564,7 +2671,8 @@
         "logo": "https://i.imgur.com/tM1H9MU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HikariTVChannel4K.jp",
@@ -2586,7 +2694,8 @@
         "logo": "https://i.imgur.com/MST64P5.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "History.jp",
@@ -2610,7 +2719,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "History2Asia.us",
@@ -2634,7 +2744,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/512px-History2_logo_%282022%29.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HokkaidoNewsUHB.jp",
@@ -2660,7 +2771,8 @@
         "logo": "https://i.imgur.com/G8lAJYc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HomeDramaChannel.jp",
@@ -2684,7 +2796,8 @@
         "logo": "https://i.imgur.com/iNkKh7w.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HOMEHiroshimaNews.jp",
@@ -2708,7 +2821,8 @@
         "logo": "https://i.imgur.com/RT0vW2v.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HopeChannelJapan.jp",
@@ -2734,7 +2848,8 @@
         "logo": "https://i.imgur.com/ZRQoJT9.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HouseofCouncillorsTV.jp",
@@ -2756,7 +2871,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Emblem_of_the_Government_of_Japan.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HouseofRepresentativesInternetTV.jp",
@@ -2780,7 +2896,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Go-shichi_no_kiri_crest_2.svg/255px-Go-shichi_no_kiri_crest_2.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "HTBHokkaidoNews24.jp",
@@ -2804,7 +2921,8 @@
         "logo": "https://i.imgur.com/yqUItvM.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "IBC6BoxYouTube.jp",
@@ -2826,7 +2944,8 @@
         "logo": "https://i.imgur.com/wg9wzkc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "IgoShogiChannel.jp",
@@ -2852,7 +2971,8 @@
         "logo": "https://yt3.googleusercontent.com/mel1Yq1eWZ-rssfxREZJ4YqylM-zPK8j3OugUYSrRGuPNsGcMw5ocRmCoVhJK7yMugkPODm2JA=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "IPCTV.jp",
@@ -2876,7 +2996,10 @@
         "replaced_by": null,
         "website": null,
         "logo": "https://upload.wikimedia.org/wikipedia/pt/a/ab/Logo_ipctv_atual.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "IwateMenkoiTelevision.jp",
@@ -2900,7 +3023,8 @@
         "logo": "https://i.imgur.com/bIc4DwU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JapaneseGovernmentInternetTV.jp",
@@ -2922,7 +3046,8 @@
         "logo": "https://www.mof.go.jp/english/images/useful_link_thumb05.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JapanetChannelDX.jp",
@@ -2944,7 +3069,8 @@
         "logo": "https://i.imgur.com/potEXVy.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JapaNews24.jp",
@@ -2966,7 +3092,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AGIKgqOMUS0adc02h6Py293xPnF0r8QrwOQRLKuVkVFz0Q=s176-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JCOMHigashiKanto.jp",
@@ -2988,7 +3115,8 @@
         "logo": "https://i.imgur.com/uqqR9fU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JCOMPremierChannel.jp",
@@ -3010,7 +3138,8 @@
         "logo": "https://i.imgur.com/aLlz0NO.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JCOMTV.jp",
@@ -3034,7 +3163,8 @@
         "logo": "https://i.imgur.com/cybD4dT.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JETTV.sg",
@@ -3058,7 +3188,8 @@
         "logo": "https://i.imgur.com/sx8VIws.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JidaigekiSenmonChannel.jp",
@@ -3084,7 +3215,8 @@
         "logo": "https://i.imgur.com/8T72RIH.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC.jp",
@@ -3110,7 +3242,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC680.jp",
@@ -3136,7 +3269,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC681.jp",
@@ -3162,7 +3296,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC682.jp",
@@ -3188,7 +3323,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC683.jp",
@@ -3214,7 +3350,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JLC684.jp",
@@ -3240,7 +3377,8 @@
         "logo": "https://i.imgur.com/vxc1D2v.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOABDTV.jp",
@@ -3266,7 +3404,8 @@
         "logo": "https://i.imgur.com/WxtftlO.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAGDTV.jp",
@@ -3292,7 +3431,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAIDTV.jp",
@@ -3320,7 +3460,8 @@
         "logo": "https://i.imgur.com/TmfzUkU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAKDTV.jp",
@@ -3346,7 +3487,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAPDTV.jp",
@@ -3372,7 +3514,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAXDTV.jp",
@@ -3397,7 +3540,8 @@
         "logo": "https://i.imgur.com/IxD8V5X.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOAYDTV.jp",
@@ -3425,7 +3569,8 @@
         "logo": "https://i.imgur.com/I11J99B.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOBHDTV.jp",
@@ -3452,7 +3597,8 @@
         "logo": "https://i.imgur.com/rUmrruq.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOBKDTV.jp",
@@ -3478,7 +3624,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOBPDTV.jp",
@@ -3504,7 +3651,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOBRDTV.jp",
@@ -3532,7 +3680,8 @@
         "logo": "https://i.imgur.com/W5o98da.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOCKDTV.jp",
@@ -3558,7 +3707,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOCXDTV.jp",
@@ -3585,7 +3735,8 @@
         "logo": "https://i.imgur.com/sEWDmMD.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JODFDTV.jp",
@@ -3612,7 +3763,8 @@
         "logo": "https://i.imgur.com/uraGabS.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JODRDTV.jp",
@@ -3640,7 +3792,8 @@
         "logo": "https://i.imgur.com/O0AUoGM.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JODXDTV.jp",
@@ -3668,7 +3821,8 @@
         "logo": "https://i.imgur.com/WMNg5De.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOEPDTV.jp",
@@ -3694,7 +3848,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOEXDTV.jp",
@@ -3720,7 +3875,8 @@
         "logo": "https://i.imgur.com/YCqB5Kj.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOFGDTV.jp",
@@ -3746,7 +3902,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOFKDTV.jp",
@@ -3772,7 +3929,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOFPDTV.jp",
@@ -3798,7 +3956,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOGKDTV.jp",
@@ -3824,7 +3983,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOHGDTV.jp",
@@ -3850,7 +4010,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOHKDTV.jp",
@@ -3876,7 +4037,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOHPDTV.jp",
@@ -3902,7 +4064,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOIGDTV.jp",
@@ -3928,7 +4091,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOIKDTV.jp",
@@ -3954,7 +4118,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOIPDTV.jp",
@@ -3980,7 +4145,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOIXDTV.jp",
@@ -4009,7 +4175,8 @@
         "logo": "https://i.imgur.com/ONbuWvo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOJGDTV.jp",
@@ -4035,7 +4202,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOJHDTV.jp",
@@ -4063,7 +4231,8 @@
         "logo": "https://i.imgur.com/wFxJH8L.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOJKDTV.jp",
@@ -4089,7 +4258,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOKGDTV.jp",
@@ -4115,7 +4285,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOKKDTV.jp",
@@ -4141,7 +4312,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOKMDTV.jp",
@@ -4168,7 +4340,8 @@
         "logo": "https://i.imgur.com/8hWDQkr.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOLGDTV.jp",
@@ -4194,7 +4367,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOLKDTV.jp",
@@ -4220,7 +4394,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOMGDTV.jp",
@@ -4246,7 +4421,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOMLDTV.jp",
@@ -4273,7 +4449,8 @@
         "logo": "https://i.imgur.com/iPPQRBc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOMXDTV.jp",
@@ -4300,7 +4477,8 @@
         "logo": "https://i.imgur.com/0i5rDRN.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JONKDTV.jp",
@@ -4326,7 +4504,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JONPDTV.jp",
@@ -4352,7 +4531,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOOKDTV.jp",
@@ -4378,7 +4558,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOOPDTV.jp",
@@ -4404,7 +4585,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOOYDTV.jp",
@@ -4431,7 +4613,8 @@
         "logo": "https://i.imgur.com/RfrkGrd.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOPKDTV.jp",
@@ -4457,7 +4640,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOPPDTV.jp",
@@ -4483,7 +4667,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOQGDTV.jp",
@@ -4509,7 +4694,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOQKDTV.jp",
@@ -4535,7 +4721,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOQPDTV.jp",
@@ -4561,7 +4748,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JORKDTV.jp",
@@ -4587,7 +4775,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JORPDTV.jp",
@@ -4613,7 +4802,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JORXDTV.jp",
@@ -4638,7 +4828,8 @@
         "logo": "https://i.imgur.com/dUn2GRn.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOSKDTV.jp",
@@ -4664,7 +4855,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOSPDTV.jp",
@@ -4690,7 +4882,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOTGDTV.jp",
@@ -4716,7 +4909,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOTKDTV.jp",
@@ -4742,7 +4936,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOTPDTV.jp",
@@ -4768,7 +4963,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOTXDTV.jp",
@@ -4795,7 +4991,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/512px-TV_Tokyo_%28Japanese%29_2023.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOUGDTV.jp",
@@ -4821,7 +5018,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOUHDTV.jp",
@@ -4848,7 +5046,8 @@
         "logo": "https://i.imgur.com/0qtXIRM.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOUKDTV.jp",
@@ -4874,7 +5073,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOUPDTV.jp",
@@ -4900,7 +5100,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOUSDTV.jp",
@@ -4927,7 +5128,8 @@
         "logo": "https://i.imgur.com/wFZ80Jq.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOWIDTV.jp",
@@ -4954,7 +5156,8 @@
         "logo": "https://i.imgur.com/9yZe76d.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOXKDTV.jp",
@@ -4980,7 +5183,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JOZKDTV.jp",
@@ -5006,7 +5210,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JPopsukiTV.us",
@@ -5028,7 +5233,8 @@
         "logo": "https://chiru.no/u/jpopsuki.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSPORTS1.jp",
@@ -5052,7 +5258,8 @@
         "logo": "https://i.imgur.com/vEpjLnj.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSPORTS2.jp",
@@ -5076,7 +5283,8 @@
         "logo": "https://i.imgur.com/g1GLVH2.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSPORTS3.jp",
@@ -5100,7 +5308,8 @@
         "logo": "https://i.imgur.com/xdI361E.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSPORTS4.jp",
@@ -5124,7 +5333,8 @@
         "logo": "https://i.imgur.com/fBcyZNL.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSTV1.uk",
@@ -5146,7 +5356,8 @@
         "logo": "https://i.imgur.com/X2SLLF3.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "JSTV2.uk",
@@ -5168,7 +5379,8 @@
         "logo": "https://i.imgur.com/X2SLLF3.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KagoshimaNews24.jp",
@@ -5194,7 +5406,8 @@
         "logo": "https://about.smartnews.com/wp-content/uploads/2019/02/release_kagoshimatv-01_l.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Kanade.cl",
@@ -5221,7 +5434,8 @@
         "logo": "https://static.kanade.cl/assets/img/profilepic_512px.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KANSAINews24.jp",
@@ -5245,7 +5459,8 @@
         "logo": "https://yt3.googleusercontent.com/Ty4ejcEAZzuQZ7rplYaVGkISkcPdQyFFJWRxr9gp9fwzkF5EByonQTW1aM4bnTl2I_ZkXFtBpw=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KayoPops.jp",
@@ -5271,7 +5486,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_m1AFOxZHFBvf-eLgADxBaFKa54T5oDOvxEaQfz9VMCU_c=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KBCNewsLive24.jp",
@@ -5297,7 +5513,8 @@
         "logo": "https://i.imgur.com/RxHI8OZ.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KBSWorldJapan.jp",
@@ -5321,7 +5538,8 @@
         "logo": "https://i.imgur.com/6ix9qPB.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KidsStation.jp",
@@ -5347,7 +5565,8 @@
         "logo": "https://i.imgur.com/Z2HEh0A.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KLEGCD3.us",
@@ -5371,7 +5590,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/A_logo_for_BizTV.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "kmpChannel.jp",
@@ -5397,7 +5617,8 @@
         "logo": "https://i.imgur.com/jKxSZns.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "KNTV.jp",
@@ -5417,7 +5638,10 @@
         "replaced_by": null,
         "website": "http://www.kntv.co.jp/",
         "logo": "https://i.imgur.com/EWBWvPH.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LaLaTV.jp",
@@ -5441,7 +5665,8 @@
         "logo": "https://i.imgur.com/APBty36.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LinguaChannel.id",
@@ -5463,7 +5688,8 @@
         "logo": "https://i.imgur.com/vaGsvbG.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LocalHorseRacingNine701.jp",
@@ -5487,7 +5713,8 @@
         "logo": "https://keiba9.com/wp-content/themes/theme474031/img/logo1.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LocalHorseRacingNine702.jp",
@@ -5511,7 +5738,8 @@
         "logo": "https://keiba9.com/wp-content/themes/theme474031/img/logo1.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LocalHorseRacingNine703.jp",
@@ -5535,7 +5763,8 @@
         "logo": "https://keiba9.com/wp-content/themes/theme474031/img/logo1.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LocalHorseRacingNineSELECT.jp",
@@ -5559,7 +5788,8 @@
         "logo": "https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch480/775.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "LohasChannel.tw",
@@ -5585,7 +5815,8 @@
         "logo": "https://i.imgur.com/mXxR9RN.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MBSNews.jp",
@@ -5611,7 +5842,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mainichi_Broadcasting_System_logo.svg/140px-Mainichi_Broadcasting_System_logo.svg.png?20110904042013",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MedekikuTV.jp",
@@ -5631,7 +5863,8 @@
         "logo": "https://i.imgur.com/nNLtb09.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MeteleNewsLive24.jp",
@@ -5658,7 +5891,8 @@
         "logo": "https://i.imgur.com/QP0lqYn.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MidnightBlue.jp",
@@ -5684,7 +5918,8 @@
         "logo": "https://i.imgur.com/kSlZKAx.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MnetJapan.jp",
@@ -5708,7 +5943,8 @@
         "logo": "https://i.imgur.com/XY8TxRR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MONDOTV.jp",
@@ -5730,7 +5966,8 @@
         "logo": "https://i.imgur.com/mmpjpu2.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MoviePlus.jp",
@@ -5754,7 +5991,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_nuPl40Fhlny1YNUaWE_fyNBoMJIqOgu6CEhzQfcvoqoI0=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MTV.jp",
@@ -5778,7 +6016,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MusicAir.jp",
@@ -5804,7 +6043,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mn1fpUfUSayTTtQXJ-hYMGU1nkJT_EinSwlFB6Jn_HgQ=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MusicGraffitiTV.jp",
@@ -5830,7 +6070,8 @@
         "logo": "https://www.tees.jp/ch/item/music.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MusicJapanTV.jp",
@@ -5856,7 +6097,8 @@
         "logo": "https://i.imgur.com/DkF8YZq.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MUSICONTV.jp",
@@ -5882,7 +6124,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kdcYIm5yr8WAlzKzYv26qs00tUYyeriALfSOts3H0q8A=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MysteryChannel.jp",
@@ -5908,7 +6151,8 @@
         "logo": "https://i.imgur.com/ja4TJ3d.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "MyxUSA.us",
@@ -5932,7 +6176,8 @@
         "logo": "https://i.imgur.com/BBZFrmM.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NationalGeographic.jp",
@@ -5958,7 +6203,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NationalGeographicWild.jp",
@@ -5980,7 +6226,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NBCNagasaki.jp",
@@ -6006,7 +6253,8 @@
         "logo": "https://i.imgur.com/09wTExc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NewJapanProWrestlingWorld.jp",
@@ -6028,7 +6276,10 @@
         "replaced_by": null,
         "website": null,
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/New_Japan_Pro_Wrestling_Logo_2.svg/512px-New_Japan_Pro_Wrestling_Logo_2.svg.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKBS.jp",
@@ -6052,7 +6303,8 @@
         "logo": "https://i.imgur.com/t0uZcSR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKBS1.jp",
@@ -6076,7 +6328,8 @@
         "logo": "https://i.imgur.com/8qUZ2KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKBS8K.jp",
@@ -6100,7 +6353,8 @@
         "logo": "https://i.imgur.com/N0x3ao7.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKBSP4K.jp",
@@ -6124,7 +6378,8 @@
         "logo": "https://i.imgur.com/uvPpFo5.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKBSPremium.jp",
@@ -6150,7 +6405,8 @@
         "logo": "https://i.imgur.com/S47zgPe.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKChinese.jp",
@@ -6174,7 +6430,10 @@
         "replaced_by": null,
         "website": "https://www.nhk.or.jp/nhkworld/zh/",
         "logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/0/0a/NHK_Huayu_Shijie_Logo.jpg/512px-NHK_Huayu_Shijie_Logo.jpg",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKEducationalTV.jp",
@@ -6201,7 +6460,8 @@
         "logo": "https://i.imgur.com/WxtftlO.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKGeneralTV.jp",
@@ -6228,7 +6488,8 @@
         "logo": "https://i.imgur.com/fAZ2BEZ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKKishouSaigai.jp",
@@ -6254,7 +6515,8 @@
         "logo": "https://i.imgur.com/oWKCBIz.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKWorldEspanol.jp",
@@ -6279,7 +6541,10 @@
         "replaced_by": null,
         "website": "https://www3.nhk.or.jp/nhkworld/es/",
         "logo": "https://i.imgur.com/8dml3im.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKWorldJapan.jp",
@@ -6307,7 +6572,8 @@
         "feeds": [
             "HD",
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NHKWorldPremium.jp",
@@ -6333,7 +6599,8 @@
         "logo": "https://i.imgur.com/4ESi2La.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NihonEigaSenmonChannel.jp",
@@ -6359,7 +6626,8 @@
         "logo": "https://i.imgur.com/B2wzA67.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NihonJidai4K.jp",
@@ -6379,7 +6647,8 @@
         "logo": "https://i.imgur.com/noPMzHl.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NiigataNewsNST.jp",
@@ -6403,7 +6672,8 @@
         "logo": "https://i.imgur.com/5dJE8Fc.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NikkeiCNBC.jp",
@@ -6432,7 +6702,8 @@
         "logo": "https://i.imgur.com/tpnp7td.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NipponTVPlus.jp",
@@ -6452,7 +6723,8 @@
         "logo": "https://i.imgur.com/1WUzcbG.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NitteleGPlus.jp",
@@ -6478,7 +6750,8 @@
         "logo": "https://i.imgur.com/7237pCC.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NittelePlus.jp",
@@ -6504,7 +6777,8 @@
         "logo": "https://i.imgur.com/dP6tWsL.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "NTVNEWS24.jp",
@@ -6530,7 +6804,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/News24.svg/512px-News24.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PachinkoPachisloTV.jp",
@@ -6554,7 +6829,8 @@
         "logo": "https://i.imgur.com/l2S9ll3.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PandamaxChannel.cl",
@@ -6576,7 +6852,8 @@
         "logo": "https://pandamax.cl/assets/img/pandalogo2.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ParadiseTV.jp",
@@ -6600,7 +6877,8 @@
         "logo": "https://i.imgur.com/8foMiPt.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PhoenixTelevision.jp",
@@ -6620,7 +6898,10 @@
         "replaced_by": null,
         "website": "http://www.daifutv.com/j/index.php?option=com_content&view=article&id=154&Itemid=174",
         "logo": "https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/1200px-Phoenix_Chinese.svg.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Pigoo.jp",
@@ -6640,7 +6921,8 @@
         "logo": "https://www.lyngsat.com/logo/tv/pp/pigoo-jp.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PlayboyChannel.jp",
@@ -6662,7 +6944,10 @@
         "replaced_by": null,
         "website": "https://playboychannel.jp/pbc/",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/37/Playboy_TV_Logo.svg/revision/latest/scale-to-width-down/512",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PokemonKidsTVEnglish.jp",
@@ -6685,7 +6970,10 @@
         "replaced_by": null,
         "website": null,
         "logo": "https://i.imgur.com/0nDftk7.jpg",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PokemonKidsTVJapanese.jp",
@@ -6711,7 +6999,8 @@
         "logo": "https://i.imgur.com/SwheroL.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PowerPlats.jp",
@@ -6731,7 +7020,8 @@
         "logo": "https://i.imgur.com/1InSXZK.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PPVChoice940.jp",
@@ -6751,7 +7041,8 @@
         "logo": "https://i.imgur.com/jZlH6Nf.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "PPVChoice941.jp",
@@ -6771,7 +7062,8 @@
         "logo": "https://i.imgur.com/id0ESlu.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "QVC.jp",
@@ -6795,7 +7087,8 @@
         "logo": "https://i.imgur.com/xWSzQ34.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RainbowChannel.jp",
@@ -6819,7 +7112,8 @@
         "logo": "https://i.imgur.com/5c7tPbf.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RBCNEWSLink.jp",
@@ -6841,7 +7135,8 @@
         "logo": "https://i.imgur.com/TqPWY2k.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RBCOkinawaNews24.jp",
@@ -6866,7 +7161,8 @@
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcj_MAp0Y8tf-0ZSztD3ka8tA2FP1X8n5FUcA3WdqZSSGzfUOnenaMFOlKt2GzRx40g4E&usqp=CAU",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RecordTVJapan.jp",
@@ -6886,7 +7182,10 @@
         "replaced_by": null,
         "website": "http://recordjp.com/",
         "logo": "https://upload.wikimedia.org/wikipedia/pt/f/f8/RecordJapan.jpeg",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RedCherry.jp",
@@ -6912,7 +7211,8 @@
         "logo": "https://i.imgur.com/xrrFDtH.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "RKBNEWS24.jp",
@@ -6934,7 +7234,8 @@
         "logo": "https://i.imgur.com/SHmYLML.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SATVNews24H.jp",
@@ -6958,7 +7259,8 @@
         "logo": "https://i.imgur.com/PxFcRh9.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SelectShopping.jp",
@@ -6980,7 +7282,8 @@
         "logo": "https://www.hikaritv.net/resources/hikari/pc/images/ch_logo/ch480/154.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ShigekiStrong.jp",
@@ -7002,7 +7305,8 @@
         "logo": "https://i.imgur.com/qCigtTt.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Shinnyoen.jp",
@@ -7022,7 +7326,8 @@
         "logo": "https://i.imgur.com/2cPypsH.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ShopChannel.jp",
@@ -7046,7 +7351,8 @@
         "logo": "https://www.shopch.jp/com/images/common/logo_2021.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ShopChannelPlus.jp",
@@ -7070,7 +7376,8 @@
         "logo": "https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-129-400x400.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SITE777TV.jp",
@@ -7096,7 +7403,8 @@
         "logo": "https://yt3.googleusercontent.com/ytc/AIdro_llTbVIbEjkqxnVINuXX4RW6LCkjkegUu1gWtD2oBAnGA=s512-c-k-c0x00ffffff-no-rj",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SkyA.jp",
@@ -7120,7 +7428,8 @@
         "logo": "https://i.imgur.com/JU3wZ0k.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SkyPerfectPromo599.jp",
@@ -7142,7 +7451,8 @@
         "logo": "https://sagainc.co.jp/data/wp-content/uploads/2017/07/026_03.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SORAWeatherChannel.jp",
@@ -7167,7 +7477,8 @@
         "logo": "https://i.imgur.com/CgswJoX.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SouthernKantoRegionalHorseRacingChannel.jp",
@@ -7191,7 +7502,8 @@
         "logo": "https://i.imgur.com/k8Tsolj.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpaceShowerTV.jp",
@@ -7217,7 +7529,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/24/Space_Shower_-_1999.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpaceShowerTVPlus.jp",
@@ -7243,7 +7556,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/9/9c/DjVJytTQ_40.jpg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel1.jp",
@@ -7265,7 +7579,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel2.jp",
@@ -7287,7 +7602,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel3.jp",
@@ -7309,7 +7625,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel4.jp",
@@ -7331,7 +7648,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel690.jp",
@@ -7353,7 +7671,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel691.jp",
@@ -7375,7 +7694,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel692.jp",
@@ -7397,7 +7717,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel693.jp",
@@ -7419,7 +7740,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedChannel694.jp",
@@ -7441,7 +7763,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SpeedPlusOne695.jp",
@@ -7463,7 +7786,8 @@
         "logo": "https://i.imgur.com/0K845KR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Splash.jp",
@@ -7489,7 +7813,8 @@
         "logo": "https://i.imgur.com/zKsG7J7.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SportsLivePlus.jp",
@@ -7513,7 +7838,8 @@
         "logo": "https://i.imgur.com/Z2MGRxy.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Star4K.jp",
@@ -7533,7 +7859,8 @@
         "logo": "https://i.imgur.com/9Me5cjz.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "StarBS10.jp",
@@ -7553,7 +7880,8 @@
         "logo": "https://i.imgur.com/hbTMMJf.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "StarChannel.jp",
@@ -7581,7 +7909,8 @@
         "logo": "https://i.imgur.com/ZElxkCs.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "StarChannel2.jp",
@@ -7608,7 +7937,8 @@
         "logo": "https://i.imgur.com/QOriZy5.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "StarChannel3.jp",
@@ -7635,7 +7965,8 @@
         "logo": "https://i.imgur.com/Z1x8ecY.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "STVNewsHokkaido.jp",
@@ -7659,7 +7990,8 @@
         "logo": "https://i.imgur.com/oyQ2FnC.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan1.jp",
@@ -7679,7 +8011,8 @@
         "logo": "https://i.imgur.com/7IyVUoQ.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan12.jp",
@@ -7699,7 +8032,8 @@
         "logo": "https://i.imgur.com/ksPMtm1.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan4K1.jp",
@@ -7719,7 +8053,8 @@
         "logo": "https://i.imgur.com/P3PPRCc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan4K2.jp",
@@ -7739,7 +8074,8 @@
         "logo": "https://i.imgur.com/2LpM07D.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan5.jp",
@@ -7759,7 +8095,8 @@
         "logo": "https://i.imgur.com/8gGa0ku.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan6.jp",
@@ -7779,7 +8116,8 @@
         "logo": "https://i.imgur.com/dzF7CHu.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Sukachan7.jp",
@@ -7799,7 +8137,8 @@
         "logo": "https://i.imgur.com/d14QsBU.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SunTVNews.jp",
@@ -7823,7 +8162,8 @@
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOoFzn8tR3uFWEdS7P6j2Za778IIguy2IRW30iWq2N0qjLoWfaFGug6n6AVXsW3PDu4s&usqp=CAU",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "SuperDramaTV.jp",
@@ -7847,7 +8187,8 @@
         "logo": "https://i.imgur.com/hsk8NHc.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TABIChannel.jp",
@@ -7869,7 +8210,8 @@
         "logo": "https://i.imgur.com/JBePECx.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TachikawaSeibuenKeirinChannel.jp",
@@ -7889,7 +8231,8 @@
         "logo": "https://i.imgur.com/YuxwSxt.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TAKARAZUKASKYSTAGE.jp",
@@ -7909,7 +8252,8 @@
         "logo": "https://www.starcat.co.jp/ch/upload/channel/38/takarazuka-skystage_logo.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TBSChannel1.jp",
@@ -7934,7 +8278,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/Tbsch1_longver.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TBSChannel2.jp",
@@ -7958,7 +8303,8 @@
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/28/Tbsch2_jp2020.svg/revision/latest/scale-to-width-down/512",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TBSNewsCS.jp",
@@ -7983,7 +8329,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TBS_News_2020_logo.png/512px-TBS_News_2020_logo.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TBSNewsDig.jp",
@@ -8007,7 +8354,8 @@
         "logo": "https://i.imgur.com/9ZhFHap.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TetsudoChannel.jp",
@@ -8027,7 +8375,8 @@
         "logo": "https://i.imgur.com/0tQJAIB.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TheCinema.jp",
@@ -8053,7 +8402,8 @@
         "logo": "https://i.imgur.com/skZFVR4.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TheCinema4K.jp",
@@ -8077,7 +8427,8 @@
         "logo": "https://www2.myjcom.jp/special/common/channel_logo/the_cinema_4k.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TheFilipinoChannelJapan.jp",
@@ -8095,7 +8446,10 @@
         "replaced_by": null,
         "website": "https://mytfc.com/",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png",
-        "feeds": []
+        "feeds": [
+            "SD"
+        ],
+        "has_main_feed": true
     },
     {
         "id": "ToeiChannel.jp",
@@ -8119,7 +8473,8 @@
         "logo": "https://i.imgur.com/QsTjHDU.jpeg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TokyoMX1.jp",
@@ -8139,7 +8494,8 @@
         "logo": "https://i.imgur.com/igia8OX.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TokyoMX2.jp",
@@ -8159,7 +8515,8 @@
         "logo": "https://i.imgur.com/SwvuR00.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TOSNews.jp",
@@ -8183,7 +8540,8 @@
         "logo": "https://i.imgur.com/JBkXyvj.jpg",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TSS.jp",
@@ -8209,7 +8567,8 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Tss_logo.svg/512px-Tss_logo.svg.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TsuriVision.jp",
@@ -8229,7 +8588,8 @@
         "logo": "https://i.imgur.com/OfnzMV4.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TulipTVYouTube.jp",
@@ -8249,7 +8609,8 @@
         "logo": "https://i.imgur.com/zjEYDK9.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TUY6ChYouTube.jp",
@@ -8269,7 +8630,8 @@
         "logo": "https://i.imgur.com/ofUMqgB.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TV32.nz",
@@ -8293,7 +8655,8 @@
         "logo": "https://i.imgur.com/9M2NBrR.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TVAsahiChannel1.jp",
@@ -8315,7 +8678,8 @@
         "logo": "https://i.imgur.com/4I61QPs.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TVAsahiChannel2.jp",
@@ -8337,7 +8701,8 @@
         "logo": "https://i.imgur.com/9AFGZxu.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TVJapan.jp",
@@ -8357,7 +8722,8 @@
         "logo": "https://i.imgur.com/B6eXAEV.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "TVShizuoka.jp",
@@ -8382,7 +8748,8 @@
         "logo": "https://i.imgur.com/HxBu6ce.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "UniversalChannel.jp",
@@ -8407,7 +8774,8 @@
         "logo": "https://i.imgur.com/NswtpsW.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "VanillaSkyChannel.jp",
@@ -8431,7 +8799,8 @@
         "logo": "https://i.imgur.com/dQgPYjP.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "VENUS.jp",
@@ -8455,7 +8824,8 @@
         "logo": "https://i.imgur.com/pEkcGib.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "VParadise.jp",
@@ -8481,7 +8851,8 @@
         "logo": "https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-195-400x400.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WakuWakuJapan.jp",
@@ -8503,7 +8874,8 @@
         "logo": "https://i.imgur.com/8RL8TBI.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WakuWakuJapanSouthEastAsia.jp",
@@ -8523,7 +8895,8 @@
         "logo": "https://i.imgur.com/suYVNk9.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WakuWakuJapanTaiwan.jp",
@@ -8543,7 +8916,8 @@
         "logo": "https://i.imgur.com/pc2iKLi.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Weathernews.jp",
@@ -8565,7 +8939,8 @@
         "logo": "https://i.imgur.com/A8uRSTS.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Worldmate.jp",
@@ -8585,7 +8960,8 @@
         "logo": "https://i.imgur.com/N18ZJgz.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Wowow4K.jp",
@@ -8605,7 +8981,8 @@
         "logo": "https://i.imgur.com/XfsRmgP.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WOWOWCinema.jp",
@@ -8627,7 +9004,8 @@
         "logo": "https://i.imgur.com/Wx9fkCW.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WOWOWLive.jp",
@@ -8647,7 +9025,8 @@
         "logo": "https://i.imgur.com/jPAYT5F.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WOWOWPlus.jp",
@@ -8673,7 +9052,8 @@
         "logo": "https://i.imgur.com/lutIIQl.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "WOWOWPrime.jp",
@@ -8693,7 +9073,8 @@
         "logo": "https://i.imgur.com/vACq7w8.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "YoseChannel.jp",
@@ -8713,7 +9094,8 @@
         "logo": "https://i.imgur.com/jZAdAde.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     },
     {
         "id": "Zaptv.jp",
@@ -8737,6 +9119,7 @@
         "logo": "https://i.imgur.com/xKyyDAO.png",
         "feeds": [
             "SD"
-        ]
+        ],
+        "has_main_feed": true
     }
 ]

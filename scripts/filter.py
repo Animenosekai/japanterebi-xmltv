@@ -162,14 +162,18 @@ def main(
             for feed in feeds.get(channel.id, []):
                 if any(lang in feed.languages for lang in languages):
                     channel.feeds.append(feed.id)
+                    if feed.is_main:
+                        channel.has_main_feed = True
 
             if not channel.feeds and not (
                 any((cat in channel.categories for cat in categories))
                 or any((country == channel.country for country in countries))
             ):
                 continue
-        else:
+
+        if not channel.feeds:
             channel.feeds.extend((feed.id for feed in feeds.get(channel.id, [])))
+            channel.has_main_feed = True
 
         yield channel
 

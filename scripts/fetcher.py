@@ -58,8 +58,13 @@ def main(
                 channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")
                 if channel_id not in channels_map:
                     continue
-                if feed_id and feed_id not in channels_map[channel_id].feeds:
+
+                if feed_id:
+                    if feed_id not in channels_map[channel_id].feeds:
+                        continue
+                elif not channels_map[channel_id].has_main_feed:
                     continue
+
                 yield node.toxml()
 
 

@@ -23,6 +23,7 @@ class Channel:
     website: typing.Optional[str]
     logo: str
     feeds: typing.List[str]
+    has_main_feed: bool = False
 
     @property
     def as_dict(self):
