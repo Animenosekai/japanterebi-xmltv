@@ -35,21 +35,23 @@ def read_feeds_file(file_path: pathlib.Path) -> typing.Dict[str, typing.List[Fee
                 channel,
                 id,
                 name,
+                alt_names,
                 is_main,
                 broadcast_area,
                 timezones,
                 languages,
-                video_format,
+                format,
             ) = line.split(",")
             current_feed = Feed(
                 channel=channel,
                 id=id,
                 name=name,
+                alt_names=alt_names.split(";") if alt_names else [],
                 is_main=is_main == "TRUE",
                 broadcast_area=broadcast_area,
                 timezone=timezones,
                 languages=languages.split(";") if languages else [],
-                video_format=video_format,
+                format=format,
             )
             try:
                 results[channel].append(current_feed)
@@ -87,15 +89,12 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 country,
                 subdivision,
                 city,
-                # broadcast_area, #
-                # languages, #
                 categories,
                 is_nsfw,
                 launched,
                 closed,
                 replaced_by,
                 website,
-                logo,
             ) = line.split(",")
             yield Channel(
                 id=id,
@@ -106,8 +105,6 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 country=country,
                 subdivision=subdivision or None,
                 city=city or None,
-                # broadcast_area=broadcast_area,
-                # languages=languages.split(";") if languages else [],
                 categories=categories.split(";") if categories else [],
                 is_nsfw=is_nsfw == "TRUE",
                 launched=datetime.datetime.strptime(launched, "%Y-%m-%d")
@@ -118,7 +115,6 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 else None,
                 replaced_by=replaced_by or None,
                 website=website or None,
-                logo=logo,
                 feeds=[],
             )
 
@@ -208,7 +204,9 @@ def entry():
     )
     extra_args = {"separators": (",", ":")} if args.minify else {"indent": 4}
     encoded_result = json.dumps(
-        [result.as_dict for result in results], ensure_ascii=False, **extra_args
+        [result.as_dict for result in results],
+        ensure_ascii=False,
+        **extra_args,  # pyright: ignore[reportArgumentType]
     )
     if stdout:
         print(encoded_result)

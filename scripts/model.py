@@ -21,15 +21,17 @@ class Channel:
     closed: typing.Optional[datetime.datetime]
     replaced_by: typing.Optional[str]
     website: typing.Optional[str]
-    logo: str
     feeds: typing.List[str]
     has_main_feed: bool = False
+    # logo: str # This has been moved to another file
 
     @property
     def as_dict(self):
         """Returns a dictionary representation of the object."""
         return {
-            key: value.timestamp() if isinstance(value, datetime.datetime) else value
+            key: int(value.timestamp())
+            if isinstance(value, datetime.datetime)
+            else value
             for key, value in dataclasses.asdict(self).items()
         }
 
@@ -39,16 +41,19 @@ class Feed:
     channel: str
     id: str
     name: str
+    alt_names: typing.List[str]
     is_main: bool
     broadcast_area: str
     timezone: str
     languages: typing.List[str]
-    video_format: str
+    format: str
 
     @property
     def as_dict(self):
         """Returns a dictionary representation of the object."""
         return {
-            key: value.timestamp() if isinstance(value, datetime.datetime) else value
+            key: int(value.timestamp())
+            if isinstance(value, datetime.datetime)
+            else value
             for key, value in dataclasses.asdict(self).items()
         }
