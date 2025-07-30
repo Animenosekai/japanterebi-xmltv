@@ -106,11 +106,10 @@ Here is an example output :
             "kids"
         ],
         "is_nsfw": false,
-        "launched": 1522533600.0,
+        "launched": 1522533600,
         "closed": null,
         "replaced_by": null,
         "website": "https://abema.tv/now-on-air/abema-anime?lang=en",
-        "logo": "https://image.p-c2-x.abema-tv.com/image/channels/abema-anime/logo.png?height=96&quality=75&version=20200413&width=256",
         "feeds": [
             "SD"
         ],
