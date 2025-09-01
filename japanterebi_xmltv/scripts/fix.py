@@ -1,3 +1,5 @@
+"""Fixes the XMLTV document."""
+
 import argparse
 import pathlib
 import re
@@ -6,9 +8,9 @@ import re
 REGEX = re.compile(r"&(?!amp;)(?!lt;)(?!gt;)(?!apos;)(?!quot;)")
 
 
-def fix(data: str):
+def fix(data: str) -> str:
     """
-    Fixes the XMLTV document.
+    Fix the XMLTV document.
 
     Returns
     -------
@@ -18,8 +20,8 @@ def fix(data: str):
     return REGEX.sub("&amp;", data)
 
 
-def entry():
-    """The main entrypoint"""
+def entry() -> None:
+    """Entrypoint of the script"""
     parser = argparse.ArgumentParser(description="Fixes the XMLTV document")
     parser.add_argument("--input", "-i", type=pathlib.Path, help="Input file")
     parser.add_argument("output", type=pathlib.Path, help="Output file")
@@ -29,7 +31,7 @@ def entry():
     fixed = fix(data)
     stdout = not (args.output and args.output != "-")
     if stdout:
-        print(fixed)
+        print(fixed)  # noqa: T201
     else:
         pathlib.Path(args.output).write_text(fixed)
 

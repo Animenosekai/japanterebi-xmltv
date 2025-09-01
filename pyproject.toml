@@ -82,6 +82,7 @@ ignore = [
     "D203", # one-blank-line-before-class: Checks for docstrings on class definitions that are not preceded by a blank line.
     "D413", # blank-line-after-last-section: Checks for missing blank lines after the last section of a multiline docstring.
     "TD003", # missing-todo-link: Checks that a TODO comment is associated with a link to a relevant issue or ticket.
+    "LOG015", # `*()` call on root logger
 ]
 extend-safe-fixes = ["D200", "TID252", "ANN201"]
 

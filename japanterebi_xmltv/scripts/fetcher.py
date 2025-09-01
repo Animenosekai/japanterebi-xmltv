@@ -7,6 +7,7 @@ import typing
 from xml.dom.minidom import Element, parse
 
 import tqdm
+
 from japanterebi_xmltv.models import Channel
 
 
@@ -27,13 +28,15 @@ def get_nodes(site: pathlib.Path) -> typing.Iterable[Element]:
     for element in site.iterdir():
         if element.name.endswith(".channels.xml"):
             with element.open() as file:
-                dom = parse(file)
-                for node in dom.getElementsByTagName("channel"):
-                    yield node
+                dom = parse(file) # noqa: S318
+                yield from dom.getElementsByTagName("channels")
 
 
 def main(
-    sites: pathlib.Path, channels: list[Channel], progress: bool = False
+    sites: pathlib.Path,
+    channels: list[Channel],
+    *,
+    progress: bool = False,
 ) -> typing.Iterable[str]:
     """
     Get the fetchers for the given channels.
@@ -45,6 +48,7 @@ def main(
     channels: list
         The list of channels.
     progress: bool, default = True
+        Whether to show a progress bar.
 
     Returns
     -------
@@ -68,14 +72,22 @@ def main(
                 yield node.toxml()
 
 
-def entry():
-    """The main entrypoint for the script."""
+def entry() -> None:
+    """Entrypoint for the script."""
     parser = argparse.ArgumentParser(prog="fetcher", description="Fetch channels")
     parser.add_argument(
-        "--input", "-i", help="The channels list", type=pathlib.Path, required=True
+        "--input",
+        "-i",
+        help="The channels list",
+        type=pathlib.Path,
+        required=True,
     )
     parser.add_argument(
-        "--sites", "-s", help="The site fetchers", type=pathlib.Path, required=True
+        "--sites",
+        "-s",
+        help="The site fetchers",
+        type=pathlib.Path,
+        required=True,
     )
     parser.add_argument("output", default="-", help="The output path", nargs="?")
     args = parser.parse_args()
@@ -83,11 +95,14 @@ def entry():
     decoded = json.loads(pathlib.Path(args.input).read_text())
     channels = [Channel(**channel) for channel in decoded]
     sites = main(args.sites, channels, progress=not stdout)
-    result = '<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n    {channel}\n</channels>'.format(
-        channel="\n    ".join(sites)
+    result = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n'
+        "    {channel}\n</channels>".format(
+            channel="\n    ".join(sites),
+        )
     )
     if stdout:
-        print(result)
+        print(result)  # noqa: T201
     else:
         pathlib.Path(args.output).write_text(result)
 
