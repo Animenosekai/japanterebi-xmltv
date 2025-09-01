@@ -29,7 +29,7 @@ def get_nodes(site: pathlib.Path) -> typing.Iterable[Element]:
         if element.name.endswith(".channels.xml"):
             with element.open() as file:
                 dom = parse(file)  # noqa: S318
-                yield from dom.getElementsByTagName("channels")
+                yield from dom.getElementsByTagName("channel")
 
 
 def main(
