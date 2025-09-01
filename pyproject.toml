@@ -34,6 +34,7 @@ Issues = "https://github.com/Animenosekai/japanterebi-xmltv/issues"
 [project.scripts]
 "fetcher" = "japanterebi_xmltv.scripts.fetcher:entry"
 "filter" = "japanterebi_xmltv.scripts.filter:entry"
+"fix" = "japanterebi_xmltv.scripts.fix:entry"
 "merger" = "japanterebi_xmltv.scripts.merger:entry"
 "minify" = "japanterebi_xmltv.scripts.minify:entry"
 
