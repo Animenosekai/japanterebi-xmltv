@@ -7,7 +7,7 @@ import pathlib
 import typing
 
 import tqdm
-from model import Channel, Feed
+from japanterebi_xmltv.models import Channel, Feed
 
 
 def read_feeds_file(file_path: pathlib.Path) -> typing.Dict[str, typing.List[Feed]]:

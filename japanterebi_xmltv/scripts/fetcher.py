@@ -7,7 +7,7 @@ import typing
 from xml.dom.minidom import Element, parse
 
 import tqdm
-from model import Channel
+from japanterebi_xmltv.models import Channel
 
 
 def get_nodes(site: pathlib.Path) -> typing.Iterable[Element]:

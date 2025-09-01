@@ -1,0 +1,112 @@
+[project]
+name = "japanterebi_xmltv"
+version = "1.0.0" # PEP 440 compliant versioning
+dependencies = [
+    "tqdm"
+]
+requires-python = ">=3.9"
+authors = [
+    { name = "anise", email = "animenosekai.mail@gmail.com" },
+]
+maintainers = [
+    { name = "anise", email = "animenosekai.mail@gmail.com" },
+]
+description = "Easily create XMLTV files."
+readme = "README.md"
+keywords = ["xmltv", "japan", "japanterebi", "tv", "guide", "epg"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/Animenosekai/japanterebi-xmltv"
+Repository = "https://github.com/Animenosekai/japanterebi-xmltv"
+Issues = "https://github.com/Animenosekai/japanterebi-xmltv/issues"
+
+[project.scripts]
+"fetcher" = "japanterebi_xmltv.scripts.fetcher:entry"
+"filter" = "japanterebi_xmltv.scripts.filter:entry"
+"merger" = "japanterebi_xmltv.scripts.merger:entry"
+"minify" = "japanterebi_xmltv.scripts.minify:entry"
+
+[dependency-groups]
+dev = [
+    "mypy[reports]>=1.16.0",
+    "pytest>=8.4.0",
+    "pyright>=1.1.402",
+    "ruff>=0.11.13",
+    "pytest-cov>=6.1.0",
+    "pytest-profiling>=1.8.0",
+]
+
+#################################
+# Linter Configuration
+#################################
+
+[tool.mypy]
+show_error_context = true
+show_column_numbers = true
+show_error_code_links = true
+pretty = true
+strict = true
+
+# Disallows
+disallow_any_unimported = true
+disallow_any_expr = false      # Conflicts with the fact that routes return a Coroutine with an `Any` type in its definition
+disallow_any_decorated = true
+disallow_any_explicit = true
+
+# Warnings
+warn_no_return = true
+warn_unreachable = true
+warn_incomplete_stub = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "D400", # ends-in-period: Checks for docstrings in which the first line does not end in a period.
+    "D415", # ends-in-punctuation: Checks for docstrings in which the first line does not end in a punctuation mark, such as a period, question mark, or exclamation point.
+    "ERA001", # commented-out-code: Checks for commented-out Python code.
+    "PLR0913", # too-many-arguments: Checks for function definitions that include too many arguments. The default maximum is 5.
+    "C901", # complex-structure: Checks for functions with a high McCabe complexity.
+    "FIX002", # line-contains-todo: Checks for "TODO" comments.
+    "D212", # multi-line-summary-first-line: Checks for docstring summary lines that are not positioned on the first physical line of the docstring.
+    "D203", # one-blank-line-before-class: Checks for docstrings on class definitions that are not preceded by a blank line.
+    "D413", # blank-line-after-last-section: Checks for missing blank lines after the last section of a multiline docstring.
+    "TD003", # missing-todo-link: Checks that a TODO comment is associated with a link to a relevant issue or ticket.
+]
+extend-safe-fixes = ["D200", "TID252", "ANN201"]
+
+[tool.ruff.lint.flake8-builtins]
+builtins-ignorelist = ["id"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]
+
+[tool.pyright]
+strict = ["**/*.py"]
+
+# Enabling more rules
+reportCallInDefaultInitializer = "warning"
+reportImplicitOverride = "warning"
+reportImportCycles = "warning"
+reportMissingSuperCall = "warning"
+reportPropertyTypeMismatch = "warning"
+reportShadowedImports = "warning"
+reportUninitializedInstanceVariable = "warning"
+
+# Disabling rules
+reportUnnecessaryTypeIgnoreComment = "none" # Conflicts with mypy
+reportImplicitStringConcatenation = "none"
+reportUnusedCallResult = "none"
+
+[tool.setuptools]
+packages = ["japanterebi_xmltv"]
