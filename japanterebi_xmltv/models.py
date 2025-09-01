@@ -1,29 +1,32 @@
-"""This module contains the Channel class, which represents a TV channel."""
+"""Models for the japanterebi-xmltv package."""
+
+from __future__ import annotations
 
 import dataclasses
 import datetime
-import typing
 
 
 @dataclasses.dataclass
 class Channel:
+    """Represents a TV channel."""
+
     id: str
     name: str
-    alt_names: typing.List[str]
-    network: typing.Optional[str]
-    owners: typing.List[str]
+    alt_names: list[str]
+    network: str | None
+    owners: list[str]
     country: str
-    categories: typing.List[str]
+    categories: list[str]
     is_nsfw: bool
-    launched: typing.Optional[datetime.datetime]
-    closed: typing.Optional[datetime.datetime]
-    replaced_by: typing.Optional[str]
-    website: typing.Optional[str]
-    feeds: typing.List[str]
+    launched: datetime.datetime | None
+    closed: datetime.datetime | None
+    replaced_by: str | None
+    website: str | None
+    feeds: list[str]
     has_main_feed: bool = False
 
     @property
-    def as_dict(self):
+    def as_dict(self) -> dict[str, int | str | list[str] | None]:
         """Returns a dictionary representation of the object."""
         return {
             key: int(value.timestamp())
@@ -35,18 +38,20 @@ class Channel:
 
 @dataclasses.dataclass
 class Feed:
+    """Represents a TV channel feed."""
+
     channel: str
     id: str
     name: str
-    alt_names: typing.List[str]
+    alt_names: list[str]
     is_main: bool
     broadcast_area: str
     timezone: str
-    languages: typing.List[str]
+    languages: list[str]
     format: str
 
     @property
-    def as_dict(self):
+    def as_dict(self) -> dict[str, int | str | list[str] | None]:
         """Returns a dictionary representation of the object."""
         return {
             key: int(value.timestamp())

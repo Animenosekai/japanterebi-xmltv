@@ -34,6 +34,7 @@ Issues = "https://github.com/Animenosekai/japanterebi-xmltv/issues"
 [project.scripts]
 "fetcher" = "japanterebi_xmltv.scripts.fetcher:entry"
 "filter" = "japanterebi_xmltv.scripts.filter:entry"
+"fix" = "japanterebi_xmltv.scripts.fix:entry"
 "merger" = "japanterebi_xmltv.scripts.merger:entry"
 "minify" = "japanterebi_xmltv.scripts.minify:entry"
 
@@ -45,6 +46,7 @@ dev = [
     "ruff>=0.11.13",
     "pytest-cov>=6.1.0",
     "pytest-profiling>=1.8.0",
+    "types-tqdm>=4.67.0.20250809",
 ]
 
 #################################
@@ -82,6 +84,7 @@ ignore = [
     "D203", # one-blank-line-before-class: Checks for docstrings on class definitions that are not preceded by a blank line.
     "D413", # blank-line-after-last-section: Checks for missing blank lines after the last section of a multiline docstring.
     "TD003", # missing-todo-link: Checks that a TODO comment is associated with a link to a relevant issue or ticket.
+    "LOG015", # `*()` call on root logger
 ]
 extend-safe-fixes = ["D200", "TID252", "ANN201"]
 

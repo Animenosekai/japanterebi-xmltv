@@ -18,21 +18,32 @@ jobs:
           repository: "iptv-org/database"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "database"
-      - uses: actions/setup-python@v5
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
-          python-version: "3.11"
+          version: "latest"
+
+      # - uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.11"
+
       - name: Installing Python dependencies
-        run: python -m pip install -r requirements.txt
+        run: uv sync
+
       - name: Getting the channels ID
-        run: python scripts/filter.py --channels database/data/channels.csv --feeds database/data/feeds.csv --language="jpn" --country="JP" --minify channels.json
+        run: filter --channels database/data/channels.csv --feeds database/data/feeds.csv --language="jpn" --country="JP" --minify channels.json
+
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
           repository: "iptv-org/epg"
           # Relative path under $GITHUB_WORKSPACE to place the repository
           path: "epg"
+
       - name: Filtering the channels
-        run: python scripts/fetcher.py --input channels.json --sites epg/sites japanterebi.channels.xml
+        run: fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
+
       - uses: actions/setup-node@v4
         with:
           # node-version: latest
@@ -40,26 +51,33 @@ jobs:
           node-version: "21.7.3"
           # `package-lock.json` is not here yet
           # cache: npm
+
       - name: Installing JavaScript dependencies
         run: |
           cd epg
           npm install
+
       - name: Fetching the programs data
         run: |
           cd epg
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+
       - name: Fixing the document
-        run: python scripts/fix.py --input guide.xml guide.xml
+        run: fix --input guide.xml guide.xml
+
       - name: Merging redundant programs
-        run: python scripts/merger.py --input guide.xml guide.xml
+        run: merger --input guide.xml guide.xml
+
       - name: Minify XML
-        run: python scripts/minify.py --input guide.xml guide.xml
+        run: minify --input guide.xml guide.xml
+
       - name: Remove the downloaded repositories
         run: |
           echo "Removing 'database'"
           rm -r database
           echo "Removing 'epg'"
           rm -r epg
+
       - name: Committing the new data
         run: |
           git config --global user.name 'Japan Terebi [GitHub Actions]'
