@@ -87,8 +87,6 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 network,
                 owners,
                 country,
-                subdivision,
-                city,
                 categories,
                 is_nsfw,
                 launched,
@@ -103,8 +101,6 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 network=network or None,
                 owners=owners.split(";") if owners else [],
                 country=country,
-                subdivision=subdivision or None,
-                city=city or None,
                 categories=categories.split(";") if categories else [],
                 is_nsfw=is_nsfw == "TRUE",
                 launched=datetime.datetime.strptime(launched, "%Y-%m-%d")

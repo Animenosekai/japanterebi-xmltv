@@ -15,7 +15,10 @@ class ChildNodes:
 
     def __init__(self, parent: Element):
         """Initialize tracker for a parent element."""
-        self.parent: Element = parent.cloneNode(deep=False)
+        cloned = parent.cloneNode(deep=False)
+        if not cloned:
+            raise ValueError("Couldn't clone parent element")
+        self.parent: Element = cloned
         self.seen_elements: typing.Set[str] = set()
 
         for child in self.parent.childNodes:
@@ -75,7 +78,10 @@ class ChildNodes:
             return False
 
         self.seen_elements.add(signature)
-        self.parent.appendChild(element.cloneNode(deep=True))
+        cloned = element.cloneNode(deep=True)
+        if not cloned:
+            return False
+        self.parent.appendChild(cloned)
         return True
 
 
@@ -96,7 +102,10 @@ def merge_programs(programs: typing.List[Element]) -> Element:
     if not programs:
         raise ValueError("Cannot merge empty program list")
 
-    child_nodes = ChildNodes(programs[0].cloneNode(deep=True))
+    cloned = programs[0].cloneNode(deep=True)
+    if not cloned:
+        raise ValueError("Couldn't clone the first program element")
+    child_nodes = ChildNodes(cloned)
 
     # Merge children from other programs
     for program in programs[1:]:
