@@ -32,7 +32,7 @@ jobs:
         run: uv sync
 
       - name: Getting the channels ID
-        run: filter --channels database/data/channels.csv --feeds database/data/feeds.csv --language="jpn" --country="JP" --minify channels.json
+        run: uv run filter --channels database/data/channels.csv --feeds database/data/feeds.csv --language="jpn" --country="JP" --minify channels.json
 
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
           path: "epg"
 
       - name: Filtering the channels
-        run: fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
+        run: uv run fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
 
       - uses: actions/setup-node@v4
         with:
@@ -63,13 +63,13 @@ jobs:
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
 
       - name: Fixing the document
-        run: fix --input guide.xml guide.xml
+        run: uv run fix --input guide.xml guide.xml
 
       - name: Merging redundant programs
-        run: merger --input guide.xml guide.xml
+        run: uv run merger --input guide.xml guide.xml
 
       - name: Minify XML
-        run: minify --input guide.xml guide.xml
+        run: uv run minify --input guide.xml guide.xml
 
       - name: Remove the downloaded repositories
         run: |
