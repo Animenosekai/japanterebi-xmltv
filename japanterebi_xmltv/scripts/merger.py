@@ -16,7 +16,7 @@ class ChildNodes:
     def __init__(self, parent: Element) -> None:
         """Initialize tracker for a parent element."""
         super().__init__()
-        cloned = parent.cloneNode(deep=False)  # type: ignore[no-untyped-call]
+        cloned = parent.cloneNode(deep=False)
         if not cloned:
             msg = "Couldn't clone parent element"
             raise ValueError(msg)
@@ -55,7 +55,7 @@ class ChildNodes:
         try:
             tag = element.tagName
             # Get sorted attributes for consistent comparison
-            attrs = sorted(element.attributes.items()) if element.attributes else []  # type: ignore[no-untyped-call]
+            attrs = sorted(element.attributes.items()) if element.attributes else []
             attr_str = ",".join(f"{k}={v}" for k, v in attrs)
 
             # Get normalized text content
@@ -66,7 +66,7 @@ class ChildNodes:
         except AttributeError:
             # Handle text nodes or other node types
             if hasattr(element, "nodeValue") and element.nodeValue:
-                return f"TEXT|{cls.normalize(element.nodeValue)}"
+                return f"TEXT|{cls.normalize(element.nodeValue)}" # type: ignore[unreachable]
             return "UNKNOWN"
         except Exception as e:
             msg = f"Error generating signature for element: {e}"
@@ -85,7 +85,7 @@ class ChildNodes:
             return False
 
         self.seen_elements.add(signature)
-        cloned = element.cloneNode(deep=True)  # type: ignore[no-untyped-call]
+        cloned = element.cloneNode(deep=True)
         if not cloned:
             return False
         self.parent.appendChild(cloned)
@@ -110,7 +110,7 @@ def merge_programs(programs: list[Element]) -> Element:
         msg = "Cannot merge empty program list"
         raise ValueError(msg)
 
-    cloned = programs[0].cloneNode(deep=True)  # type: ignore[no-untyped-call]
+    cloned = programs[0].cloneNode(deep=True)
     if not cloned:
         msg = "Couldn't clone the first program element"
         raise ValueError(msg)

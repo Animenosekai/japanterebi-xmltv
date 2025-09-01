@@ -128,7 +128,7 @@
 <span class="line-precise" title="No Anys on this line!">import typing</span>
 <span class="line-precise" title="No Anys on this line!">from xml.dom.minidom import Element, parse</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="No Anys on this line!">import tqdm</span>
+<span class="line-precise" title="No Anys on this line!">import tqdm</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">from japanterebi_xmltv.models import Channel</span>
 <span class="line-empty" title="No Anys on this line!"></span>
@@ -179,12 +179,11 @@ Explicit (x1)">            with element.open() as file:</span>
 <span class="line-empty" title="No Anys on this line!">    typing.Iterable[pathlib.Path]</span>
 <span class="line-empty" title="No Anys on this line!">    """</span>
 <span class="line-precise" title="No Anys on this line!">    channels_map = {channel.id: channel for channel in channels}</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">    for site in tqdm.tqdm(sites.iterdir(), disable=not progress):</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x3)">        if site.is_dir():</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x1)">            for node in get_nodes(site):</span>
+<span class="line-precise" title="Any Types on this line: 
+Omitted Generics (x2)
+Unannotated (x2)">    for site in tqdm.tqdm(sites.iterdir(), disable=not progress):</span>
+<span class="line-precise" title="No Anys on this line!">        if site.is_dir():</span>
+<span class="line-precise" title="No Anys on this line!">            for node in get_nodes(site):</span>
 <span class="line-precise" title="No Anys on this line!">                channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")</span>
 <span class="line-precise" title="No Anys on this line!">                if channel_id not in channels_map:</span>
 <span class="line-precise" title="No Anys on this line!">                    continue</span>

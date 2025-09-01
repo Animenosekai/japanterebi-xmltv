@@ -213,11 +213,13 @@ def entry() -> None:
         remove=args.remove or [],
         progress=not stdout,
     )
-    extra_args = {"separators": (",", ":")} if args.minify else {"indent": 4}
+    extra_args: dict[str, int | tuple[str, str]] = (
+        {"separators": (",", ":")} if args.minify else {"indent": 4}
+    )
     encoded_result = json.dumps(
         [result.as_dict for result in results],
         ensure_ascii=False,
-        **extra_args,  # pyright: ignore[reportArgumentType]
+        **extra_args,  # type: ignore[arg-type]  # pyright: ignore[reportArgumentType]
     )
     if stdout:
         print(encoded_result)  # noqa: T201

@@ -237,6 +237,8 @@
 <span id="L227" class="lineno"><a class="lineno" href="#L227">227</a></span>
 <span id="L228" class="lineno"><a class="lineno" href="#L228">228</a></span>
 <span id="L229" class="lineno"><a class="lineno" href="#L229">229</a></span>
+<span id="L230" class="lineno"><a class="lineno" href="#L230">230</a></span>
+<span id="L231" class="lineno"><a class="lineno" href="#L231">231</a></span>
 </pre></td>
 <td class="table-code"><pre><span class="line-empty" title="No Anys on this line!">"""Filter channels from the iptv-org/database repository"""</span>
 <span class="line-empty" title="No Anys on this line!"></span>
@@ -246,7 +248,7 @@
 <span class="line-precise" title="No Anys on this line!">import pathlib</span>
 <span class="line-precise" title="No Anys on this line!">import typing</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="No Anys on this line!">import tqdm</span>
+<span class="line-precise" title="No Anys on this line!">import tqdm</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">from japanterebi_xmltv.models import Channel, Feed</span>
 <span class="line-empty" title="No Anys on this line!"></span>
@@ -398,42 +400,31 @@ Explicit (x1)">    with file_path.open() as file:</span>
 <span class="line-empty" title="No Anys on this line!">    """</span>
 <span class="line-precise" title="No Anys on this line!">    feeds = read_feeds_file(feeds_file)</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">    for channel in tqdm.tqdm(read_channels_file(channels_file), disable=not progress):</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">        if channel.id not in add:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">            if channel.id in remove:</span>
-<span class="line-precise" title="No Anys on this line!">                continue</span>
-<span class="line-any" title="Any Types on this line: 
+<span class="line-precise" title="Any Types on this line: 
 Omitted Generics (x2)
-Unimported (x2)">            for feed in feeds.get(channel.id, []):</span>
+Unannotated (x2)">    for channel in tqdm.tqdm(read_channels_file(channels_file), disable=not progress):</span>
+<span class="line-precise" title="No Anys on this line!">        if channel.id not in add:</span>
+<span class="line-precise" title="No Anys on this line!">            if channel.id in remove:</span>
+<span class="line-precise" title="No Anys on this line!">                continue</span>
+<span class="line-precise" title="Any Types on this line: 
+Omitted Generics (x2)">            for feed in feeds.get(channel.id, []):</span>
 <span class="line-precise" title="No Anys on this line!">                if any(lang in feed.languages for lang in languages):</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">                    channel.feeds.append(feed.id)</span>
+<span class="line-precise" title="No Anys on this line!">                    channel.feeds.append(feed.id)</span>
 <span class="line-precise" title="No Anys on this line!">                    if feed.is_main:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">                        channel.has_main_feed = True</span>
+<span class="line-precise" title="No Anys on this line!">                        channel.has_main_feed = True</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">            if not channel.feeds and not (</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">                any(cat in channel.categories for cat in categories)</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x3)">                or any(country == channel.country for country in countries)</span>
+<span class="line-precise" title="No Anys on this line!">            if not channel.feeds and not (</span>
+<span class="line-precise" title="No Anys on this line!">                any(cat in channel.categories for cat in categories)</span>
+<span class="line-precise" title="No Anys on this line!">                or any(country == channel.country for country in countries)</span>
 <span class="line-empty" title="No Anys on this line!">            ):</span>
 <span class="line-precise" title="No Anys on this line!">                continue</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">        if not channel.feeds:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x6)
+<span class="line-precise" title="No Anys on this line!">        if not channel.feeds:</span>
+<span class="line-precise" title="Any Types on this line: 
 Omitted Generics (x2)">            channel.feeds.extend(feed.id for feed in feeds.get(channel.id, []))</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">            channel.has_main_feed = True</span>
+<span class="line-precise" title="No Anys on this line!">            channel.has_main_feed = True</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x1)">        yield channel</span>
+<span class="line-precise" title="No Anys on this line!">        yield channel</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">def entry() -&gt; None:</span>
@@ -489,13 +480,15 @@ Explicit (x3)">        add=args.add or [],</span>
 Explicit (x3)">        remove=args.remove or [],</span>
 <span class="line-precise" title="No Anys on this line!">        progress=not stdout,</span>
 <span class="line-empty" title="No Anys on this line!">    )</span>
+<span class="line-precise" title="No Anys on this line!">    extra_args: dict[str, int | tuple[str, str]] = (</span>
 <span class="line-any" title="Any Types on this line: 
-Explicit (x1)">    extra_args = {"separators": (",", ":")} if args.minify else {"indent": 4}</span>
+Explicit (x1)">        {"separators": (",", ":")} if args.minify else {"indent": 4}</span>
+<span class="line-empty" title="No Anys on this line!">    )</span>
 <span class="line-any" title="Any Types on this line: 
 Explicit (x4)">    encoded_result = json.dumps(</span>
 <span class="line-precise" title="No Anys on this line!">        [result.as_dict for result in results],</span>
 <span class="line-precise" title="No Anys on this line!">        ensure_ascii=False,</span>
-<span class="line-precise" title="No Anys on this line!">        **extra_args,  # pyright: ignore[reportArgumentType]</span>
+<span class="line-precise" title="No Anys on this line!">        **extra_args,  # type: ignore[arg-type]  # pyright: ignore[reportArgumentType]</span>
 <span class="line-empty" title="No Anys on this line!">    )</span>
 <span class="line-precise" title="No Anys on this line!">    if stdout:</span>
 <span class="line-precise" title="No Anys on this line!">        print(encoded_result)  # noqa: T201</span>

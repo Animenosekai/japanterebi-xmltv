@@ -362,7 +362,7 @@
 <span class="line-precise" title="No Anys on this line!">import pathlib</span>
 <span class="line-precise" title="No Anys on this line!">from xml.dom.minidom import Document, Element, parse</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="No Anys on this line!">import tqdm</span>
+<span class="line-precise" title="No Anys on this line!">import tqdm</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">class ChildNodes:</span>
@@ -371,7 +371,7 @@
 <span class="line-precise" title="No Anys on this line!">    def __init__(self, parent: Element) -&gt; None:</span>
 <span class="line-empty" title="No Anys on this line!">        """Initialize tracker for a parent element."""</span>
 <span class="line-precise" title="No Anys on this line!">        super().__init__()</span>
-<span class="line-precise" title="No Anys on this line!">        cloned = parent.cloneNode(deep=False)  # type: ignore[no-untyped-call]</span>
+<span class="line-precise" title="No Anys on this line!">        cloned = parent.cloneNode(deep=False)</span>
 <span class="line-precise" title="No Anys on this line!">        if not cloned:</span>
 <span class="line-precise" title="No Anys on this line!">            msg = "Couldn't clone parent element"</span>
 <span class="line-precise" title="No Anys on this line!">            raise ValueError(msg)</span>
@@ -412,7 +412,7 @@ Omitted Generics (x3)">        self.seen_elements: set[str] = set()</span>
 <span class="line-precise" title="No Anys on this line!">            tag = element.tagName</span>
 <span class="line-empty" title="No Anys on this line!">            # Get sorted attributes for consistent comparison</span>
 <span class="line-precise" title="Any Types on this line: 
-Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if element.attributes else []  # type: ignore[no-untyped-call]</span>
+Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if element.attributes else []</span>
 <span class="line-precise" title="No Anys on this line!">            attr_str = ",".join(f"{k}={v}" for k, v in attrs)</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-empty" title="No Anys on this line!">            # Get normalized text content</span>
@@ -423,7 +423,7 @@ Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if
 <span class="line-precise" title="No Anys on this line!">        except AttributeError:</span>
 <span class="line-empty" title="No Anys on this line!">            # Handle text nodes or other node types</span>
 <span class="line-precise" title="No Anys on this line!">            if hasattr(element, "nodeValue") and element.nodeValue:</span>
-<span class="line-unanalyzed" title="No Anys on this line!">                return f"TEXT|{cls.normalize(element.nodeValue)}"</span>
+<span class="line-unanalyzed" title="No Anys on this line!">                return f"TEXT|{cls.normalize(element.nodeValue)}" # type: ignore[unreachable]</span>
 <span class="line-precise" title="No Anys on this line!">            return "UNKNOWN"</span>
 <span class="line-precise" title="No Anys on this line!">        except Exception as e:</span>
 <span class="line-precise" title="No Anys on this line!">            msg = f"Error generating signature for element: {e}"</span>
@@ -442,7 +442,7 @@ Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if
 <span class="line-precise" title="No Anys on this line!">            return False</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">        self.seen_elements.add(signature)</span>
-<span class="line-precise" title="No Anys on this line!">        cloned = element.cloneNode(deep=True)  # type: ignore[no-untyped-call]</span>
+<span class="line-precise" title="No Anys on this line!">        cloned = element.cloneNode(deep=True)</span>
 <span class="line-precise" title="No Anys on this line!">        if not cloned:</span>
 <span class="line-precise" title="No Anys on this line!">            return False</span>
 <span class="line-precise" title="No Anys on this line!">        self.parent.appendChild(cloned)</span>
@@ -467,7 +467,7 @@ Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if
 <span class="line-precise" title="No Anys on this line!">        msg = "Cannot merge empty program list"</span>
 <span class="line-precise" title="No Anys on this line!">        raise ValueError(msg)</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-precise" title="No Anys on this line!">    cloned = programs[0].cloneNode(deep=True)  # type: ignore[no-untyped-call]</span>
+<span class="line-precise" title="No Anys on this line!">    cloned = programs[0].cloneNode(deep=True)</span>
 <span class="line-precise" title="No Anys on this line!">    if not cloned:</span>
 <span class="line-precise" title="No Anys on this line!">        msg = "Couldn't clone the first program element"</span>
 <span class="line-precise" title="No Anys on this line!">        raise ValueError(msg)</span>
@@ -544,48 +544,39 @@ Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">    merged_count = 0</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">    progress_iter = tqdm.tqdm(</span>
+<span class="line-precise" title="Any Types on this line: 
+Omitted Generics (x2)
+Unannotated (x2)">    progress_iter = tqdm.tqdm(</span>
 <span class="line-precise" title="No Anys on this line!">        duplicate_groups.items(),</span>
 <span class="line-precise" title="No Anys on this line!">        desc="Merging programs",</span>
 <span class="line-precise" title="No Anys on this line!">        disable=not show_progress,</span>
 <span class="line-precise" title="No Anys on this line!">        unit="group",</span>
 <span class="line-empty" title="No Anys on this line!">    )</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x3)">    for key, programs in progress_iter:</span>
+<span class="line-precise" title="No Anys on this line!">    for key, programs in progress_iter:</span>
 <span class="line-empty" title="No Anys on this line!">        try:</span>
 <span class="line-empty" title="No Anys on this line!">            # Merge all programs in the group</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x1)">            merged_program = merge_programs(programs)</span>
+<span class="line-precise" title="No Anys on this line!">            merged_program = merge_programs(programs)</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x5)">            for index, program in enumerate(programs):</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">                if not program.parentNode:</span>
+<span class="line-precise" title="No Anys on this line!">            for index, program in enumerate(programs):</span>
+<span class="line-precise" title="No Anys on this line!">                if not program.parentNode:</span>
 <span class="line-precise" title="No Anys on this line!">                    continue</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-empty" title="No Anys on this line!">                # Replace first program with merged version</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x3)">                parent = program.parentNode</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">                parent.replaceChild(merged_program, program)</span>
+<span class="line-precise" title="No Anys on this line!">                parent = program.parentNode</span>
+<span class="line-precise" title="Any Types on this line: 
+Omitted Generics (x8)">                parent.replaceChild(merged_program, program)</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-empty" title="No Anys on this line!">                # Remove all subsequent duplicates</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x3)">                for child in programs[index + 1 :]:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x2)">                    if child.parentNode:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x4)">                        parent.removeChild(child)</span>
+<span class="line-precise" title="No Anys on this line!">                for child in programs[index + 1 :]:</span>
+<span class="line-precise" title="No Anys on this line!">                    if child.parentNode:</span>
+<span class="line-precise" title="No Anys on this line!">                        parent.removeChild(child)</span>
 <span class="line-precise" title="No Anys on this line!">                break</span>
 <span class="line-empty" title="No Anys on this line!"></span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x1)">            merged_count += len(programs) - 1</span>
+<span class="line-precise" title="No Anys on this line!">            merged_count += len(programs) - 1</span>
 <span class="line-empty" title="No Anys on this line!"></span>
 <span class="line-precise" title="No Anys on this line!">        except Exception as e:</span>
-<span class="line-any" title="Any Types on this line: 
-Unimported (x1)">            msg = f"Error merging programs for key {key}: {e}"</span>
+<span class="line-precise" title="No Anys on this line!">            msg = f"Error merging programs for key {key}: {e}"</span>
 <span class="line-precise" title="No Anys on this line!">            logging.exception(msg)</span>
 <span class="line-precise" title="No Anys on this line!">            continue</span>
 <span class="line-empty" title="No Anys on this line!"></span>
