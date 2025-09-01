@@ -423,7 +423,7 @@ Omitted Generics (x5)">            attrs = sorted(element.attributes.items()) if
 <span class="line-precise" title="No Anys on this line!">        except AttributeError:</span>
 <span class="line-empty" title="No Anys on this line!">            # Handle text nodes or other node types</span>
 <span class="line-precise" title="No Anys on this line!">            if hasattr(element, "nodeValue") and element.nodeValue:</span>
-<span class="line-unanalyzed" title="No Anys on this line!">                return f"TEXT|{cls.normalize(element.nodeValue)}" # type: ignore[unreachable]</span>
+<span class="line-unanalyzed" title="No Anys on this line!">                return f"TEXT|{cls.normalize(element.nodeValue)}"  # type: ignore[unreachable]</span>
 <span class="line-precise" title="No Anys on this line!">            return "UNKNOWN"</span>
 <span class="line-precise" title="No Anys on this line!">        except Exception as e:</span>
 <span class="line-precise" title="No Anys on this line!">            msg = f"Error generating signature for element: {e}"</span>

@@ -31,7 +31,7 @@ def entry() -> None:
     minified = "\n".join(minify(data))
     stdout = not (args.output and args.output != "-")
     if stdout:
-        print(minified) # noqa: T201
+        print(minified)  # noqa: T201
     else:
         pathlib.Path(args.output).write_text(minified)
 

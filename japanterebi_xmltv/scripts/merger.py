@@ -66,7 +66,7 @@ class ChildNodes:
         except AttributeError:
             # Handle text nodes or other node types
             if hasattr(element, "nodeValue") and element.nodeValue:
-                return f"TEXT|{cls.normalize(element.nodeValue)}" # type: ignore[unreachable]
+                return f"TEXT|{cls.normalize(element.nodeValue)}"  # type: ignore[unreachable]
             return "UNKNOWN"
         except Exception as e:
             msg = f"Error generating signature for element: {e}"

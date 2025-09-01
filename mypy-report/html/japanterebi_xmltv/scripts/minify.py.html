@@ -88,7 +88,7 @@ Explicit (x2)">    with pathlib.Path(args.input).open() as file:</span>
 <span class="line-any" title="Any Types on this line: 
 Explicit (x4)">    stdout = not (args.output and args.output != "-")</span>
 <span class="line-precise" title="No Anys on this line!">    if stdout:</span>
-<span class="line-precise" title="No Anys on this line!">        print(minified) # noqa: T201</span>
+<span class="line-precise" title="No Anys on this line!">        print(minified)  # noqa: T201</span>
 <span class="line-empty" title="No Anys on this line!">    else:</span>
 <span class="line-any" title="Any Types on this line: 
 Explicit (x1)">        pathlib.Path(args.output).write_text(minified)</span>
