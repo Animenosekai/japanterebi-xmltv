@@ -7,10 +7,11 @@ import pathlib
 import typing
 
 import tqdm
-from model import Channel, Feed
+
+from japanterebi_xmltv.models import Channel, Feed
 
 
-def read_feeds_file(file_path: pathlib.Path) -> typing.Dict[str, typing.List[Feed]]:
+def read_feeds_file(file_path: pathlib.Path) -> dict[str, list[Feed]]:
     """
     Read a file and return its content as a list of strings.
 
@@ -26,11 +27,11 @@ def read_feeds_file(file_path: pathlib.Path) -> typing.Dict[str, typing.List[Fee
     list
         The content of the file as a list of strings.
     """
-    results: typing.Dict[str, typing.List[Feed]] = {}
+    results: dict[str, list[Feed]] = {}
     with file_path.open() as file:
         file.readline()
-        for line in file:
-            line = line.strip()
+        for raw_line in file:
+            line = raw_line.strip()
             (
                 channel,
                 id,
@@ -40,7 +41,7 @@ def read_feeds_file(file_path: pathlib.Path) -> typing.Dict[str, typing.List[Fee
                 broadcast_area,
                 timezones,
                 languages,
-                format,
+                format,  # noqa: A001
             ) = line.split(",")
             current_feed = Feed(
                 channel=channel,
@@ -78,8 +79,8 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
     """
     with file_path.open() as file:
         file.readline()
-        for line in file:
-            line = line.strip()
+        for raw_line in file:
+            line = raw_line.strip()
             (
                 id,
                 name,
@@ -87,8 +88,6 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 network,
                 owners,
                 country,
-                subdivision,
-                city,
                 categories,
                 is_nsfw,
                 launched,
@@ -103,14 +102,12 @@ def read_channels_file(file_path: pathlib.Path) -> typing.Iterable[Channel]:
                 network=network or None,
                 owners=owners.split(";") if owners else [],
                 country=country,
-                subdivision=subdivision or None,
-                city=city or None,
                 categories=categories.split(";") if categories else [],
                 is_nsfw=is_nsfw == "TRUE",
-                launched=datetime.datetime.strptime(launched, "%Y-%m-%d")
+                launched=datetime.datetime.strptime(launched, "%Y-%m-%d")  # noqa: DTZ007
                 if launched
                 else None,
-                closed=datetime.datetime.strptime(closed, "%Y-%m-%d")
+                closed=datetime.datetime.strptime(closed, "%Y-%m-%d")  # noqa: DTZ007
                 if closed
                 else None,
                 replaced_by=replaced_by or None,
@@ -127,22 +124,30 @@ def main(
     categories: list[str],
     add: list[str],
     remove: list[str],
+    *,
     progress: bool = False,
 ) -> typing.Iterable[Channel]:
     """
-    The main function of the script.
+    Filter channels.
 
     Parameters
     ----------
-    file_path: Path
+    channels_file: Path
+        The path to the channels file.
+    feeds_file: Path
+        The path to the feeds file.
     languages: list
+        The languages to filter by.
     countries: list
+        The countries to filter by.
     categories: list
+        The categories to filter by.
     add: list
+        The channels to add.
     remove: list
+        The channels to remove.
     progress: bool, default = True
-    language: list
-    category: list
+        Whether to show a progress bar.
 
     Returns
     -------
@@ -162,20 +167,20 @@ def main(
                         channel.has_main_feed = True
 
             if not channel.feeds and not (
-                any((cat in channel.categories for cat in categories))
-                or any((country == channel.country for country in countries))
+                any(cat in channel.categories for cat in categories)
+                or any(country == channel.country for country in countries)
             ):
                 continue
 
         if not channel.feeds:
-            channel.feeds.extend((feed.id for feed in feeds.get(channel.id, [])))
+            channel.feeds.extend(feed.id for feed in feeds.get(channel.id, []))
             channel.has_main_feed = True
 
         yield channel
 
 
-def entry():
-    """The entry point of the script."""
+def entry() -> None:
+    """Entry point of the script."""
     parser = argparse.ArgumentParser(prog="filter", description="Filter channels")
     parser.add_argument("--language", help="The language of the channels", nargs="*")
     parser.add_argument("--country", help="The country of the channels", nargs="*")
@@ -183,11 +188,17 @@ def entry():
     parser.add_argument("--add", help="Add a channel to the list", nargs="*")
     parser.add_argument("--remove", help="Remove a channel from the list", nargs="*")
     parser.add_argument(
-        "--channels", "-d", help="The input channels file", required=True
+        "--channels",
+        "-d",
+        help="The input channels file",
+        required=True,
     )
     parser.add_argument("--feeds", "-f", help="The input feeds file", required=True)
     parser.add_argument(
-        "--minify", "-m", action="store_true", help="Minify the JSON result"
+        "--minify",
+        "-m",
+        action="store_true",
+        help="Minify the JSON result",
     )
     parser.add_argument("output", default="-", help="The output path", nargs="?")
     args = parser.parse_args()
@@ -202,14 +213,16 @@ def entry():
         remove=args.remove or [],
         progress=not stdout,
     )
-    extra_args = {"separators": (",", ":")} if args.minify else {"indent": 4}
+    extra_args: dict[str, int | tuple[str, str]] = (
+        {"separators": (",", ":")} if args.minify else {"indent": 4}
+    )
     encoded_result = json.dumps(
         [result.as_dict for result in results],
         ensure_ascii=False,
-        **extra_args,  # pyright: ignore[reportArgumentType]
+        **extra_args,  # type: ignore[arg-type]  # pyright: ignore[reportArgumentType]
     )
     if stdout:
-        print(encoded_result)
+        print(encoded_result)  # noqa: T201
     else:
         pathlib.Path(args.output).write_text(encoded_result)
 

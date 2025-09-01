@@ -1,0 +1,1 @@
+"""Japan Terebi XMLTV package."""
