@@ -13,8 +13,6 @@ class Channel:
     network: typing.Optional[str]
     owners: typing.List[str]
     country: str
-    subdivision: typing.Optional[str]
-    city: typing.Optional[str]
     categories: typing.List[str]
     is_nsfw: bool
     launched: typing.Optional[datetime.datetime]
@@ -23,7 +21,6 @@ class Channel:
     website: typing.Optional[str]
     feeds: typing.List[str]
     has_main_feed: bool = False
-    # logo: str # This has been moved to another file
 
     @property
     def as_dict(self):
