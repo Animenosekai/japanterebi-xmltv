@@ -187,7 +187,7 @@
     <channel site="singtel.com" lang="zh" xmltv_id="GEM.sg" site_id="5519">GEM (HD)</channel>
     <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapan.jp" site_id="1610">NHK WORLD</channel>
     <channel site="tv.mail.ru" lang="ru" xmltv_id="NHKWorldJapan.jp@HD" site_id="3011">NHK World HD</channel>
-    <channel site="directv.com.uy" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
+    <channel site="directv.com.uy" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK" logo="https://dnqt2wx2urq99.cloudfront.net/ondirectv/LOGOS/Canales/UY/782.png">NHK World TV</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="AnimalPlanet.jp" site_id="120_186_65406">アニマルプラネット</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="AnimaxAsia.sg@Japan" site_id="120_149_65406">アニマックスＨＤ</channel>
     <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="AsiaDramaticTV.jp" site_id="120_126_65406">アジアドラマチックTV（アジドラ）</channel>
@@ -328,9 +328,7 @@
     <channel site="mysky.com.ph" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="222">NHK WORLD JAPAN</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="BBCNews.uk@AsiaPacific" site_id="366">BBC News HD</channel>
     <channel site="content.astro.com.my" lang="en" xmltv_id="NHKWorldPremium.jp" site_id="428">NHK World Premium</channel>
-    <channel site="cubmu.com" lang="en" xmltv_id="GEM.sg" site_id="4028c685840ff04901846163f6883d8f">Gem TV</channel>
     <channel site="cubmu.com" lang="en" xmltv_id="LinguaChannel.id" site_id="4028c68574537fcd0174be21d3755722">Lingua</channel>
-    <channel site="cubmu.com" lang="id" xmltv_id="GEM.sg" site_id="4028c685840ff04901846163f6883d8f">Gem TV</channel>
     <channel site="cubmu.com" lang="id" xmltv_id="LinguaChannel.id" site_id="4028c68574537fcd0174be21d3755722">Lingua</channel>
     <channel site="vodafone.pt" lang="pt" xmltv_id="NHKWorldJapan.jp" site_id="2890">NHK World</channel>
     <channel site="epg.iptvx.one" lang="ru" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world">NHK World</channel>
@@ -372,7 +370,6 @@
     <channel site="mi.tv" lang="es" xmltv_id="NHKWorldJapan.jp" site_id="cl#nhk-world">NHK World</channel>
     <channel site="mi.tv" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="cl#nhk-world-premium">NHK World Premium</channel>
     <channel site="programtv.onet.pl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="nhk-world-tv-11">NHK World TV</channel>
-    <channel site="directv.com.ar" lang="es" xmltv_id="NHKWorldPremium.jp" site_id="782#NHK">NHK World TV</channel>
     <channel site="clickthecity.com" lang="en" xmltv_id="AnimaxAsia.sg@Philippines" site_id="168">Animax</channel>
     <channel site="clickthecity.com" lang="en" xmltv_id="GEM.sg" site_id="183">GEM</channel>
     <channel site="www3.nhk.or.jp" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="0">NHK World-Japan</channel>
