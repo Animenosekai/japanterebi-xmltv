@@ -7,7 +7,7 @@
     <channel site="indihometv.com" lang="id" xmltv_id="LinguaChannel.id" site_id="lingua">Lingua</channel>
     <channel site="indihometv.com" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="nhkworld">nhk world Japan</channel>
     <channel site="webtv.delta.nl" lang="en" xmltv_id="NHKWorldJapan.jp" site_id="3126">NHK WORLD JAPAN</channel>
-    <channel site="tv2go.t-2.net" lang="sl" xmltv_id="NHKWorldJapan.jp" site_id="1000102">NHK World</channel>
+    <channel site="tv2go.t-2.net" site_id="1000102" lang="sl" xmltv_id="NHKWorldJapan.jp">NHK World</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="AnimaxAsia.sg" site_id="157">Animax</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="BBCNews.uk@AsiaPacific" site_id="332">BBC World News</channel>
     <channel site="mncvision.id" lang="id" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World</channel>
