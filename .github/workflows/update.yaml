@@ -45,7 +45,13 @@ jobs:
           path: "epg"
 
       - name: Filtering the channels
-        run: uv run fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
+        run: |
+          uv run fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
+          uv run fetcher --input channels.json --sites epg/sites/tvguide.myjcom.jp partial/japanterebi@jcom.channels.xml
+          uv run fetcher --input channels.json --sites epg/sites/skyperfectv.co.jp partial/japanterebi@skyperfectv.channels.xml
+          uv run fetcher --input channels.json --sites epg/sites/s.mxtv.jp partial/japanterebi@mxtv.channels.xml
+          uv run fetcher --input channels.json --sites epg/sites/nhkworldpremium.com partial/japanterebi@nhkworldpremium.channels.xml
+          uv run fetcher --input channels.json --sites epg/sites/www3.nhk.or.jp partial/japanterebi@nhk.channels.xml
 
       - uses: actions/setup-node@v4
         with:
@@ -63,7 +69,19 @@ jobs:
       - name: Fetching the programs data
         run: |
           cd epg
-          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@jcom.channels.xml --maxConnections=10 --output="../partial/guide@jcom.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@skyperfectv.channels.xml --maxConnections=10 --output="../partial/guide@skyperfectv.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@mxtv.channels.xml --maxConnections=10 --output="../partial/guide@mxtv.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhkworldpremium.channels.xml --maxConnections=10 --output="../partial/guide@nhkworldpremium.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhk.channels.xml --maxConnections=10 --output="../partial/guide@nhk.xml"
+
+      - name: Concatenate the partial guides
+        run: uv run concatenate ./guide.xml \
+                    --input partial/guide@jcom.xml \
+                    --input partial/guide@skyperfectv.xml \
+                    --input partial/guide@mxtv.xml \
+                    --input partial/guide@nhkworldpremium.xml \
+                    --input partial/guide@nhk.xml
 
       - name: Fixing the document
         run: uv run fix --input guide.xml guide.xml
@@ -89,5 +107,7 @@ jobs:
           git add guide.xml
           git add channels.json
           git add japanterebi.channels.xml
+          git add partial/japanterebi@*.channels.xml
+          git add partial/guide@*.xml
           git commit -am "Automated guide.xml update ($NOW)"
           git push
