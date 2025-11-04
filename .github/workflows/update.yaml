@@ -40,9 +40,9 @@ jobs:
       - name: Downloading the EPG fetchers
         uses: actions/checkout@v4
         with:
-          repository: "iptv-org/epg"
-          # Relative path under $GITHUB_WORKSPACE to place the repository
-          path: "epg"
+          repository: "Animenosekai/epg"
+          ref: "plus"
+          path: "epg" # Relative path under $GITHUB_WORKSPACE to place the repository
 
       - name: Filtering the channels
         run: |
@@ -69,7 +69,7 @@ jobs:
       - name: Fetching the programs data
         run: |
           cd epg
-          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@jcom.channels.xml --maxConnections=10 --output="../partial/guide@jcom.xml"
+          NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@jcom.channels.xml --output="../partial/guide@jcom.xml"
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@skyperfectv.channels.xml --maxConnections=10 --output="../partial/guide@skyperfectv.xml"
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@mxtv.channels.xml --maxConnections=10 --output="../partial/guide@mxtv.xml"
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhkworldpremium.channels.xml --maxConnections=10 --output="../partial/guide@nhkworldpremium.xml"
