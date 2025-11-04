@@ -164,12 +164,17 @@ if [ -d "epg" ]; then
     echo "EPG directory already exists, removing it first..."
     rm -rf epg
 fi
-git clone --depth 1 https://github.com/iptv-org/epg.git epg
+git clone --depth 1 -b plus https://github.com/Animenosekai/epg.git epg
 should_stop "download-epg"
 
 # Step 6: Filter channels
 echo "🔧 Filtering the channels..."
 uv run fetcher --input channels.json --sites epg/sites japanterebi.channels.xml
+uv run fetcher --input channels.json --sites epg/sites/tvguide.myjcom.jp partial/japanterebi@jcom.channels.xml
+uv run fetcher --input channels.json --sites epg/sites/skyperfectv.co.jp partial/japanterebi@skyperfectv.channels.xml
+uv run fetcher --input channels.json --sites epg/sites/s.mxtv.jp partial/japanterebi@mxtv.channels.xml
+uv run fetcher --input channels.json --sites epg/sites/nhkworldpremium.com partial/japanterebi@nhkworldpremium.channels.xml
+uv run fetcher --input channels.json --sites epg/sites/www3.nhk.or.jp partial/japanterebi@nhk.channels.xml
 should_stop "filter-channels"
 
 # Step 7: Install JavaScript dependencies
@@ -182,8 +187,18 @@ should_stop "install-js-deps"
 # Step 8: Fetch programs data
 echo "📺 Fetching the programs data..."
 cd epg
-NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../japanterebi.channels.xml --maxConnections=10 --output="../guide.xml"
+NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@jcom.channels.xml --maxConnections=10 --output="../partial/guide@jcom.xml"
+NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@skyperfectv.channels.xml --maxConnections=10 --output="../partial/guide@skyperfectv.xml"
+NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@mxtv.channels.xml --maxConnections=10 --output="../partial/guide@mxtv.xml"
+NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhkworldpremium.channels.xml --maxConnections=10 --output="../partial/guide@nhkworldpremium.xml"
+NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhk.channels.xml --maxConnections=10 --output="../partial/guide@nhk.xml"
 cd ..
+uv run concatenate  ./guide.xml \
+                    --input partial/guide@jcom.xml \
+                    --input partial/guide@skyperfectv.xml \
+                    --input partial/guide@mxtv.xml \
+                    --input partial/guide@nhkworldpremium.xml \
+                    --input partial/guide@nhk.xml
 should_stop "fetch-programs"
 
 # Step 9: Fix document
@@ -203,8 +218,8 @@ should_stop "minify-xml"
 
 # Step 12: Commit changes
 echo "💾 Committing the new data..."
-git config --global user.name 'Japan Terebi [Local Script]'
-git config --global user.email 'japanterebi@users.noreply.github.com'
+git config user.name 'Japan Terebi [Local Script]'
+git config user.email 'japanterebi@users.noreply.github.com'
 NOW=$(date +'%Y-%m-%dT%H:%M:%S')
 git add guide.xml
 git add channels.json

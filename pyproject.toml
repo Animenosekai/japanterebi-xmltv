@@ -37,6 +37,7 @@ Issues = "https://github.com/Animenosekai/japanterebi-xmltv/issues"
 "fix" = "japanterebi_xmltv.scripts.fix:entry"
 "merger" = "japanterebi_xmltv.scripts.merger:entry"
 "minify" = "japanterebi_xmltv.scripts.minify:entry"
+"concatenate" = "japanterebi_xmltv.scripts.concatenate:entry"
 
 [dependency-groups]
 dev = [

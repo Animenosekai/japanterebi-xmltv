@@ -56,20 +56,34 @@ def main(
     typing.Iterable[pathlib.Path]
     """
     channels_map = {channel.id: channel for channel in channels}
+
+    def process_site(site: pathlib.Path) -> typing.Iterable[str]:
+        for node in get_nodes(site):
+            channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")
+            if channel_id not in channels_map:
+                continue
+
+            if feed_id:
+                if feed_id not in channels_map[channel_id].feeds:
+                    continue
+            elif not channels_map[channel_id].has_main_feed:
+                continue
+
+            yield node.toxml()
+
+    if list(sites.glob("*.channels.xml")) and list(sites.glob("*.config.js")):
+        print(f"Processing single site: {sites}")  # noqa: T201
+        # This is a single site directory
+        yield from process_site(sites)
+        return
+
     for site in tqdm.tqdm(sites.iterdir(), disable=not progress):
-        if site.is_dir():
-            for node in get_nodes(site):
-                channel_id, _, feed_id = node.getAttribute("xmltv_id").partition("@")
-                if channel_id not in channels_map:
-                    continue
-
-                if feed_id:
-                    if feed_id not in channels_map[channel_id].feeds:
-                        continue
-                elif not channels_map[channel_id].has_main_feed:
-                    continue
-
-                yield node.toxml()
+        if (
+            site.is_dir()
+            and list(site.glob("*.channels.xml"))
+            and list(site.glob("*.config.js"))
+        ):
+            yield from process_site(site)
 
 
 def entry() -> None:
