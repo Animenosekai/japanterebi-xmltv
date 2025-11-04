@@ -76,12 +76,7 @@ jobs:
           NODE_OPTIONS=--max-old-space-size=5000 npm run grab -- --channels=../partial/japanterebi@nhk.channels.xml --maxConnections=10 --output="../partial/guide@nhk.xml"
 
       - name: Concatenate the partial guides
-        run: uv run concatenate ./guide.xml \
-                    --input partial/guide@jcom.xml \
-                    --input partial/guide@skyperfectv.xml \
-                    --input partial/guide@mxtv.xml \
-                    --input partial/guide@nhkworldpremium.xml \
-                    --input partial/guide@nhk.xml
+        run: uv run concatenate ./guide.xml --input partial/guide@jcom.xml --input partial/guide@skyperfectv.xml --input partial/guide@mxtv.xml --input partial/guide@nhkworldpremium.xml --input partial/guide@nhk.xml
 
       - name: Fixing the document
         run: uv run fix --input guide.xml guide.xml
