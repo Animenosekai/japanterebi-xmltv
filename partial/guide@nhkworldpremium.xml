@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251115">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20251114150000 +0000" stop="20251114152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251114152900 +0000" stop="20251114153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20251114153000 +0000" stop="20251114161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Kumokiri Nizaemon Final&quot;</title><sub-title lang="en">Eps. 4</sub-title></programme>
 <programme start="20251114161300 +0000" stop="20251114161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
@@ -428,6 +429,7 @@
 <programme start="20251121143000 +0000" stop="20251121144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20251121144000 +0000" stop="20251121144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20251121144500 +0000" stop="20251121152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2025</title></programme>
+<programme start="20251114150000 +0000" stop="20251114152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20251114152900 +0000" stop="20251114153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20251114153000 +0000" stop="20251114161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】雲霧仁左衛門ファイナル</title><sub-title lang="ja">（4）「甲府勤番の名刀」</sub-title></programme>
 <programme start="20251114161300 +0000" stop="20251114161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
