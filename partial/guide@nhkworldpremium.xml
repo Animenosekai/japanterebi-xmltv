@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251121">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
-<programme start="20251120150000 +0000" stop="20251120152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
-<programme start="20251120152900 +0000" stop="20251120153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251120153000 +0000" stop="20251120160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">芸能きわみ堂</title><sub-title lang="ja">沖縄スペシャル第2弾・組踊（くみおどり）を楽しむ</sub-title></programme>
-<programme start="20251120160000 +0000" stop="20251120160500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">まいにちスクスク</title></programme>
-<programme start="20251120160500 +0000" stop="20251120161000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">まいにちスクスク</title></programme>
-<programme start="20251120161000 +0000" stop="20251120161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">浮世絵EDO-LIFE</title></programme>
-<programme start="20251120161500 +0000" stop="20251120164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「明日香と飯尾の」一緒につくるコロッケ</sub-title></programme>
-<programme start="20251120164000 +0000" stop="20251120171000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">将棋フォーカス</title></programme>
-<programme start="20251120171000 +0000" stop="20251120174000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">小雪と発酵おばあちゃん</title><sub-title lang="ja">岐阜・恵那　天空の里でスルメの麹（こうじ）漬け！？</sub-title></programme>
-<programme start="20251120174000 +0000" stop="20251120174500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251120174500 +0000" stop="20251120180000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みいつけた！</title></programme>
-<programme start="20251120180000 +0000" stop="20251120182500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おかあさんといっしょ</title></programme>
-<programme start="20251120182500 +0000" stop="20251120183000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ハロー！NHKワールドJAPAN</title></programme>
-<programme start="20251120183000 +0000" stop="20251120184500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（39）</sub-title></programme>
-<programme start="20251120184500 +0000" stop="20251120193000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あしたが変わるトリセツショー</title><sub-title lang="ja">自律神経！正体・乱れ・整え方すべて見せます</sub-title></programme>
-<programme start="20251120193000 +0000" stop="20251120195800 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Where We Call Home</title><sub-title lang="ja">（アンコール）故郷と決めたニッポンで　人々を結ぶ高原のフェスティバル</sub-title></programme>
-<programme start="20251120195800 +0000" stop="20251120200000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251120200000 +0000" stop="20251120202500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">大相撲　幕内の全取組　九州場所</title></programme>
-<programme start="20251120202500 +0000" stop="20251120205300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Journeys in Japan</title><sub-title lang="ja">（アンコール）冬の織物をめぐる　秋田・山形・新潟</sub-title></programme>
-<programme start="20251120205300 +0000" stop="20251120205600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
-<programme start="20251120205600 +0000" stop="20251120210000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251120210000 +0000" stop="20251120220000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース おはよう日本（6時台）</title></programme>
-<programme start="20251120220000 +0000" stop="20251120230000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース おはよう日本（7時台）</title></programme>
-<programme start="20251120230000 +0000" stop="20251120231500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（40）</sub-title></programme>
-<programme start="20251120231500 +0000" stop="20251121005400 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あさイチ</title></programme>
-<programme start="20251121005400 +0000" stop="20251121005500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251121005500 +0000" stop="20251121010000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなの体操</title></programme>
-<programme start="20251121010000 +0000" stop="20251121010500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
-<programme start="20251121010500 +0000" stop="20251121015500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未解決事件</title><sub-title lang="ja">File.06　詐欺村　国際トクリュウ事件</sub-title></programme>
-<programme start="20251121015500 +0000" stop="20251121022300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ダーウィンが来た！</title><sub-title lang="ja">「密着11年！ワオキツネザル　メスの“友情”物語」</sub-title></programme>
-<programme start="20251121022300 +0000" stop="20251121024600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">うまいッ！</title><sub-title lang="ja">海の幸で育つ！極上の羊肉　～宮城・南三陸町～</sub-title></programme>
-<programme start="20251121024600 +0000" stop="20251121025000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">防災関連ミニ番組</title></programme>
-<programme start="20251121025000 +0000" stop="20251121025600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなのうた</title></programme>
-<programme start="20251121025600 +0000" stop="20251121030000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251121030000 +0000" stop="20251121032000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
-<programme start="20251121032000 +0000" stop="20251121033000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おむすびニッポン</title></programme>
-<programme start="20251121033000 +0000" stop="20251121034500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説・アンコール「とと姉ちゃん」</title><sub-title lang="ja">（140）</sub-title></programme>
-<programme start="20251121034500 +0000" stop="20251121040000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（40）</sub-title></programme>
-<programme start="20251121040000 +0000" stop="20251121040500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
-<programme start="20251121040500 +0000" stop="20251121055000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">列島ニュース</title></programme>
-<programme start="20251121055000 +0000" stop="20251121055500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251121055500 +0000" stop="20251121060000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">名曲アルバム</title></programme>
-<programme start="20251121060000 +0000" stop="20251121061000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
-<programme start="20251121061000 +0000" stop="20251121063000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">中国語！ナビ</title><sub-title lang="ja">（31）「～できます」と言ってみよう／江戸時代人気の「清楽」</sub-title></programme>
-<programme start="20251121063000 +0000" stop="20251121065500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">コネクト</title><sub-title lang="ja">ブラフミエ　松江　怪談を読めば日本人の美学が分かる！？</sub-title></programme>
-<programme start="20251121065500 +0000" stop="20251121090000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">大相撲　九州場所～福岡国際センター～</title><sub-title lang="ja">十三日目</sub-title></programme>
-<programme start="20251121090000 +0000" stop="20251121091000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
-<programme start="20251121091000 +0000" stop="20251121092000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あおきいろ</title></programme>
-<programme start="20251121092000 +0000" stop="20251121093500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">いないいないばあっ！</title></programme>
-<programme start="20251121093500 +0000" stop="20251121100000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おかあさんといっしょ</title></programme>
-<programme start="20251121100000 +0000" stop="20251121103000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース7</title></programme>
-<programme start="20251121103000 +0000" stop="20251121105700 +0000" channel="NHKWorldPremium.jp"><title lang="ja">首都圏情報　ネタドリ！</title><sub-title lang="ja">リスキリングと言うけれど　新たな価値生む　大人の学び</sub-title></programme>
-<programme start="20251121105700 +0000" stop="20251121114300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">チコちゃんに叱られる！</title><sub-title lang="ja">▽ストローの謎▽フクロウの謎▽傘マークの謎</sub-title></programme>
-<programme start="20251121114300 +0000" stop="20251121114500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
-<programme start="20251121114500 +0000" stop="20251121120000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">首都圏ニュース845</title></programme>
-<programme start="20251121120000 +0000" stop="20251121130000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュースウオッチ9</title></programme>
-<programme start="20251121130000 +0000" stop="20251121133000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ドキュメント72時間</title><sub-title lang="ja">選　青森・下北半島　“ワケあり”横丁</sub-title></programme>
-<programme start="20251121133000 +0000" stop="20251121143000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">世界ふれあい街歩き</title><sub-title lang="ja">自然を愛するIT先進の街　タリン　～エストニア～</sub-title></programme>
-<programme start="20251121143000 +0000" stop="20251121144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">時論公論</title></programme>
-<programme start="20251121144000 +0000" stop="20251121144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
-<programme start="20251121144500 +0000" stop="20251121152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">国際報道2025</title></programme>
 <programme start="20251120150000 +0000" stop="20251120152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251120152900 +0000" stop="20251120153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20251120153000 +0000" stop="20251120160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Familiarization with Japanese Traditional Performing Arts</title></programme>
@@ -123,6 +62,67 @@
 <programme start="20251121143000 +0000" stop="20251121144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20251121144000 +0000" stop="20251121144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20251121144500 +0000" stop="20251121152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2025</title></programme>
+<programme start="20251120150000 +0000" stop="20251120152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
+<programme start="20251120152900 +0000" stop="20251120153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251120153000 +0000" stop="20251120160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">芸能きわみ堂</title><sub-title lang="ja">沖縄スペシャル第2弾・組踊（くみおどり）を楽しむ</sub-title></programme>
+<programme start="20251120160000 +0000" stop="20251120160500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">まいにちスクスク</title></programme>
+<programme start="20251120160500 +0000" stop="20251120161000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">まいにちスクスク</title></programme>
+<programme start="20251120161000 +0000" stop="20251120161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">浮世絵EDO-LIFE</title></programme>
+<programme start="20251120161500 +0000" stop="20251120164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「明日香と飯尾の」一緒につくるコロッケ</sub-title></programme>
+<programme start="20251120164000 +0000" stop="20251120171000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">将棋フォーカス</title></programme>
+<programme start="20251120171000 +0000" stop="20251120174000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">小雪と発酵おばあちゃん</title><sub-title lang="ja">岐阜・恵那　天空の里でスルメの麹（こうじ）漬け！？</sub-title></programme>
+<programme start="20251120174000 +0000" stop="20251120174500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251120174500 +0000" stop="20251120180000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みいつけた！</title></programme>
+<programme start="20251120180000 +0000" stop="20251120182500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おかあさんといっしょ</title></programme>
+<programme start="20251120182500 +0000" stop="20251120183000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ハロー！NHKワールドJAPAN</title></programme>
+<programme start="20251120183000 +0000" stop="20251120184500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（39）</sub-title></programme>
+<programme start="20251120184500 +0000" stop="20251120193000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あしたが変わるトリセツショー</title><sub-title lang="ja">自律神経！正体・乱れ・整え方すべて見せます</sub-title></programme>
+<programme start="20251120193000 +0000" stop="20251120195800 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Where We Call Home</title><sub-title lang="ja">（アンコール）故郷と決めたニッポンで　人々を結ぶ高原のフェスティバル</sub-title></programme>
+<programme start="20251120195800 +0000" stop="20251120200000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251120200000 +0000" stop="20251120202500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">大相撲　幕内の全取組　九州場所</title></programme>
+<programme start="20251120202500 +0000" stop="20251120205300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Journeys in Japan</title><sub-title lang="ja">（アンコール）冬の織物をめぐる　秋田・山形・新潟</sub-title></programme>
+<programme start="20251120205300 +0000" stop="20251120205600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
+<programme start="20251120205600 +0000" stop="20251120210000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251120210000 +0000" stop="20251120220000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース おはよう日本（6時台）</title></programme>
+<programme start="20251120220000 +0000" stop="20251120230000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース おはよう日本（7時台）</title></programme>
+<programme start="20251120230000 +0000" stop="20251120231500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（40）</sub-title></programme>
+<programme start="20251120231500 +0000" stop="20251121005400 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あさイチ</title></programme>
+<programme start="20251121005400 +0000" stop="20251121005500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251121005500 +0000" stop="20251121010000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなの体操</title></programme>
+<programme start="20251121010000 +0000" stop="20251121010500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
+<programme start="20251121010500 +0000" stop="20251121015500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未解決事件</title><sub-title lang="ja">File.06　詐欺村　国際トクリュウ事件</sub-title></programme>
+<programme start="20251121015500 +0000" stop="20251121022300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ダーウィンが来た！</title><sub-title lang="ja">「密着11年！ワオキツネザル　メスの“友情”物語」</sub-title></programme>
+<programme start="20251121022300 +0000" stop="20251121024600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">うまいッ！</title><sub-title lang="ja">海の幸で育つ！極上の羊肉　～宮城・南三陸町～</sub-title></programme>
+<programme start="20251121024600 +0000" stop="20251121025000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">防災関連ミニ番組</title></programme>
+<programme start="20251121025000 +0000" stop="20251121025600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなのうた</title></programme>
+<programme start="20251121025600 +0000" stop="20251121030000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251121030000 +0000" stop="20251121032000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
+<programme start="20251121032000 +0000" stop="20251121033000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おむすびニッポン</title></programme>
+<programme start="20251121033000 +0000" stop="20251121034500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説・アンコール「とと姉ちゃん」</title><sub-title lang="ja">（140）</sub-title></programme>
+<programme start="20251121034500 +0000" stop="20251121040000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">連続テレビ小説「ばけばけ」</title><sub-title lang="ja">（40）</sub-title></programme>
+<programme start="20251121040000 +0000" stop="20251121040500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
+<programme start="20251121040500 +0000" stop="20251121055000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">列島ニュース</title></programme>
+<programme start="20251121055000 +0000" stop="20251121055500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251121055500 +0000" stop="20251121060000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">名曲アルバム</title></programme>
+<programme start="20251121060000 +0000" stop="20251121061000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
+<programme start="20251121061000 +0000" stop="20251121063000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">中国語！ナビ</title><sub-title lang="ja">（31）「～できます」と言ってみよう／江戸時代人気の「清楽」</sub-title></programme>
+<programme start="20251121063000 +0000" stop="20251121065500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">コネクト</title><sub-title lang="ja">ブラフミエ　松江　怪談を読めば日本人の美学が分かる！？</sub-title></programme>
+<programme start="20251121065500 +0000" stop="20251121090000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">大相撲　九州場所～福岡国際センター～</title><sub-title lang="ja">十三日目</sub-title></programme>
+<programme start="20251121090000 +0000" stop="20251121091000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース</title></programme>
+<programme start="20251121091000 +0000" stop="20251121092000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">あおきいろ</title></programme>
+<programme start="20251121092000 +0000" stop="20251121093500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">いないいないばあっ！</title></programme>
+<programme start="20251121093500 +0000" stop="20251121100000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おかあさんといっしょ</title></programme>
+<programme start="20251121100000 +0000" stop="20251121103000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKニュース7</title></programme>
+<programme start="20251121103000 +0000" stop="20251121105700 +0000" channel="NHKWorldPremium.jp"><title lang="ja">首都圏情報　ネタドリ！</title><sub-title lang="ja">リスキリングと言うけれど　新たな価値生む　大人の学び</sub-title></programme>
+<programme start="20251121105700 +0000" stop="20251121114300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">チコちゃんに叱られる！</title><sub-title lang="ja">▽ストローの謎▽フクロウの謎▽傘マークの謎</sub-title></programme>
+<programme start="20251121114300 +0000" stop="20251121114500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
+<programme start="20251121114500 +0000" stop="20251121120000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">首都圏ニュース845</title></programme>
+<programme start="20251121120000 +0000" stop="20251121130000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュースウオッチ9</title></programme>
+<programme start="20251121130000 +0000" stop="20251121133000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ドキュメント72時間</title><sub-title lang="ja">選　青森・下北半島　“ワケあり”横丁</sub-title></programme>
+<programme start="20251121133000 +0000" stop="20251121143000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">世界ふれあい街歩き</title><sub-title lang="ja">自然を愛するIT先進の街　タリン　～エストニア～</sub-title></programme>
+<programme start="20251121143000 +0000" stop="20251121144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">時論公論</title></programme>
+<programme start="20251121144000 +0000" stop="20251121144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
+<programme start="20251121144500 +0000" stop="20251121152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">国際報道2025</title></programme>
 <programme start="20251121152900 +0000" stop="20251121153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20251121153000 +0000" stop="20251121161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】雲霧仁左衛門ファイナル</title><sub-title lang="ja">（5）「二万両の策略」</sub-title></programme>
 <programme start="20251121161300 +0000" stop="20251121161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
