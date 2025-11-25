@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251125">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20251124150000 +0000" stop="20251124152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251124152900 +0000" stop="20251124153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20251124153000 +0000" stop="20251124153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Cooking for Beginners</title></programme>
 <programme start="20251124153500 +0000" stop="20251124154000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Cooking for Beginners</title></programme>
@@ -69,6 +70,7 @@
 <programme start="20251125143000 +0000" stop="20251125144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20251125144000 +0000" stop="20251125144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20251125144500 +0000" stop="20251125152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2025</title></programme>
+<programme start="20251124150000 +0000" stop="20251124152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20251124152900 +0000" stop="20251124153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20251124153000 +0000" stop="20251124153500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理ビギナーズ</title></programme>
 <programme start="20251124153500 +0000" stop="20251124154000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理ビギナーズ</title></programme>
