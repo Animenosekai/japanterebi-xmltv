@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251130">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20251129150000 +0000" stop="20251129160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20251129160000 +0000" stop="20251129163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">はやウタ</title><sub-title lang="ja">天童よしみ・知里・津吹みゆ・岡本幸太・SHOW-WA・亜蘭</sub-title></programme>
 <programme start="20251129163000 +0000" stop="20251129170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">神田伯山の演芸図鑑</title><sub-title lang="ja">一龍斎貞鏡　スパイシーガーリック　古今亭菊之丞</sub-title></programme>
 <programme start="20251129170000 +0000" stop="20251129170500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
@@ -59,6 +60,7 @@
 <programme start="20251130134500 +0000" stop="20251130144300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">にっぽん縦断　こころ旅　ゴール！</title><sub-title lang="ja">群馬県</sub-title></programme>
 <programme start="20251130144300 +0000" stop="20251130144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20251130144500 +0000" stop="20251130153500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">サンデースポーツ</title></programme>
+<programme start="20251129150000 +0000" stop="20251129160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251129160000 +0000" stop="20251129163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">HAYAUTA: Songs for Fresh Morning</title></programme>
 <programme start="20251129163000 +0000" stop="20251129170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
 <programme start="20251129170000 +0000" stop="20251129170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
