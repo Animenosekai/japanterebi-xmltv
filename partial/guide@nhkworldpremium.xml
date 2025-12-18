@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251218">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20251217150000 +0000" stop="20251217152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251217152900 +0000" stop="20251217153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20251217153000 +0000" stop="20251217161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Choices on How to Deal with Illness</title></programme>
 <programme start="20251217161500 +0000" stop="20251217164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
@@ -444,6 +445,7 @@
 <programme start="20251224143000 +0000" stop="20251224144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20251224144000 +0000" stop="20251224144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20251224144500 +0000" stop="20251224152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2025</title></programme>
+<programme start="20251217150000 +0000" stop="20251217152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20251217152900 +0000" stop="20251217153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20251217153000 +0000" stop="20251217161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">チョイス＠病気になったとき</title><sub-title lang="ja">選「肩や肘の痛み　原因究明・徹底治療」</sub-title></programme>
 <programme start="20251217161500 +0000" stop="20251217164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「おやつのじかん」極上！ショートケーキ</sub-title></programme>
