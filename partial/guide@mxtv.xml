@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251225">
-<channel id="TokyoMX1.jp"><display-name>Tokyo MX1</display-name><url>https://s.mxtv.jp</url></channel>
-<channel id="TokyoMX2.jp"><display-name>Tokyo MX2</display-name><url>https://s.mxtv.jp</url></channel>
+<channel id="TokyoMX1.jp"><display-name>Tokyo MX1</display-name><icon src="https://i.imgur.com/igia8OX.png"/><url>https://s.mxtv.jp</url></channel>
+<channel id="TokyoMX2.jp"><display-name>Tokyo MX2</display-name><icon src="https://i.imgur.com/SwvuR00.png"/><url>https://s.mxtv.jp</url></channel>
 <programme start="20251224200000 +0000" stop="20251224210000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">レトロな気分</desc></programme>
 <programme start="20251224210000 +0000" stop="20251224220000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">路面電車のある風景 その２</desc></programme>
 <programme start="20251224220000 +0000" stop="20251224220800 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">ねこの足跡＆看板猫編</desc></programme>
@@ -43,8 +43,8 @@
 <programme start="20251225050000 +0000" stop="20251225053000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
 <programme start="20251225053000 +0000" stop="20251225055900 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
 <programme start="20251225055900 +0000" stop="20251225060000 +0000" channel="TokyoMX1.jp"><title lang="ja">フラッシュ天気（初音ミク「マジカルミライ」ｖｅｒ．）</title><desc lang="ja"/></programme>
-<programme start="20251225060000 +0000" stop="20251225060400 +0000" channel="TokyoMX1.jp"><title lang="ja">ＴＯＫＹＯ　ＭＸ　ＮＥＷＳ</title><desc lang="ja">東京の様々なニュースをお伝えします。</desc></programme>
-<programme start="20251225060400 +0000" stop="20251225070000 +0000" channel="TokyoMX1.jp"><title lang="ja">必殺商売人　★第２１話「暴走を操る悪の大暴走」</title><desc lang="ja">“必殺シリーズ”第１２弾！ご存知、中村主水（藤田まこと）６度目の登場。草笛光子、梅宮辰夫、火野正平らとみせる殺しの冴え！</desc></programme>
+<programme start="20251225060000 +0000" stop="20251225060400 +0000" channel="TokyoMX1.jp"><title lang="ja">ＴＯＫＹＯ ＭＸ ＮＥＷＳ</title><desc lang="ja">東京の様々なニュースをお伝えします。</desc></programme>
+<programme start="20251225060400 +0000" stop="20251225070000 +0000" channel="TokyoMX1.jp"><title lang="ja">必殺商売人 ★第２１話「暴走を操る悪の大暴走」</title><desc lang="ja">“必殺シリーズ”第１２弾！ご存知、中村主水（藤田まこと）６度目の登場。草笛光子、梅宮辰夫、火野正平らとみせる殺しの冴え！</desc></programme>
 <programme start="20251225070000 +0000" stop="20251225073000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
 <programme start="20251225073000 +0000" stop="20251225080000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
 <programme start="20251225080000 +0000" stop="20251225083000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
