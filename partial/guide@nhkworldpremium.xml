@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20251231">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20251230150000 +0000" stop="20251230155000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20251230155000 +0000" stop="20251230155500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Cooking for Beginners</title></programme>
 <programme start="20251230155500 +0000" stop="20251230160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Cooking for Beginners</title></programme>
 <programme start="20251230160000 +0000" stop="20251230160500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Cooking for Beginners</title></programme>
@@ -56,6 +57,7 @@
 <programme start="20251231115500 +0000" stop="20251231120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20251231120000 +0000" stop="20251231144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">The 76th NHK Red and White Year-end Song Festival</title><sub-title lang="en">Part 2</sub-title></programme>
 <programme start="20251231144500 +0000" stop="20251231151500 +0000" channel="NHKWorldPremium.jp"><title lang="en">OLD year, NEW year</title></programme>
+<programme start="20251230150000 +0000" stop="20251230155000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20251230155000 +0000" stop="20251230155500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理ビギナーズ</title></programme>
 <programme start="20251230155500 +0000" stop="20251230160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理ビギナーズ</title></programme>
 <programme start="20251230160000 +0000" stop="20251230160500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理ビギナーズ</title></programme>
