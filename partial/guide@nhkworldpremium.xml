@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260112">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260111150000 +0000" stop="20260111154500 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260111154500 +0000" stop="20260111174500 +0000" channel="NHKWorldPremium.jp"><title lang="en">The 62nd Japan University Rugby Football Championship</title><sub-title lang="en">Final &quot;Meiji Univ.&quot; vs &quot;Waseda Univ.&quot; (End time subject to change.)</sub-title></programme>
 <programme start="20260111174500 +0000" stop="20260111175000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260111175000 +0000" stop="20260111175500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
@@ -420,6 +421,7 @@
 <programme start="20260118134500 +0000" stop="20260118144300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journey of the Heart Across Japan-Goal!</title></programme>
 <programme start="20260118144300 +0000" stop="20260118144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260118144500 +0000" stop="20260118153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Sports News</title></programme>
+<programme start="20260111150000 +0000" stop="20260111154500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260111154500 +0000" stop="20260111174500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ラグビー2025</title><sub-title lang="ja">第62回全国大学ラグビー選手権　決勝　「明治」対「早稲田」（延伸の場合あり）</sub-title></programme>
 <programme start="20260111174500 +0000" stop="20260111175000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260111175000 +0000" stop="20260111175500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなのうた</title></programme>
