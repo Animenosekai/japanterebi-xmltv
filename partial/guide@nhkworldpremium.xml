@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260117">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260116150000 +0000" stop="20260116152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260116152900 +0000" stop="20260116153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260116153000 +0000" stop="20260116161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;The Way of Commerce: Gold and Silver 2&quot;</title><sub-title lang="en">Ep. 4</sub-title></programme>
 <programme start="20260116161300 +0000" stop="20260116161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
@@ -293,6 +294,7 @@
 <programme start="20260121143000 +0000" stop="20260121144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20260121144000 +0000" stop="20260121144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260121144500 +0000" stop="20260121152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
+<programme start="20260116150000 +0000" stop="20260116152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260116152900 +0000" stop="20260116153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260116153000 +0000" stop="20260116161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】あきない世傳　金と銀2</title><sub-title lang="ja">（4）「七代目の店主」</sub-title></programme>
 <programme start="20260116161300 +0000" stop="20260116161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
