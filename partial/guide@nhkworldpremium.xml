@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260118">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260117150000 +0000" stop="20260117163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260117163000 +0000" stop="20260117170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
 <programme start="20260117170000 +0000" stop="20260117170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260117170500 +0000" stop="20260117173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Go! Go! Cook R&apos;n</title></programme>
@@ -413,6 +414,7 @@
 <programme start="20260124135500 +0000" stop="20260124140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260124140000 +0000" stop="20260124144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Venue101 Special Edition</title></programme>
 <programme start="20260124144500 +0000" stop="20260124151400 +0000" channel="NHKWorldPremium.jp"><title lang="en">Nonna&apos;s Magical Garden: Kitamura Mitsuyo Living with Herbs</title></programme>
+<programme start="20260117150000 +0000" stop="20260117163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260117163000 +0000" stop="20260117170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">桂文珍の演芸図鑑</title><sub-title lang="ja">選　千昌夫　タブレット純　春風亭一朝</sub-title></programme>
 <programme start="20260117170000 +0000" stop="20260117170500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260117170500 +0000" stop="20260117173000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ゴー！ゴー！キッチン戦隊クックルン</title></programme>
