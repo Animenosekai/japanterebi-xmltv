@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260119">
 <channel id="TokyoMX1.jp"><display-name>Tokyo MX1</display-name><icon src="https://i.imgur.com/igia8OX.png"/><url>https://s.mxtv.jp</url></channel>
 <channel id="TokyoMX2.jp"><display-name>Tokyo MX2</display-name><icon src="https://i.imgur.com/SwvuR00.png"/><url>https://s.mxtv.jp</url></channel>
+<programme start="20260118200000 +0000" stop="20260118200500 +0000" channel="TokyoMX1.jp"><title lang="ja">ハッピーナッチョイ！</title><desc lang="ja">「コロナが明けたら、出掛けよう、誰かに会いに行こう」のメッセージを込めたミニアニメ！作品を通じてコロナ禍の子どもたちを応援します！</desc></programme>
+<programme start="20260118200500 +0000" stop="20260118210000 +0000" channel="TokyoMX1.jp"><title lang="ja">ショムニ ★第５話「ご懐妊だが、父親不明」</title><desc lang="ja">「ショムニ＝庶務２課」で起こる事件を風刺感覚いっぱい、コミカルに描く人気ＯＬドラマ！</desc></programme>
+<programme start="20260118210000 +0000" stop="20260118220000 +0000" channel="TokyoMX1.jp"><title lang="ja">ショップチャンネル お買い物エンターテインメント</title><desc lang="ja">国内外の商品を生放送でご紹介。ここでしか買えないレアなアイテムや、人気のブランドのアイテムなど、バラエティ豊かに登場しますので、お見逃しなく！</desc></programme>
+<programme start="20260118220000 +0000" stop="20260118223000 +0000" channel="TokyoMX1.jp"><title lang="ja">【生】Ｗａｋｅ Ｕｐ ７ ★顔の見えるニュース番組！２０２６年の「食のトレンド」は？</title><desc lang="ja">２０２６年の「食のトレンド」は？▼「手軽さ」と「日々の健康」がキーワード？▼“顔の見える”ニュースで社会とあなたをつなぐ！▼出演は久保田修平とＴＯＫＹＯ ＭＸ記者の牧田更！</desc></programme>
+<programme start="20260118223000 +0000" stop="20260118230000 +0000" channel="TokyoMX1.jp"><title lang="ja">おとな旅あるき旅 ★大阪・泉州</title><desc lang="ja"/></programme>
+<programme start="20260118230000 +0000" stop="20260118233000 +0000" channel="TokyoMX1.jp"><title lang="ja">お買い物情報</title><desc lang="ja"/></programme>
+<programme start="20260118233000 +0000" stop="20260119000000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
+<programme start="20260119000000 +0000" stop="20260119010000 +0000" channel="TokyoMX1.jp"><title lang="ja">【新】恋心は玉の如き ★第１話「３年ぶりの帰宅」〔字幕スーパー〕</title><desc lang="ja">「孤高の花～Ｇｅｎｅｒａｌ＆Ｉ～」ウォレス・チョン×「花様衛士～ロイヤル・ミッション～」タン・ソンユン ２大トップスター夢の共演！</desc></programme>
+<programme start="20260119010000 +0000" stop="20260119013000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
+<programme start="20260119013000 +0000" stop="20260119020000 +0000" channel="TokyoMX1.jp"><title lang="ja">お買い物情報</title><desc lang="ja"/></programme>
+<programme start="20260119020000 +0000" stop="20260119020400 +0000" channel="TokyoMX1.jp"><title lang="ja">ＴＯＫＹＯ ＭＸ ＮＥＷＳ</title><desc lang="ja">東京の様々なニュースをお伝えします。</desc></programme>
+<programme start="20260119020400 +0000" stop="20260119030000 +0000" channel="TokyoMX1.jp"><title lang="ja">星漢燦爛＜せいかんさんらん＞ ★第３話「母屋の主」〔字幕スーパー〕</title><desc lang="ja">求めたのは、ただ一つの愛ーー。復讐に生きる若き将軍と運命から自由になろうとするヒロインが織りなす大河ロマンス</desc></programme>
+<programme start="20260119030000 +0000" stop="20260119033000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
+<programme start="20260119033000 +0000" stop="20260119150000 +0000" channel="TokyoMX1.jp"><title lang="ja">放送休止中</title></programme>
 <programme start="20260118200000 +0000" stop="20260118210000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">レトロな気分</desc></programme>
 <programme start="20260118210000 +0000" stop="20260118220000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">路面電車のある風景 その２</desc></programme>
 <programme start="20260118220000 +0000" stop="20260118220800 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">ねこの足跡＆看板猫編</desc></programme>
@@ -32,13 +46,4 @@
 <programme start="20260119170000 +0000" stop="20260119180000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">東京ＢＡＹクルーズ</desc></programme>
 <programme start="20260119180000 +0000" stop="20260119190000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">江戸川区自然動物園</desc></programme>
 <programme start="20260119190000 +0000" stop="20260119200000 +0000" channel="TokyoMX2.jp"><title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title><desc lang="ja">東京点描 城西２</desc></programme>
-<programme start="20260118200000 +0000" stop="20260118200500 +0000" channel="TokyoMX1.jp"><title lang="ja">ハッピーナッチョイ！</title><desc lang="ja">「コロナが明けたら、出掛けよう、誰かに会いに行こう」のメッセージを込めたミニアニメ！作品を通じてコロナ禍の子どもたちを応援します！</desc></programme>
-<programme start="20260118200500 +0000" stop="20260118210000 +0000" channel="TokyoMX1.jp"><title lang="ja">ショムニ ★第５話「ご懐妊だが、父親不明」</title><desc lang="ja">「ショムニ＝庶務２課」で起こる事件を風刺感覚いっぱい、コミカルに描く人気ＯＬドラマ！</desc></programme>
-<programme start="20260118210000 +0000" stop="20260118220000 +0000" channel="TokyoMX1.jp"><title lang="ja">ショップチャンネル お買い物エンターテインメント</title><desc lang="ja">国内外の商品を生放送でご紹介。ここでしか買えないレアなアイテムや、人気のブランドのアイテムなど、バラエティ豊かに登場しますので、お見逃しなく！</desc></programme>
-<programme start="20260118220000 +0000" stop="20260118223000 +0000" channel="TokyoMX1.jp"><title lang="ja">【生】Ｗａｋｅ Ｕｐ ７ ★顔の見えるニュース番組！２０２６年の「食のトレンド」は？</title><desc lang="ja">２０２６年の「食のトレンド」は？▼「手軽さ」と「日々の健康」がキーワード？▼“顔の見える”ニュースで社会とあなたをつなぐ！▼出演は久保田修平とＴＯＫＹＯ ＭＸ記者の牧田更！</desc></programme>
-<programme start="20260118223000 +0000" stop="20260118230000 +0000" channel="TokyoMX1.jp"><title lang="ja">おとな旅あるき旅 ★大阪・泉州</title><desc lang="ja"/></programme>
-<programme start="20260118230000 +0000" stop="20260118233000 +0000" channel="TokyoMX1.jp"><title lang="ja">お買い物情報</title><desc lang="ja"/></programme>
-<programme start="20260118233000 +0000" stop="20260119000000 +0000" channel="TokyoMX1.jp"><title lang="ja">ＭＸショッピング</title><desc lang="ja"/></programme>
-<programme start="20260119000000 +0000" stop="20260119010000 +0000" channel="TokyoMX1.jp"><title lang="ja">【新】恋心は玉の如き ★第１話「３年ぶりの帰宅」〔字幕スーパー〕</title><desc lang="ja">「孤高の花～Ｇｅｎｅｒａｌ＆Ｉ～」ウォレス・チョン×「花様衛士～ロイヤル・ミッション～」タン・ソンユン ２大トップスター夢の共演！</desc></programme>
-<programme start="20260119010000 +0000" stop="20260119150000 +0000" channel="TokyoMX1.jp"><title lang="ja">放送休止中</title></programme>
 </tv>
