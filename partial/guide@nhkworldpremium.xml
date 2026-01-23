@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260123">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
-<programme start="20260122152900 +0000" stop="20260122153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260122153000 +0000" stop="20260122160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Familiarization with Japanese Traditional Performing Arts</title></programme>
-<programme start="20260122160000 +0000" stop="20260122160500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Child-Rearing Hints &amp; Tips mini</title></programme>
-<programme start="20260122160500 +0000" stop="20260122161000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Child-Rearing Hints &amp; Tips mini</title></programme>
-<programme start="20260122161000 +0000" stop="20260122161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ukiyoe EDO-LIFE</title></programme>
-<programme start="20260122161500 +0000" stop="20260122164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
-<programme start="20260122164000 +0000" stop="20260122171000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Shogi Focus</title></programme>
-<programme start="20260122171000 +0000" stop="20260122174000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Actor Koyuki and the Fermenting Master, Grandma</title></programme>
-<programme start="20260122174000 +0000" stop="20260122174500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260122174500 +0000" stop="20260122180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Kid&apos;s Discovery</title></programme>
-<programme start="20260122180000 +0000" stop="20260122182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
-<programme start="20260122182500 +0000" stop="20260122183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Hello! NHK WORLD-JAPAN</title></programme>
-<programme start="20260122183000 +0000" stop="20260122184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 79</sub-title></programme>
-<programme start="20260122184500 +0000" stop="20260122193000 +0000" channel="NHKWorldPremium.jp"><title lang="en">The &quot;Instruction Manual&quot; Show</title><sub-title lang="en">&quot;Numbness&quot;</sub-title></programme>
-<programme start="20260122193000 +0000" stop="20260122195800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Where We Call Home</title><sub-title lang="en">Encore</sub-title></programme>
-<programme start="20260122195800 +0000" stop="20260122200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260122200000 +0000" stop="20260122202500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Grand Sumo 2026 January Tournament Highlights</title></programme>
-<programme start="20260122202500 +0000" stop="20260122205300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journeys in Japan</title><sub-title lang="en">Encore</sub-title></programme>
-<programme start="20260122205300 +0000" stop="20260122205600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260122205600 +0000" stop="20260122210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260122210000 +0000" stop="20260122220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
-<programme start="20260122220000 +0000" stop="20260122230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
-<programme start="20260122230000 +0000" stop="20260122231500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 80</sub-title></programme>
-<programme start="20260122231500 +0000" stop="20260123005400 +0000" channel="NHKWorldPremium.jp"><title lang="en">asaichi</title></programme>
-<programme start="20260123005400 +0000" stop="20260123005500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260123005500 +0000" stop="20260123010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Exercise for Everyone</title></programme>
-<programme start="20260123010000 +0000" stop="20260123010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260123010500 +0000" stop="20260123015500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Unsolved Cases</title><sub-title lang="en">File.11: The Massive Bitcoin Heist</sub-title></programme>
-<programme start="20260123015500 +0000" stop="20260123022300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;Red Crossbill&quot;</sub-title></programme>
-<programme start="20260123022300 +0000" stop="20260123024600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
-<programme start="20260123024600 +0000" stop="20260123025000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260123025000 +0000" stop="20260123025600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
-<programme start="20260123025600 +0000" stop="20260123030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260123030000 +0000" stop="20260123032000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260123032000 +0000" stop="20260123033000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Local Exquisite Omusubi</title></programme>
-<programme start="20260123033000 +0000" stop="20260123034500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;Massan&quot; Encore</title><sub-title lang="en">Ep. 20</sub-title></programme>
-<programme start="20260123034500 +0000" stop="20260123040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 80</sub-title></programme>
-<programme start="20260123040000 +0000" stop="20260123045000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260123045000 +0000" stop="20260123045500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260123045500 +0000" stop="20260123055000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Around Japan</title></programme>
-<programme start="20260123055000 +0000" stop="20260123055500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260123055500 +0000" stop="20260123060000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Music Album</title></programme>
-<programme start="20260123060000 +0000" stop="20260123061000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260123061000 +0000" stop="20260123063000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Chinese Navi</title></programme>
-<programme start="20260123063000 +0000" stop="20260123065500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Dear Japan</title></programme>
-<programme start="20260123065500 +0000" stop="20260123090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Grand Sumo 2026 January Tournament at Kokugikan</title></programme>
-<programme start="20260123090000 +0000" stop="20260123091000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260123091000 +0000" stop="20260123092000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Blue &amp; Yellow 10min</title></programme>
-<programme start="20260123092000 +0000" stop="20260123093500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Peek-a-boo</title></programme>
-<programme start="20260123093500 +0000" stop="20260123100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
-<programme start="20260123100000 +0000" stop="20260123105700 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
-<programme start="20260123105700 +0000" stop="20260123114300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Trivia Quizzes--You&apos;ll Get Scolded by Chiko-chan!</title></programme>
-<programme start="20260123114300 +0000" stop="20260123114500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260123114500 +0000" stop="20260123120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 845</title></programme>
-<programme start="20260123120000 +0000" stop="20260123130000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Watch 9</title></programme>
-<programme start="20260123130000 +0000" stop="20260123133000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Document 72 Hours</title></programme>
-<programme start="20260123133000 +0000" stop="20260123143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Somewhere Street</title></programme>
-<programme start="20260123143000 +0000" stop="20260123144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
-<programme start="20260123144000 +0000" stop="20260123144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260123144500 +0000" stop="20260123152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
 <programme start="20260122152900 +0000" stop="20260122153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260122153000 +0000" stop="20260122160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">芸能きわみ堂</title><sub-title lang="ja">選　沖縄スペシャル第1弾・これが琉球舞踊だ！</sub-title></programme>
 <programme start="20260122160000 +0000" stop="20260122160500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">まいにちスクスク</title></programme>
@@ -121,6 +61,66 @@
 <programme start="20260123143000 +0000" stop="20260123144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">時論公論</title></programme>
 <programme start="20260123144000 +0000" stop="20260123144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
 <programme start="20260123144500 +0000" stop="20260123152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">国際報道2026</title></programme>
+<programme start="20260122152900 +0000" stop="20260122153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260122153000 +0000" stop="20260122160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Familiarization with Japanese Traditional Performing Arts</title></programme>
+<programme start="20260122160000 +0000" stop="20260122160500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Child-Rearing Hints &amp; Tips mini</title></programme>
+<programme start="20260122160500 +0000" stop="20260122161000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Child-Rearing Hints &amp; Tips mini</title></programme>
+<programme start="20260122161000 +0000" stop="20260122161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ukiyoe EDO-LIFE</title></programme>
+<programme start="20260122161500 +0000" stop="20260122164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
+<programme start="20260122164000 +0000" stop="20260122171000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Shogi Focus</title></programme>
+<programme start="20260122171000 +0000" stop="20260122174000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Actor Koyuki and the Fermenting Master, Grandma</title></programme>
+<programme start="20260122174000 +0000" stop="20260122174500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260122174500 +0000" stop="20260122180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Kid&apos;s Discovery</title></programme>
+<programme start="20260122180000 +0000" stop="20260122182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
+<programme start="20260122182500 +0000" stop="20260122183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Hello! NHK WORLD-JAPAN</title></programme>
+<programme start="20260122183000 +0000" stop="20260122184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 79</sub-title></programme>
+<programme start="20260122184500 +0000" stop="20260122193000 +0000" channel="NHKWorldPremium.jp"><title lang="en">The &quot;Instruction Manual&quot; Show</title><sub-title lang="en">&quot;Numbness&quot;</sub-title></programme>
+<programme start="20260122193000 +0000" stop="20260122195800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Where We Call Home</title><sub-title lang="en">Encore</sub-title></programme>
+<programme start="20260122195800 +0000" stop="20260122200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260122200000 +0000" stop="20260122202500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Grand Sumo 2026 January Tournament Highlights</title></programme>
+<programme start="20260122202500 +0000" stop="20260122205300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journeys in Japan</title><sub-title lang="en">Encore</sub-title></programme>
+<programme start="20260122205300 +0000" stop="20260122205600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260122205600 +0000" stop="20260122210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260122210000 +0000" stop="20260122220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
+<programme start="20260122220000 +0000" stop="20260122230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
+<programme start="20260122230000 +0000" stop="20260122231500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 80</sub-title></programme>
+<programme start="20260122231500 +0000" stop="20260123005400 +0000" channel="NHKWorldPremium.jp"><title lang="en">asaichi</title></programme>
+<programme start="20260123005400 +0000" stop="20260123005500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260123005500 +0000" stop="20260123010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Exercise for Everyone</title></programme>
+<programme start="20260123010000 +0000" stop="20260123010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260123010500 +0000" stop="20260123015500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Unsolved Cases</title><sub-title lang="en">File.11: The Massive Bitcoin Heist</sub-title></programme>
+<programme start="20260123015500 +0000" stop="20260123022300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;Red Crossbill&quot;</sub-title></programme>
+<programme start="20260123022300 +0000" stop="20260123024600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
+<programme start="20260123024600 +0000" stop="20260123025000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260123025000 +0000" stop="20260123025600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
+<programme start="20260123025600 +0000" stop="20260123030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260123030000 +0000" stop="20260123032000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260123032000 +0000" stop="20260123033000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Local Exquisite Omusubi</title></programme>
+<programme start="20260123033000 +0000" stop="20260123034500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;Massan&quot; Encore</title><sub-title lang="en">Ep. 20</sub-title></programme>
+<programme start="20260123034500 +0000" stop="20260123040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Ghost Writer&apos;s Wife&quot;</title><sub-title lang="en">Ep. 80</sub-title></programme>
+<programme start="20260123040000 +0000" stop="20260123045000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260123045000 +0000" stop="20260123045500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260123045500 +0000" stop="20260123055000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Around Japan</title></programme>
+<programme start="20260123055000 +0000" stop="20260123055500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260123055500 +0000" stop="20260123060000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Music Album</title></programme>
+<programme start="20260123060000 +0000" stop="20260123061000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260123061000 +0000" stop="20260123063000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Chinese Navi</title></programme>
+<programme start="20260123063000 +0000" stop="20260123065500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Dear Japan</title></programme>
+<programme start="20260123065500 +0000" stop="20260123090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Grand Sumo 2026 January Tournament at Kokugikan</title></programme>
+<programme start="20260123090000 +0000" stop="20260123091000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260123091000 +0000" stop="20260123092000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Blue &amp; Yellow 10min</title></programme>
+<programme start="20260123092000 +0000" stop="20260123093500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Peek-a-boo</title></programme>
+<programme start="20260123093500 +0000" stop="20260123100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
+<programme start="20260123100000 +0000" stop="20260123105700 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
+<programme start="20260123105700 +0000" stop="20260123114300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Trivia Quizzes--You&apos;ll Get Scolded by Chiko-chan!</title></programme>
+<programme start="20260123114300 +0000" stop="20260123114500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260123114500 +0000" stop="20260123120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 845</title></programme>
+<programme start="20260123120000 +0000" stop="20260123130000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Watch 9</title></programme>
+<programme start="20260123130000 +0000" stop="20260123133000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Document 72 Hours</title></programme>
+<programme start="20260123133000 +0000" stop="20260123143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Somewhere Street</title></programme>
+<programme start="20260123143000 +0000" stop="20260123144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
+<programme start="20260123144000 +0000" stop="20260123144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260123144500 +0000" stop="20260123152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
 <programme start="20260123152900 +0000" stop="20260123153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260123153000 +0000" stop="20260123161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】あきない世傳　金と銀2</title><sub-title lang="ja">（5）「いざ！討ち入り」</sub-title></programme>
 <programme start="20260123161300 +0000" stop="20260123161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">在外投票のお知らせ</title></programme>
