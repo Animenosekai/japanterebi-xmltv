@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260126">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
-<programme start="20260125153500 +0000" stop="20260125162000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Takatsuki City, Osaka Prefecture&quot;</sub-title></programme>
+<programme start="20260125153100 +0000" stop="20260125153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260125153500 +0000" stop="20260125161700 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Takatsuki City, Osaka Prefecture&quot;</sub-title></programme>
+<programme start="20260125161700 +0000" stop="20260125162000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
 <programme start="20260125162000 +0000" stop="20260125162500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260125162500 +0000" stop="20260125163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
 <programme start="20260125163000 +0000" stop="20260125173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">ETV Special</title><sub-title lang="en">&quot;The World Is Filled with Words&quot;</sub-title></programme>
@@ -66,7 +68,9 @@
 <programme start="20260126143000 +0000" stop="20260126144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20260126144000 +0000" stop="20260126144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260126144500 +0000" stop="20260126152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
-<programme start="20260125153500 +0000" stop="20260125162000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKのど自慢</title><sub-title lang="ja">大阪から生放送！▽天童よしみ・徳永ゆうき～高槻城公園芸術文化劇場南館トリシマホールから中継～</sub-title></programme>
+<programme start="20260125153100 +0000" stop="20260125153500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
+<programme start="20260125153500 +0000" stop="20260125161700 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKのど自慢</title><sub-title lang="ja">大阪から生放送！▽天童よしみ・徳永ゆうき～高槻城公園芸術文化劇場南館トリシマホールから中継～</sub-title></programme>
+<programme start="20260125161700 +0000" stop="20260125162000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
 <programme start="20260125162000 +0000" stop="20260125162500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260125162500 +0000" stop="20260125163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">みんなのうた</title></programme>
 <programme start="20260125163000 +0000" stop="20260125173000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ETV特集</title><sub-title lang="ja">世界はことばで満ちている</sub-title></programme>
