@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260226">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260225150000 +0000" stop="20260225152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260225152900 +0000" stop="20260225153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260225153000 +0000" stop="20260225155700 +0000" channel="NHKWorldPremium.jp"><title lang="en">Friday Night Akita</title></programme>
 <programme start="20260225155700 +0000" stop="20260225160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
@@ -74,6 +75,7 @@
 <programme start="20260226143000 +0000" stop="20260226144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20260226144000 +0000" stop="20260226144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260226144500 +0000" stop="20260226152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
+<programme start="20260225150000 +0000" stop="20260225152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260225152900 +0000" stop="20260225153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260225153000 +0000" stop="20260225155700 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きんよる秋田</title><sub-title lang="ja">ふたりの42歳　最後の花輪ばやし</sub-title></programme>
 <programme start="20260225155700 +0000" stop="20260225160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
