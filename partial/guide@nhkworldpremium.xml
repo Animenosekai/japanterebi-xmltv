@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260311">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260310150000 +0000" stop="20260310152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260310152900 +0000" stop="20260310153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260310153000 +0000" stop="20260310161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Lifestyle Lab for The Prime Generation</title></programme>
 <programme start="20260310161500 +0000" stop="20260310164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
@@ -412,6 +413,7 @@
 <programme start="20260315134000 +0000" stop="20260315134500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260315134500 +0000" stop="20260315144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Special Program</title></programme>
 <programme start="20260315144500 +0000" stop="20260315153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Sports News</title></programme>
+<programme start="20260310150000 +0000" stop="20260310152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260310152900 +0000" stop="20260310153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260310153000 +0000" stop="20260310161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">おとな時間研究所</title><sub-title lang="ja">奥深いコーヒーの世界</sub-title></programme>
 <programme start="20260310161500 +0000" stop="20260310164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「上田淳子の極上うちごはん」技あり！肉おかず</sub-title></programme>
