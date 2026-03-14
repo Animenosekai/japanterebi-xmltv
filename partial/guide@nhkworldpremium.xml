@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260314">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260313150000 +0000" stop="20260313152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260313152900 +0000" stop="20260313153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260313153000 +0000" stop="20260313161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep.4</sub-title></programme>
 <programme start="20260313161300 +0000" stop="20260313161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
@@ -56,6 +57,7 @@
 <programme start="20260314135500 +0000" stop="20260314140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260314140000 +0000" stop="20260314144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Venue101 Expanded Edition</title></programme>
 <programme start="20260314144500 +0000" stop="20260314153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">His Majesty the Emperor Emeritus&apos;s Research on Gobies</title></programme>
+<programme start="20260313150000 +0000" stop="20260313152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260313152900 +0000" stop="20260313153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260313153000 +0000" stop="20260313161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】茂七の事件簿・新ふしぎ草紙</title><sub-title lang="ja">（4）「消えずの行灯」</sub-title></programme>
 <programme start="20260313161300 +0000" stop="20260313161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
