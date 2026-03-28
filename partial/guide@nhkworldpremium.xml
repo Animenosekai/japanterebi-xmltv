@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260328">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260327150000 +0000" stop="20260327152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260327152900 +0000" stop="20260327153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260327153000 +0000" stop="20260327161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep. 6</sub-title></programme>
 <programme start="20260327161500 +0000" stop="20260327164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">My Gardening</title></programme>
@@ -67,6 +68,7 @@
 <programme start="20260328135500 +0000" stop="20260328140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260328140000 +0000" stop="20260328143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Let&apos;s Go for the Property Viewing Together</title><sub-title lang="en">&quot;Lyon&quot;</sub-title></programme>
 <programme start="20260328143000 +0000" stop="20260328153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Somewhere Street</title><sub-title lang="en">&quot;Christchurch, New Zealand&quot;</sub-title></programme>
+<programme start="20260327150000 +0000" stop="20260327152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260327152900 +0000" stop="20260327153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260327153000 +0000" stop="20260327161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】茂七の事件簿・新ふしぎ草紙</title><sub-title lang="ja">（6）「紙吹雪」</sub-title></programme>
 <programme start="20260327161500 +0000" stop="20260327164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">趣味の園芸</title><sub-title lang="ja">植物園 これ､かっこイイぜ！熱帯ドリームセンター</sub-title></programme>
