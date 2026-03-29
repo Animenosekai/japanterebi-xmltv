@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260329">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260328150000 +0000" stop="20260328153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260328153000 +0000" stop="20260328163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip: Northern Line, State Railway of Thailand</title><sub-title lang="en">Part 3</sub-title></programme>
 <programme start="20260328163000 +0000" stop="20260328170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
 <programme start="20260328170000 +0000" stop="20260328173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Natsui Itsuki&apos;s Haiku Trip!</title><sub-title lang="en">&quot;Iwaki, Fukushima&quot;</sub-title></programme>
@@ -59,6 +60,7 @@
 <programme start="20260329143500 +0000" stop="20260329144300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Train Driver&apos;s Cab View Mini</title></programme>
 <programme start="20260329144300 +0000" stop="20260329144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260329144500 +0000" stop="20260329153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Sports News</title></programme>
+<programme start="20260328150000 +0000" stop="20260328153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260328153000 +0000" stop="20260328163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">六角精児の呑み鉄本線・世界旅</title><sub-title lang="ja">タイ国鉄・北本線を呑む！チェンマイ到着編</sub-title></programme>
 <programme start="20260328163000 +0000" stop="20260328170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">林家正蔵の演芸図鑑</title><sub-title lang="ja">新妻聖子　宮田陽・昇　林家正蔵</sub-title></programme>
 <programme start="20260328170000 +0000" stop="20260328173000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">夏井いつきのよみ旅！</title><sub-title lang="ja">いわき編　“フラのまち”	には夢がある！</sub-title></programme>
