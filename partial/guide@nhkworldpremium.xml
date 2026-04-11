@@ -1,74 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260411">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
-<programme start="20260410152900 +0000" stop="20260410153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260410153000 +0000" stop="20260410161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep. 8</sub-title></programme>
-<programme start="20260410161300 +0000" stop="20260410161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260410161500 +0000" stop="20260410164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">My Gardening</title></programme>
-<programme start="20260410164000 +0000" stop="20260410171000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Go Focus</title></programme>
-<programme start="20260410171000 +0000" stop="20260410173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Chinese Navi</title></programme>
-<programme start="20260410173000 +0000" stop="20260410174000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Real-Life Travel English</title></programme>
-<programme start="20260410174000 +0000" stop="20260410174500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260410174500 +0000" stop="20260410180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Kid&apos;s Discovery</title></programme>
-<programme start="20260410180000 +0000" stop="20260410182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
-<programme start="20260410182500 +0000" stop="20260410183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Okinawa Dialects</title></programme>
-<programme start="20260410183000 +0000" stop="20260410184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Ep. 10</sub-title></programme>
-<programme start="20260410184500 +0000" stop="20260410193000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Drama &quot;Owakare Hospital 2&quot;</title><sub-title lang="en">Part 1 (New)</sub-title></programme>
-<programme start="20260410193000 +0000" stop="20260410193500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Camera-eyed Japan</title></programme>
-<programme start="20260410193500 +0000" stop="20260410195800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
-<programme start="20260410195800 +0000" stop="20260410200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260410200000 +0000" stop="20260410201000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TV Exercise</title></programme>
-<programme start="20260410201000 +0000" stop="20260410202500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Natural Grandeur of the East</title></programme>
-<programme start="20260410202500 +0000" stop="20260410205200 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Regional Showcases: Shinshu Special</title></programme>
-<programme start="20260410205200 +0000" stop="20260410205500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260410205500 +0000" stop="20260410210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260410210000 +0000" stop="20260410220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
-<programme start="20260410220000 +0000" stop="20260410225900 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
-<programme start="20260410225900 +0000" stop="20260410230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260410230000 +0000" stop="20260410231500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
-<programme start="20260410231500 +0000" stop="20260411000000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Trivia Quizzes--You&apos;ll Get Scolded by Chiko-chan!</title></programme>
-<programme start="20260411000000 +0000" stop="20260411002800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;20th Anniversary Special&quot;</sub-title></programme>
-<programme start="20260411002800 +0000" stop="20260411003000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260411003000 +0000" stop="20260411010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Document 72 Hours</title></programme>
-<programme start="20260411010000 +0000" stop="20260411010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260411010500 +0000" stop="20260411013300 +0000" channel="NHKWorldPremium.jp"><title lang="en">HIMU-BUS! - Pickup Bus Variety Show</title></programme>
-<programme start="20260411013300 +0000" stop="20260411020600 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Visualization Entertainment: Go! Kaneo-kun</title></programme>
-<programme start="20260411020600 +0000" stop="20260411023000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
-<programme start="20260411023000 +0000" stop="20260411025000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Documentary: 20 Minutes</title></programme>
-<programme start="20260411025000 +0000" stop="20260411025600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
-<programme start="20260411025600 +0000" stop="20260411030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411030000 +0000" stop="20260411031500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260411031500 +0000" stop="20260411034000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Exploring Factories</title></programme>
-<programme start="20260411034000 +0000" stop="20260411034500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Okinawa Dialects</title></programme>
-<programme start="20260411034500 +0000" stop="20260411040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
-<programme start="20260411040000 +0000" stop="20260411040500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260411040500 +0000" stop="20260411045000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Historical Drama &quot;BROTHERS IN ARMS&quot;</title><sub-title lang="en">Ep. 13</sub-title></programme>
-<programme start="20260411045000 +0000" stop="20260411053500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip:</title><sub-title lang="en">Sangi Railway, Kintetsu Railway &amp; Yokkaichi Asunarou Railway</sub-title></programme>
-<programme start="20260411053500 +0000" stop="20260411062000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip:</title><sub-title lang="en">Kintetsu Railway Yamada Line, Toba Line &amp; Shima Line</sub-title></programme>
-<programme start="20260411062000 +0000" stop="20260411075000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Solo Trip to Hot Springs</title><sub-title lang="en">&quot;Hokkaido&quot;</sub-title></programme>
-<programme start="20260411075000 +0000" stop="20260411080000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals 10min.</title></programme>
-<programme start="20260411080000 +0000" stop="20260411082700 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Regional Showcases: Shinshu Special</title></programme>
-<programme start="20260411082700 +0000" stop="20260411083000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260411083000 +0000" stop="20260411083500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
-<programme start="20260411083500 +0000" stop="20260411085900 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
-<programme start="20260411085900 +0000" stop="20260411090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">1-Minute Anime: Songs for SDGs</title></programme>
-<programme start="20260411090000 +0000" stop="20260411090500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260411090500 +0000" stop="20260411093500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Tokoro-san&apos;s Pursuit of Truth</title></programme>
-<programme start="20260411093500 +0000" stop="20260411094500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Japanese</title></programme>
-<programme start="20260411094500 +0000" stop="20260411095500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Let&apos;s Enjoy English and Meets the World</title></programme>
-<programme start="20260411095500 +0000" stop="20260411100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411100000 +0000" stop="20260411103000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
-<programme start="20260411103000 +0000" stop="20260411110700 +0000" channel="NHKWorldPremium.jp"><title lang="en">Strolling with Tamori</title></programme>
-<programme start="20260411110700 +0000" stop="20260411115300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Project X: The Challengers-New Beginnings</title><sub-title lang="en">&quot;The Grounding of Kaiwomaru&quot;</sub-title></programme>
-<programme start="20260411115300 +0000" stop="20260411115500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411115500 +0000" stop="20260411120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260411120000 +0000" stop="20260411130000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Watch 9</title></programme>
-<programme start="20260411130000 +0000" stop="20260411134500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Drama &quot;Owakare Hospital 2&quot;</title><sub-title lang="en">Part 2 (Final)</sub-title></programme>
-<programme start="20260411134500 +0000" stop="20260411134900 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260411134900 +0000" stop="20260411135500 +0000" channel="NHKWorldPremium.jp"><title lang="en">This World is Filled with Wants 5min.</title></programme>
-<programme start="20260411135500 +0000" stop="20260411140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260411140000 +0000" stop="20260411143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Venue101</title></programme>
-<programme start="20260411143000 +0000" stop="20260411160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Solo Trip to Hot Springs</title><sub-title lang="en">&quot;Hokkaido&quot;</sub-title></programme>
 <programme start="20260410152900 +0000" stop="20260410153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260410153000 +0000" stop="20260410161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】茂七の事件簿・新ふしぎ草紙</title><sub-title lang="ja">（8）「かどわかし」</sub-title></programme>
 <programme start="20260410161300 +0000" stop="20260410161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
@@ -137,64 +69,74 @@
 <programme start="20260411135500 +0000" stop="20260411140000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
 <programme start="20260411140000 +0000" stop="20260411143000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Venue101</title><sub-title lang="ja">Aooo・Kis-My-Ft2・NiziU・BE:FIRST</sub-title></programme>
 <programme start="20260411143000 +0000" stop="20260411160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ゆったり温泉ひとり旅</title><sub-title lang="ja">雪と大地の恵み　北海道編</sub-title></programme>
-<programme start="20260411160000 +0000" stop="20260411163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Transcending Happiness</title><sub-title lang="en">&quot;Whether She is Haramichan or not&quot;</sub-title></programme>
-<programme start="20260411163000 +0000" stop="20260411170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
-<programme start="20260411170000 +0000" stop="20260411170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411170500 +0000" stop="20260411173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Go! Go! Cook R&apos;n</title></programme>
-<programme start="20260411173000 +0000" stop="20260411180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Nyan-chu! Space! Broadcasting!</title></programme>
-<programme start="20260411180000 +0000" stop="20260411182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
-<programme start="20260411182500 +0000" stop="20260411183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">no art, no life</title></programme>
-<programme start="20260411183000 +0000" stop="20260411184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
-<programme start="20260411184500 +0000" stop="20260411193500 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Special</title><sub-title lang="en">&quot;A Looming Nightmare: Mt. Fuji Eruption&quot; Part 1</sub-title></programme>
-<programme start="20260411193500 +0000" stop="20260411195500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Documentary: 20 Minutes</title></programme>
-<programme start="20260411195500 +0000" stop="20260411200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411200000 +0000" stop="20260411201000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Blue &amp; Yellow 10min</title></programme>
-<programme start="20260411201000 +0000" stop="20260411205600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Project X: The Challengers-New Beginnings</title><sub-title lang="en">&quot;The Grounding of Kaiwomaru&quot;</sub-title></programme>
-<programme start="20260411205600 +0000" stop="20260411210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411210000 +0000" stop="20260411211000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260411211000 +0000" stop="20260411215300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep. 9</sub-title></programme>
-<programme start="20260411215300 +0000" stop="20260411215500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Weather</title></programme>
-<programme start="20260411215500 +0000" stop="20260411220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260411220000 +0000" stop="20260411224500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
-<programme start="20260411224500 +0000" stop="20260411225900 +0000" channel="NHKWorldPremium.jp"><title lang="en">Natural Grandeur of the East</title></programme>
-<programme start="20260411225900 +0000" stop="20260411230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260411230000 +0000" stop="20260411232500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Gentle Journeys</title></programme>
-<programme start="20260411232500 +0000" stop="20260411235000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Dear Japan</title></programme>
-<programme start="20260411235000 +0000" stop="20260412000000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Design Ah! neo</title></programme>
-<programme start="20260412000000 +0000" stop="20260412010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Debate</title></programme>
-<programme start="20260412010000 +0000" stop="20260412010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260412010500 +0000" stop="20260412012800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ideas to Protect Ourselves from Disasters</title></programme>
-<programme start="20260412012800 +0000" stop="20260412013000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
-<programme start="20260412013000 +0000" stop="20260412020000 +0000" channel="NHKWorldPremium.jp"><title lang="en">SCIENCE ZERO</title></programme>
-<programme start="20260412020000 +0000" stop="20260412030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">GEO JAPAN</title><sub-title lang="en">&quot;Nanki Kumano&quot;</sub-title></programme>
-<programme start="20260412030000 +0000" stop="20260412031500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260412031500 +0000" stop="20260412040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Nobeoka City, Miyazaki Prefecture&quot;</sub-title></programme>
-<programme start="20260412040000 +0000" stop="20260412040500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260412040500 +0000" stop="20260412053500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs of Japanese Spirit</title></programme>
-<programme start="20260412053500 +0000" stop="20260412060000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Gretel&apos;s Magical Oven</title></programme>
-<programme start="20260412060000 +0000" stop="20260412063000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Transcending Happiness</title><sub-title lang="en">&quot;Whether She is Haramichan or not&quot;</sub-title></programme>
-<programme start="20260412063000 +0000" stop="20260412072500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Classical Music Club</title></programme>
-<programme start="20260412072500 +0000" stop="20260412075400 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Great Nature</title><sub-title lang="en">&quot;Southern Africa&quot;</sub-title></programme>
-<programme start="20260412075400 +0000" stop="20260412080000 +0000" channel="NHKWorldPremium.jp"><title lang="en">100 Beautiful Mountains of Japan Mini</title></programme>
-<programme start="20260412080000 +0000" stop="20260412083000 +0000" channel="NHKWorldPremium.jp"><title lang="en">i&amp;AI</title></programme>
-<programme start="20260412083000 +0000" stop="20260412090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Father</title></programme>
-<programme start="20260412090000 +0000" stop="20260412090500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
-<programme start="20260412090500 +0000" stop="20260412094300 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Visualization Entertainment: Go! Kaneo-kun</title></programme>
-<programme start="20260412094300 +0000" stop="20260412095800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Nosy&apos;s Inspiring Atelier</title></programme>
-<programme start="20260412095800 +0000" stop="20260412100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260412100000 +0000" stop="20260412103000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
-<programme start="20260412103000 +0000" stop="20260412110000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;Wild Boar&quot;</sub-title></programme>
-<programme start="20260412110000 +0000" stop="20260412114500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Historical Drama &quot;BROTHERS IN ARMS&quot;</title><sub-title lang="en">Ep. 14</sub-title></programme>
-<programme start="20260412114500 +0000" stop="20260412120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260412120000 +0000" stop="20260412124900 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Special</title><sub-title lang="en">&quot;A Looming Nightmare: Mt. Fuji Eruption&quot; Part 2</sub-title></programme>
-<programme start="20260412124900 +0000" stop="20260412125000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260412125000 +0000" stop="20260412133500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Premium Drama &quot;The Opposition&quot;</title><sub-title lang="en">Ep. 1（New）</sub-title></programme>
-<programme start="20260412133500 +0000" stop="20260412134000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ukiyoe EDO-LIFE</title></programme>
-<programme start="20260412134000 +0000" stop="20260412134500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World&apos;s Magnificent Sight Journey</title></programme>
-<programme start="20260412134500 +0000" stop="20260412135000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
-<programme start="20260412135000 +0000" stop="20260412144800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journey of the Heart Across Japan-Goal!</title></programme>
-<programme start="20260412144800 +0000" stop="20260412145000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
-<programme start="20260412145000 +0000" stop="20260412154000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Sports News</title></programme>
+<programme start="20260410152900 +0000" stop="20260410153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260410153000 +0000" stop="20260410161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep. 8</sub-title></programme>
+<programme start="20260410161300 +0000" stop="20260410161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260410161500 +0000" stop="20260410164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">My Gardening</title></programme>
+<programme start="20260410164000 +0000" stop="20260410171000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Go Focus</title></programme>
+<programme start="20260410171000 +0000" stop="20260410173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Chinese Navi</title></programme>
+<programme start="20260410173000 +0000" stop="20260410174000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Real-Life Travel English</title></programme>
+<programme start="20260410174000 +0000" stop="20260410174500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260410174500 +0000" stop="20260410180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Kid&apos;s Discovery</title></programme>
+<programme start="20260410180000 +0000" stop="20260410182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
+<programme start="20260410182500 +0000" stop="20260410183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Okinawa Dialects</title></programme>
+<programme start="20260410183000 +0000" stop="20260410184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Ep. 10</sub-title></programme>
+<programme start="20260410184500 +0000" stop="20260410193000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Drama &quot;Owakare Hospital 2&quot;</title><sub-title lang="en">Part 1 (New)</sub-title></programme>
+<programme start="20260410193000 +0000" stop="20260410193500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Camera-eyed Japan</title></programme>
+<programme start="20260410193500 +0000" stop="20260410195800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
+<programme start="20260410195800 +0000" stop="20260410200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260410200000 +0000" stop="20260410201000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TV Exercise</title></programme>
+<programme start="20260410201000 +0000" stop="20260410202500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Natural Grandeur of the East</title></programme>
+<programme start="20260410202500 +0000" stop="20260410205200 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Regional Showcases: Shinshu Special</title></programme>
+<programme start="20260410205200 +0000" stop="20260410205500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260410205500 +0000" stop="20260410210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260410210000 +0000" stop="20260410220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
+<programme start="20260410220000 +0000" stop="20260410225900 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
+<programme start="20260410225900 +0000" stop="20260410230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260410230000 +0000" stop="20260410231500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
+<programme start="20260410231500 +0000" stop="20260411000000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Trivia Quizzes--You&apos;ll Get Scolded by Chiko-chan!</title></programme>
+<programme start="20260411000000 +0000" stop="20260411002800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;20th Anniversary Special&quot;</sub-title></programme>
+<programme start="20260411002800 +0000" stop="20260411003000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260411003000 +0000" stop="20260411010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Document 72 Hours</title></programme>
+<programme start="20260411010000 +0000" stop="20260411010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260411010500 +0000" stop="20260411013300 +0000" channel="NHKWorldPremium.jp"><title lang="en">HIMU-BUS! - Pickup Bus Variety Show</title></programme>
+<programme start="20260411013300 +0000" stop="20260411020600 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Visualization Entertainment: Go! Kaneo-kun</title></programme>
+<programme start="20260411020600 +0000" stop="20260411023000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Delicious Japan!</title></programme>
+<programme start="20260411023000 +0000" stop="20260411025000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Documentary: 20 Minutes</title></programme>
+<programme start="20260411025000 +0000" stop="20260411025600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
+<programme start="20260411025600 +0000" stop="20260411030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411030000 +0000" stop="20260411031500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260411031500 +0000" stop="20260411034000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Exploring Factories</title></programme>
+<programme start="20260411034000 +0000" stop="20260411034500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Okinawa Dialects</title></programme>
+<programme start="20260411034500 +0000" stop="20260411040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
+<programme start="20260411040000 +0000" stop="20260411040500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260411040500 +0000" stop="20260411045000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Historical Drama &quot;BROTHERS IN ARMS&quot;</title><sub-title lang="en">Ep. 13</sub-title></programme>
+<programme start="20260411045000 +0000" stop="20260411053500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip:</title><sub-title lang="en">Sangi Railway, Kintetsu Railway &amp; Yokkaichi Asunarou Railway</sub-title></programme>
+<programme start="20260411053500 +0000" stop="20260411062000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip:</title><sub-title lang="en">Kintetsu Railway Yamada Line, Toba Line &amp; Shima Line</sub-title></programme>
+<programme start="20260411062000 +0000" stop="20260411075000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Solo Trip to Hot Springs</title><sub-title lang="en">&quot;Hokkaido&quot;</sub-title></programme>
+<programme start="20260411075000 +0000" stop="20260411080000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals 10min.</title></programme>
+<programme start="20260411080000 +0000" stop="20260411082700 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Regional Showcases: Shinshu Special</title></programme>
+<programme start="20260411082700 +0000" stop="20260411083000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260411083000 +0000" stop="20260411083500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs for Everyone</title></programme>
+<programme start="20260411083500 +0000" stop="20260411085900 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
+<programme start="20260411085900 +0000" stop="20260411090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">1-Minute Anime: Songs for SDGs</title></programme>
+<programme start="20260411090000 +0000" stop="20260411090500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260411090500 +0000" stop="20260411093500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Tokoro-san&apos;s Pursuit of Truth</title></programme>
+<programme start="20260411093500 +0000" stop="20260411094500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Fun with Japanese</title></programme>
+<programme start="20260411094500 +0000" stop="20260411095500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Let&apos;s Enjoy English and Meets the World</title></programme>
+<programme start="20260411095500 +0000" stop="20260411100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411100000 +0000" stop="20260411103000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
+<programme start="20260411103000 +0000" stop="20260411110700 +0000" channel="NHKWorldPremium.jp"><title lang="en">Strolling with Tamori</title></programme>
+<programme start="20260411110700 +0000" stop="20260411115300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Project X: The Challengers-New Beginnings</title><sub-title lang="en">&quot;The Grounding of Kaiwomaru&quot;</sub-title></programme>
+<programme start="20260411115300 +0000" stop="20260411115500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411115500 +0000" stop="20260411120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260411120000 +0000" stop="20260411130000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Watch 9</title></programme>
+<programme start="20260411130000 +0000" stop="20260411134500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Saturday Drama &quot;Owakare Hospital 2&quot;</title><sub-title lang="en">Part 2 (Final)</sub-title></programme>
+<programme start="20260411134500 +0000" stop="20260411134900 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260411134900 +0000" stop="20260411135500 +0000" channel="NHKWorldPremium.jp"><title lang="en">This World is Filled with Wants 5min.</title></programme>
+<programme start="20260411135500 +0000" stop="20260411140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260411140000 +0000" stop="20260411143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Venue101</title></programme>
+<programme start="20260411143000 +0000" stop="20260411160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Solo Trip to Hot Springs</title><sub-title lang="en">&quot;Hokkaido&quot;</sub-title></programme>
 <programme start="20260411160000 +0000" stop="20260411163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">超越ハピネス</title><sub-title lang="ja">リセットは前進！「ハラミちゃんでもハラミちゃんじゃなくても」</sub-title></programme>
 <programme start="20260411163000 +0000" stop="20260411170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">神田伯山の演芸図鑑</title><sub-title lang="ja">選　中村獅童　江戸家猫八　三遊亭萬橘</sub-title></programme>
 <programme start="20260411170000 +0000" stop="20260411170500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
@@ -253,6 +195,64 @@
 <programme start="20260412135000 +0000" stop="20260412144800 +0000" channel="NHKWorldPremium.jp"><title lang="ja">にっぽん縦断　こころ旅　ゴール！</title><sub-title lang="ja">鹿児島県</sub-title></programme>
 <programme start="20260412144800 +0000" stop="20260412145000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260412145000 +0000" stop="20260412154000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">サンデースポーツ</title></programme>
+<programme start="20260411160000 +0000" stop="20260411163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Transcending Happiness</title><sub-title lang="en">&quot;Whether She is Haramichan or not&quot;</sub-title></programme>
+<programme start="20260411163000 +0000" stop="20260411170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
+<programme start="20260411170000 +0000" stop="20260411170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411170500 +0000" stop="20260411173000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Go! Go! Cook R&apos;n</title></programme>
+<programme start="20260411173000 +0000" stop="20260411180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Nyan-chu! Space! Broadcasting!</title></programme>
+<programme start="20260411180000 +0000" stop="20260411182500 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Mother</title></programme>
+<programme start="20260411182500 +0000" stop="20260411183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">no art, no life</title></programme>
+<programme start="20260411183000 +0000" stop="20260411184500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Drama Serial &quot;The Scent of the Wind&quot;</title><sub-title lang="en">Week 2</sub-title></programme>
+<programme start="20260411184500 +0000" stop="20260411193500 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Special</title><sub-title lang="en">&quot;A Looming Nightmare: Mt. Fuji Eruption&quot; Part 1</sub-title></programme>
+<programme start="20260411193500 +0000" stop="20260411195500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Documentary: 20 Minutes</title></programme>
+<programme start="20260411195500 +0000" stop="20260411200000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411200000 +0000" stop="20260411201000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Blue &amp; Yellow 10min</title></programme>
+<programme start="20260411201000 +0000" stop="20260411205600 +0000" channel="NHKWorldPremium.jp"><title lang="en">Project X: The Challengers-New Beginnings</title><sub-title lang="en">&quot;The Grounding of Kaiwomaru&quot;</sub-title></programme>
+<programme start="20260411205600 +0000" stop="20260411210000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411210000 +0000" stop="20260411211000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260411211000 +0000" stop="20260411215300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama Selections &quot;Moshichi 2&quot;</title><sub-title lang="en">Ep. 9</sub-title></programme>
+<programme start="20260411215300 +0000" stop="20260411215500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Weather</title></programme>
+<programme start="20260411215500 +0000" stop="20260411220000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260411220000 +0000" stop="20260411224500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News: Good Morning, Japan</title></programme>
+<programme start="20260411224500 +0000" stop="20260411225900 +0000" channel="NHKWorldPremium.jp"><title lang="en">Natural Grandeur of the East</title></programme>
+<programme start="20260411225900 +0000" stop="20260411230000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260411230000 +0000" stop="20260411232500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Gentle Journeys</title></programme>
+<programme start="20260411232500 +0000" stop="20260411235000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Dear Japan</title></programme>
+<programme start="20260411235000 +0000" stop="20260412000000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Design Ah! neo</title></programme>
+<programme start="20260412000000 +0000" stop="20260412010000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Debate</title></programme>
+<programme start="20260412010000 +0000" stop="20260412010500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260412010500 +0000" stop="20260412012800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ideas to Protect Ourselves from Disasters</title></programme>
+<programme start="20260412012800 +0000" stop="20260412013000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260412013000 +0000" stop="20260412020000 +0000" channel="NHKWorldPremium.jp"><title lang="en">SCIENCE ZERO</title></programme>
+<programme start="20260412020000 +0000" stop="20260412030000 +0000" channel="NHKWorldPremium.jp"><title lang="en">GEO JAPAN</title><sub-title lang="en">&quot;Nanki Kumano&quot;</sub-title></programme>
+<programme start="20260412030000 +0000" stop="20260412031500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260412031500 +0000" stop="20260412040000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Nobeoka City, Miyazaki Prefecture&quot;</sub-title></programme>
+<programme start="20260412040000 +0000" stop="20260412040500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260412040500 +0000" stop="20260412053500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs of Japanese Spirit</title></programme>
+<programme start="20260412053500 +0000" stop="20260412060000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Gretel&apos;s Magical Oven</title></programme>
+<programme start="20260412060000 +0000" stop="20260412063000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Transcending Happiness</title><sub-title lang="en">&quot;Whether She is Haramichan or not&quot;</sub-title></programme>
+<programme start="20260412063000 +0000" stop="20260412072500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Classical Music Club</title></programme>
+<programme start="20260412072500 +0000" stop="20260412075400 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Great Nature</title><sub-title lang="en">&quot;Southern Africa&quot;</sub-title></programme>
+<programme start="20260412075400 +0000" stop="20260412080000 +0000" channel="NHKWorldPremium.jp"><title lang="en">100 Beautiful Mountains of Japan Mini</title></programme>
+<programme start="20260412080000 +0000" stop="20260412083000 +0000" channel="NHKWorldPremium.jp"><title lang="en">i&amp;AI</title></programme>
+<programme start="20260412083000 +0000" stop="20260412090000 +0000" channel="NHKWorldPremium.jp"><title lang="en">With Father</title></programme>
+<programme start="20260412090000 +0000" stop="20260412090500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News</title></programme>
+<programme start="20260412090500 +0000" stop="20260412094300 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Visualization Entertainment: Go! Kaneo-kun</title></programme>
+<programme start="20260412094300 +0000" stop="20260412095800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Nosy&apos;s Inspiring Atelier</title></programme>
+<programme start="20260412095800 +0000" stop="20260412100000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260412100000 +0000" stop="20260412103000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK News 7</title></programme>
+<programme start="20260412103000 +0000" stop="20260412110000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Darwin&apos;s Amazing Animals</title><sub-title lang="en">&quot;Wild Boar&quot;</sub-title></programme>
+<programme start="20260412110000 +0000" stop="20260412114500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Historical Drama &quot;BROTHERS IN ARMS&quot;</title><sub-title lang="en">Ep. 14</sub-title></programme>
+<programme start="20260412114500 +0000" stop="20260412120000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260412120000 +0000" stop="20260412124900 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Special</title><sub-title lang="en">&quot;A Looming Nightmare: Mt. Fuji Eruption&quot; Part 2</sub-title></programme>
+<programme start="20260412124900 +0000" stop="20260412125000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260412125000 +0000" stop="20260412133500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Premium Drama &quot;The Opposition&quot;</title><sub-title lang="en">Ep. 1（New）</sub-title></programme>
+<programme start="20260412133500 +0000" stop="20260412134000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ukiyoe EDO-LIFE</title></programme>
+<programme start="20260412134000 +0000" stop="20260412134500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World&apos;s Magnificent Sight Journey</title></programme>
+<programme start="20260412134500 +0000" stop="20260412135000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
+<programme start="20260412135000 +0000" stop="20260412144800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journey of the Heart Across Japan-Goal!</title></programme>
+<programme start="20260412144800 +0000" stop="20260412145000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
+<programme start="20260412145000 +0000" stop="20260412154000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Sunday Sports News</title></programme>
 <programme start="20260412154000 +0000" stop="20260412162500 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Nobeoka City, Miyazaki Prefecture&quot;</sub-title></programme>
 <programme start="20260412162500 +0000" stop="20260412163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260412163000 +0000" stop="20260412171500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Rokkaku Seiji&apos;s Nomitetsu Railroad Trip:</title><sub-title lang="en">Sangi Railway, Kintetsu Railway &amp; Yokkaichi Asunarou Railway</sub-title></programme>
