@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260427">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260426150000 +0000" stop="20260426153100 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260426153100 +0000" stop="20260426153500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
 <programme start="20260426153500 +0000" stop="20260426162000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKのど自慢</title><sub-title lang="ja">石川から生放送！▽山本譲二・半﨑美子～白山市松任文化会館から中継～</sub-title></programme>
 <programme start="20260426162000 +0000" stop="20260426162500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
@@ -58,6 +59,7 @@
 <programme start="20260427143000 +0000" stop="20260427144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">時論公論</title></programme>
 <programme start="20260427144000 +0000" stop="20260427144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
 <programme start="20260427144500 +0000" stop="20260427152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">国際報道2026</title></programme>
+<programme start="20260426150000 +0000" stop="20260426153100 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260426153100 +0000" stop="20260426153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
 <programme start="20260426153500 +0000" stop="20260426162000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Hakusan City, Ishikawa Prefecture&quot;</sub-title></programme>
 <programme start="20260426162000 +0000" stop="20260426162500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
