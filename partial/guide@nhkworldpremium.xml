@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260506">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260505150000 +0000" stop="20260505161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260505161500 +0000" stop="20260505164000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「こま＆ひき　お助け肉レシピ」豚こま肉とトマトの照り焼き炒め</sub-title></programme>
 <programme start="20260505164000 +0000" stop="20260505170500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHK短歌</title><sub-title lang="ja">三十一音、次の扉へ</sub-title></programme>
 <programme start="20260505170500 +0000" stop="20260505171000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">にっぽんカメラアイ</title></programme>
@@ -79,6 +80,7 @@
 <programme start="20260506143500 +0000" stop="20260506144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">せかほし 5minutes TRIP</title></programme>
 <programme start="20260506144000 +0000" stop="20260506144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">発掘！鉄道お宝フィルム</title></programme>
 <programme start="20260506144500 +0000" stop="20260506152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">極上！鉄道ごはん旅</title><sub-title lang="ja">「常盤貴子×石田ひかり　九州の鉄道と美食編」</sub-title></programme>
+<programme start="20260505150000 +0000" stop="20260505161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260505161500 +0000" stop="20260505164000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
 <programme start="20260505164000 +0000" stop="20260505170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Tanka Poetry</title></programme>
 <programme start="20260505170500 +0000" stop="20260505171000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Camera-eyed Japan</title></programme>
