@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260614">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260613150000 +0000" stop="20260613153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260613153000 +0000" stop="20260613163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Songs of Our Generation Special: DREAMS COME TRUE Completed Edition</title></programme>
 <programme start="20260613163000 +0000" stop="20260613170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
 <programme start="20260613170000 +0000" stop="20260613170500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
@@ -64,6 +65,7 @@
 <programme start="20260614135500 +0000" stop="20260614140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260614140000 +0000" stop="20260614145800 +0000" channel="NHKWorldPremium.jp"><title lang="en">Journey of the Heart Across Japan-Goal!</title></programme>
 <programme start="20260614145800 +0000" stop="20260614150000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
+<programme start="20260613150000 +0000" stop="20260613153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260613153000 +0000" stop="20260613163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">SONGS　700回スペシャル</title><sub-title lang="ja">DREAMS COME TRUE　完全版</sub-title></programme>
 <programme start="20260613163000 +0000" stop="20260613170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">演芸図鑑　よせによせ　第4回</title><sub-title lang="ja">傘</sub-title></programme>
 <programme start="20260613170000 +0000" stop="20260613170500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
