@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260824">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260823150000 +0000" stop="20260823154500 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260823154500 +0000" stop="20260823163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">NHK Amateur Singing Contest</title><sub-title lang="en">&quot;Iwanai Town, Hokkaido&quot;</sub-title></programme>
 <programme start="20260823163000 +0000" stop="20260823180000 +0000" channel="NHKWorldPremium.jp"><title lang="en">The Great Nature</title><sub-title lang="en">&quot;Thailand&quot;</sub-title></programme>
 <programme start="20260823180000 +0000" stop="20260823183000 +0000" channel="NHKWorldPremium.jp"><title lang="en">What the Villains Have to Say</title></programme>
@@ -62,6 +63,7 @@
 <programme start="20260824143000 +0000" stop="20260824144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20260824144000 +0000" stop="20260824144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20260824144500 +0000" stop="20260824152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
+<programme start="20260823150000 +0000" stop="20260823154500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260823154500 +0000" stop="20260823163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">NHKのど自慢</title><sub-title lang="ja">北海道から生放送！▽堀内孝雄・森口博子　～岩内地方文化センター から中継～</sub-title></programme>
 <programme start="20260823163000 +0000" stop="20260823180000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">体感！グレートネイチャー</title><sub-title lang="ja">大海をさまよう陸塊　～誕生！微笑みの国・タイ～</sub-title></programme>
 <programme start="20260823180000 +0000" stop="20260823183000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ヴィランの言い分</title><sub-title lang="ja">イノシシ</sub-title></programme>
