@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260829">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260828150000 +0000" stop="20260828152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260828152900 +0000" stop="20260828153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260828153000 +0000" stop="20260828161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】大岡越前8</title><sub-title lang="ja">（4）「涙のお手玉」</sub-title></programme>
 <programme start="20260828161300 +0000" stop="20260828161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
@@ -69,6 +70,7 @@
 <programme start="20260829135500 +0000" stop="20260829140000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
 <programme start="20260829140000 +0000" stop="20260829143000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">Venue101</title><sub-title lang="ja">INI・＝LOVE・EBiDAN・きゅーすと・TXT</sub-title></programme>
 <programme start="20260829143000 +0000" stop="20260829160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">今夜も生でさだまさし</title><sub-title lang="ja">まさしの話は帯広～ング</sub-title></programme>
+<programme start="20260828150000 +0000" stop="20260828152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260828152900 +0000" stop="20260828153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260828153000 +0000" stop="20260828161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama &quot;Ooka Echizen 8&quot;</title><sub-title lang="en">Ep. 4</sub-title></programme>
 <programme start="20260828161300 +0000" stop="20260828161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
