@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20261001">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20260930150000 +0000" stop="20260930153400 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20260930153400 +0000" stop="20260930153500 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20260930153500 +0000" stop="20260930162000 +0000" channel="NHKWorldPremium.jp"><title lang="en">We Hope Our Healthy Lives That Do Not Lead to Disease</title></programme>
 <programme start="20260930162000 +0000" stop="20260930164500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Today&apos;s Cooking</title></programme>
@@ -68,6 +69,7 @@
 <programme start="20261001143000 +0000" stop="20261001144000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News Commentary</title></programme>
 <programme start="20261001144000 +0000" stop="20261001144500 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20261001144500 +0000" stop="20261001152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">International News Report 2026</title></programme>
+<programme start="20260930150000 +0000" stop="20260930153400 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20260930153400 +0000" stop="20260930153500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20260930153500 +0000" stop="20260930162000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未病息災を願います</title><sub-title lang="ja">「歯周病」が気になったら</sub-title></programme>
 <programme start="20260930162000 +0000" stop="20260930164500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">きょうの料理</title><sub-title lang="ja">「秋のボリュームおかず」れんこん＆きのこ　2日目・きのこ</sub-title></programme>
