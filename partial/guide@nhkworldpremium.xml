@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20261003">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20261002150000 +0000" stop="20261002152900 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20261002152900 +0000" stop="20261002153000 +0000" channel="NHKWorldPremium.jp"><title lang="en">World Weather</title></programme>
 <programme start="20261002153000 +0000" stop="20261002161300 +0000" channel="NHKWorldPremium.jp"><title lang="en">Samurai Drama &quot;Ooka Echizen 8&quot;</title><sub-title lang="en">Ep. 8 (Final)</sub-title></programme>
 <programme start="20261002161300 +0000" stop="20261002161500 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
@@ -68,6 +69,7 @@
 <programme start="20261003135500 +0000" stop="20261003140000 +0000" channel="NHKWorldPremium.jp"><title lang="en">News &amp; Weather</title></programme>
 <programme start="20261003140000 +0000" stop="20261003143000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Venue101 EXTRA WEEK2</title></programme>
 <programme start="20261003143000 +0000" stop="20261003160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Ishibashi Shizuka Goes to Finland: In Search of Fragments of Happiness</title></programme>
+<programme start="20261002150000 +0000" stop="20261002152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20261002152900 +0000" stop="20261002153000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ワールドウェザー</title></programme>
 <programme start="20261002153000 +0000" stop="20261002161300 +0000" channel="NHKWorldPremium.jp"><title lang="ja">【特選！時代劇】大岡越前8</title><sub-title lang="ja">＜終＞（8）「越前と天一坊」</sub-title></programme>
 <programme start="20261002161300 +0000" stop="20261002161500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
