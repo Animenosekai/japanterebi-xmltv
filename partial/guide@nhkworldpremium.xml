@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20261101">
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
 <channel id="NHKWorldPremium.jp"><display-name>NHK World Premium</display-name><icon src="https://i.imgur.com/4ESi2La.png"/><url>https://nhkworldpremium.com</url></channel>
+<programme start="20261031150000 +0000" stop="20261031160000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">未定</title></programme>
 <programme start="20261031160000 +0000" stop="20261031162600 +0000" channel="NHKWorldPremium.jp"><title lang="ja">はやウタ</title><sub-title lang="ja">尾藤イサオ・藤井香愛・青山新＆吉木りさ　堀内春菜／「秘密の花園」</sub-title></programme>
 <programme start="20261031162600 +0000" stop="20261031163000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ミニ番組</title></programme>
 <programme start="20261031163000 +0000" stop="20261031170000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">神田伯山の演芸図鑑</title><sub-title lang="ja">池波志乃　ウエストランド　三遊亭志う歌</sub-title></programme>
@@ -469,6 +470,7 @@
 <programme start="20261105143000 +0000" stop="20261105144000 +0000" channel="NHKWorldPremium.jp"><title lang="ja">時論公論</title></programme>
 <programme start="20261105144000 +0000" stop="20261105144500 +0000" channel="NHKWorldPremium.jp"><title lang="ja">ニュース・気象情報</title></programme>
 <programme start="20261105144500 +0000" stop="20261105152900 +0000" channel="NHKWorldPremium.jp"><title lang="ja">国際報道2026</title></programme>
+<programme start="20261031150000 +0000" stop="20261031160000 +0000" channel="NHKWorldPremium.jp"><title lang="en">TBA</title></programme>
 <programme start="20261031160000 +0000" stop="20261031162600 +0000" channel="NHKWorldPremium.jp"><title lang="en">HAYAUTA: Songs for Fresh Morning</title></programme>
 <programme start="20261031162600 +0000" stop="20261031163000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Mini Program</title></programme>
 <programme start="20261031163000 +0000" stop="20261031170000 +0000" channel="NHKWorldPremium.jp"><title lang="en">Japanese Entertainment Encyclopedia</title></programme>
